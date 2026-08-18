@@ -42,9 +42,15 @@ filter: drop-shadow(1px 1px 0 rgb(245, 237, 134))
   width:59%;
   position:absolute;
   top:79%;
-  font-family:jojoba;
-  font-size:0.8em;
+
+}
+
+#textcontent{
+position:relative;
+ font-family:jojoba;
+  font-size:1.1em;
   text-align:center;
+  font-weight:lighter;
 }
 
 @font-face {
