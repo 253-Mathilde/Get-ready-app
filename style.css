@@ -1,6 +1,12 @@
+html{
+    scrollbar-width: none;
+    overflow: hidden;
+
+}
 body{
     background-image:url('graphics,homescreen/start.svg');
     text-align:center;
+    background-repeat:no-repeat;
 
 }
 
@@ -12,5 +18,27 @@ filter: drop-shadow(1px 1px 0 rgb(245, 237, 134))
   drop-shadow(0 1px 1.5px rgb(245, 237, 134)) 
   drop-shadow(0 -1px 1.5px rgb(245, 237, 134)) 
   drop-shadow(1px -1px 1.5px rgb(245, 237, 134)) 
-  drop-shadow(-1px -1px 1.5px rgb(245, 237, 134)); }    
+  drop-shadow(-1px -1px 1.5px rgb(245, 237, 134)); 
+  height:30%;
+  width:65%;
+  position:absolute;
+  left:50%;
+  top:72%;
+  pointer-events:all;
+}    
+#text{
+    border-radius:16px;
+    background-color:rgba(0, 0, 0, 0.125);;
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(1px 1px 0 rgb(245, 237, 134)) 
+  drop-shadow(-1px 1px 0 rgb(245, 237, 134)) 
+  drop-shadow(0 2px 0 rgb(245, 237, 134)) 
+  drop-shadow(0 -1px 0 rgb(245, 237, 134)) 
+  drop-shadow(0 1px 1.5px rgb(245, 237, 134)) 
+  drop-shadow(0 -1px 1.5px rgb(245, 237, 134)) 
+  drop-shadow(1px -1px 1.5px rgb(245, 237, 134)) 
+  drop-shadow(-1px -1px 1.5px rgb(245, 237, 134)); 
+  height:20%;
+  width:20%;
+}
     
