@@ -1,5 +1,5 @@
 
-document.getElementById("animal").addEventListener("click", function() { 
+document.getElementById("create").addEventListener("click", function() { 
     window.location.href = "create1.html";
  });
 

@@ -9,7 +9,10 @@ body{
     background-repeat:no-repeat;
 
 }
-
+@font-face {
+src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
+font-family: jojoba;
+}
 #animal{
 filter: drop-shadow(1px 1px 0 rgb(245, 237, 134)) 
   drop-shadow(-1px 1px 0 rgb(245, 237, 134)) 
@@ -19,11 +22,11 @@ filter: drop-shadow(1px 1px 0 rgb(245, 237, 134))
   drop-shadow(0 -1px 1.5px rgb(245, 237, 134)) 
   drop-shadow(1px -1px 1.5px rgb(245, 237, 134)) 
   drop-shadow(-1px -1px 1.5px rgb(245, 237, 134)); 
-  height:30%;
+  height:33%;
   width:65%;
   position:absolute;
   left:50%;
-  top:72%;
+  top:70%;
   pointer-events:all;
 }    
 #text{
@@ -59,8 +62,10 @@ color:rgb(7, 33, 112);
 pointer-events:none;
 }
 
-@font-face {
-src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
-font-family: jojoba;
+#create{
+ border-radius:16px;
+    background-color:rgba(0, 0, 0, 0.125);;
+    backdrop-filter: blur(50px);
 }
+
     
