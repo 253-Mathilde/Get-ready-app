@@ -1,1 +1,1 @@
-# Get-ready-app
+# prête
