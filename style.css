@@ -3,3 +3,14 @@ body{
     text-align:center;
 
 }
+
+#animal{
+filter: drop-shadow(1px 1px 0 rgb(245, 237, 134)) 
+  drop-shadow(-1px 1px 0 rgb(245, 237, 134)) 
+  drop-shadow(0 2px 0 rgb(245, 237, 134)) 
+  drop-shadow(0 -1px 0 rgb(245, 237, 134)) 
+  drop-shadow(0 1px 1.5px rgb(245, 237, 134)) 
+  drop-shadow(0 -1px 1.5px rgb(245, 237, 134)) 
+  drop-shadow(1px -1px 1.5px rgb(245, 237, 134)) 
+  drop-shadow(-1px -1px 1.5px rgb(245, 237, 134)); }    
+    
