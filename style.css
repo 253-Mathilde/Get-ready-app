@@ -43,7 +43,8 @@ filter: drop-shadow(1px 1px 0 rgb(245, 237, 134))
   position:absolute;
   top:79%;
   font-family:adabelle;
-  font-size:3em;
+  font-size:2em;
+  text-align:center;
 }
 
 @font-face {
