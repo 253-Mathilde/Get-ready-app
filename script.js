@@ -1,12 +1,22 @@
 
+const loader = document.querySelector("#loader");
 const vid = document.querySelector("#vd");
-vid.muted = true;
-vid.play();
 
-vid.addEventListener("ended", () => {
-loader.remove();
-vid.remove();
-});
+if (sessionStorage.getItem("videoPlayed")) {
+    loader.remove();
+    vid.remove();
+} else {
+    loader.style.display = "block"; 
+    vid.style.display = "block"; 
+    vid.muted = true;
+    vid.play();
+    vid.addEventListener("ended", () => {
+        loader.remove();
+        vid.remove();
+        sessionStorage.setItem("videoPlayed", "true");
+    });
+}
+
 
 
 document.getElementById("create").addEventListener("click", function() { 
