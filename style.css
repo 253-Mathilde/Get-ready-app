@@ -70,8 +70,7 @@ font-family: creamy;
     border: 4px dotted whitesmoke;
 }
 
-#modus{
-  position:absolute;
-  
+#modusimg{
+  background-image:url('https://media.tumblr.com/tumblr_lrqqntgmQk1qlzq96.png');
 }
     
