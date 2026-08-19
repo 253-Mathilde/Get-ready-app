@@ -15,8 +15,7 @@ font-family: jojoba;
 }
 
 #text{
-    border-radius:16px;
-    background-color:rgba(0, 0, 0, 0.125);;
+    background-image:url('graphics_homescreen/text (1).svg');
     backdrop-filter: blur(50px);
     filter: drop-shadow(1px 1px 0 rgb(245, 237, 134)) 
   drop-shadow(-1px 1px 0 rgb(245, 237, 134)) 
