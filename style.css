@@ -1,3 +1,13 @@
+
+#loader{
+    z-index:10000000000000000000;
+    position:absolute;
+    margin-top:0%;
+    margin-keft:0%;
+}
+
+
+
 html{
     scrollbar-width: none;
     overflow: hidden;
