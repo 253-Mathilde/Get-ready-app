@@ -21,7 +21,8 @@ font-family: jojoba;
     height:20%;
     width:59%;
     position:absolute;
-    top: 65%;
+    top: 60%;
+    left:22%;
     pointer-events: all;
 
 }
@@ -33,7 +34,7 @@ font-size:1.1em;
 text-align:center;
 font-weight:lighter;
 top:15%;
-padding-left:2%;
+padding-left:10%;
 padding-right:2%;
 color:rgb(7, 33, 112);
 pointer-events:none;
@@ -69,5 +70,8 @@ font-family: creamy;
     border: 4px dotted whitesmoke;
 }
 
-
+#modus{
+  position:absolute;
+  
+}
     
