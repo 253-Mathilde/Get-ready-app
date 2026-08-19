@@ -68,7 +68,7 @@ font-family: creamy;
 
 #create{
     border-radius:16px;
-    background-color:rgba(0, 0, 0, 0.125);;
+    background-color:cornflowerblue;
     backdrop-filter: blur(50px);
     width: 85%;
     height: 10%;
@@ -79,9 +79,9 @@ font-family: creamy;
     border: 4px dotted whitesmoke;
 
 }
-#hury{
+#hurry{
   border-radius:16px;
-    background-color:rgba(0, 0, 0, 0.125);;
+    background-color:cornflowerblue;
     backdrop-filter: blur(50px);
     width: 85%;
     height: 10%;
