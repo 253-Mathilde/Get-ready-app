@@ -4,7 +4,7 @@ html{
 
 }
 body{
-    background-image:url('graphics_homescreen/start.svg');
+    background-image:url('graphics_homescreen/background.svg');
     text-align:center;
     background-repeat:no-repeat;
 
@@ -13,22 +13,7 @@ body{
 src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
 font-family: jojoba;
 }
-#animal{
-filter: drop-shadow(1px 1px 0 rgb(245, 237, 134)) 
-  drop-shadow(-1px 1px 0 rgb(245, 237, 134)) 
-  drop-shadow(0 2px 0 rgb(245, 237, 134)) 
-  drop-shadow(0 -1px 0 rgb(245, 237, 134)) 
-  drop-shadow(0 1px 1.5px rgb(245, 237, 134)) 
-  drop-shadow(0 -1px 1.5px rgb(245, 237, 134)) 
-  drop-shadow(1px -1px 1.5px rgb(245, 237, 134)) 
-  drop-shadow(-1px -1px 1.5px rgb(245, 237, 134)); 
-  height:33%;
-  width:65%;
-  position:absolute;
-  left:50%;
-  top:70%;
-  pointer-events:all;
-}    
+
 #text{
     border-radius:16px;
     background-color:rgba(0, 0, 0, 0.125);;
@@ -87,7 +72,7 @@ font-family: creamy;
     height: 10%;
     position: absolute;
     font-family: creamy;
-    top: 10%;
+    top: 25%;
     left: 7.5%;
     border: 4px dotted whitesmoke;
 }
