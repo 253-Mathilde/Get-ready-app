@@ -54,7 +54,7 @@ font-family: creamy;
     font-family: creamy;
     top: 10%;
     left: 7.5%;
-    border: 4px dotted whitesmoke;
+    border: 2px dashed whitesmoke;
 
 }
 #hurry{
@@ -67,10 +67,8 @@ font-family: creamy;
     font-family: creamy;
     top: 25%;
     left: 7.5%;
-    border: 4px dotted whitesmoke;
+    border: 2px dashed whitesmoke;
 }
 
-#modusimg{
-  background-image:url('https://media.tumblr.com/tumblr_lrqqntgmQk1qlzq96.png');
-}
+
     
