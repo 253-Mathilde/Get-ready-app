@@ -1,4 +1,24 @@
 #text img{
     position:absolute;
+    height: 5%;
+    left: 85%;
+    top: 2%;
+    border-radius: 50px;
 
 }
+
+body{
+    background-image:url('graphicsforeveryscreen/background.svg'); 
+     text-align:center;
+    background-repeat:no-repeat;
+}
+
+html{
+    scrollbar-width: none;
+    overflow: hidden;
+
+}
+
+  
+  
+
