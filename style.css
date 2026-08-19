@@ -61,11 +61,35 @@ padding-right:2%;
 color:rgb(7, 33, 112);
 pointer-events:none;
 }
+@font-face {
+src: url(https://dl.dropbox.com/s/hfc6fjqu9kkxbt5/Sweet%20Creamy.ttf);
+font-family: creamy;
+}
 
 #create{
- border-radius:16px;
+    border-radius:16px;
     background-color:rgba(0, 0, 0, 0.125);;
     backdrop-filter: blur(50px);
+    width: 85%;
+    height: 10%;
+    position: absolute;
+    font-family: creamy;
+    top: 10%;
+    left: 7.5%;
+    border: 4px dotted whitesmoke;
+
+}
+#hury{
+  border-radius:16px;
+    background-color:rgba(0, 0, 0, 0.125);;
+    backdrop-filter: blur(50px);
+    width: 85%;
+    height: 10%;
+    position: absolute;
+    font-family: creamy;
+    top: 10%;
+    left: 7.5%;
+    border: 4px dotted whitesmoke;
 }
 
     
