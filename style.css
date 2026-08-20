@@ -53,12 +53,18 @@ font-family: hearts;
     height: 10%;
     position: absolute;
     font-family: hearts;
+    font-size:35px;
     top: 10%;
     left: 7.5%;
     border: 2px dashed whitesmoke;
     color:white;
 
 }
+
+#createtext{
+    position:relative;
+}
+
 #hurry{
   border-radius:16px;
     background-color:cornflowerblue;
@@ -67,10 +73,15 @@ font-family: hearts;
     height: 10%;
     position: absolute;
     font-family: hearts;
+    font-family:30px;
     top: 25%;
     left: 7.5%;
     border: 2px dashed whitesmoke;
     color:white;
+}
+
+#hurrytext{
+    position:relative;
 }
 
 #loader {
