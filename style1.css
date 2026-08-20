@@ -59,4 +59,48 @@ input:focus{
 input[type="number"]{
     border-radius:16px;
 }
+
+#hourfield{
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    height: 10%;
+    width: 10%;
+    left: 25%;
+}
+
+@font-face {
+font-family:'kiwi';
+src: url(https://dl.dropbox.com/s/388cvx0do21kj3n/KiwiSoda.ttf);
+}
+#notification{
+    margin: 0%;
+    position: absolute;
+    left: 45%;
+    top: 23%;
+    font-family:'kiwi';
+    font-size: 4em;
+}
   
+#hourfield{
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    height: 10%;
+    width: 10%;
+    left: 60%;
+}
+
+
+
+#notification{
+    position: absolute;
+    top: 35%;
+    left: 24%;
+    font-family:'kiwi';
+    font-size: 4em;
+}
