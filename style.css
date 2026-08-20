@@ -63,6 +63,7 @@ font-family: hearts;
 
 #createtext{
     position:relative;
+    margin-top:7%;
 }
 
 #hurry{
@@ -73,7 +74,7 @@ font-family: hearts;
     height: 10%;
     position: absolute;
     font-family: hearts;
-    font-family:30px;
+    font-size:30px;
     top: 25%;
     left: 7.5%;
     border: 2px dashed whitesmoke;
@@ -82,6 +83,7 @@ font-family: hearts;
 
 #hurrytext{
     position:relative;
+    margin-top:3%;
 }
 
 #loader {

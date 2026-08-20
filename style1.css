@@ -19,6 +19,34 @@ html{
 
 }
 
-  
+ #text1{
+ background-image: url('graphics_homescreen/text (1).svg');
+    background-size: 175%;
+    background-position: 45% 100%;
+    height:20%;
+    width:59%;
+    position:absolute;
+    top: 60%;
+    left:22%;
+    pointer-events: all;
+
+}
+
+#textcontent{
+position:relative;
+font-family:jojoba;
+font-size:1.1em;
+text-align:center;
+font-weight:lighter;
+top:15%;
+padding-left:10%;
+padding-right:2%;
+color:rgb(7, 33, 112);
+pointer-events:none;
+}
+@font-face {
+src: url(https://dl.dropbox.com/s/hfc6fjqu9kkxbt5/Sweet%20Creamy.ttf);
+font-family: creamy;
+}
   
 
