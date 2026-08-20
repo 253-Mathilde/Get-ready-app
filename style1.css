@@ -31,6 +31,10 @@ html{
     pointer-events: all;
 
 }
+@font-face {
+src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
+font-family: jojoba;
+}
 
 #textcontent{
 position:relative;
@@ -44,9 +48,15 @@ padding-right:2%;
 color:rgb(7, 33, 112);
 pointer-events:none;
 }
-@font-face {
-src: url(https://dl.dropbox.com/s/hfc6fjqu9kkxbt5/Sweet%20Creamy.ttf);
-font-family: creamy;
+
+
+
+input:focus{
+    outline:none;
+
+
+}
+input[type="number"]{
+    border-radius:16px;
 }
   
-
