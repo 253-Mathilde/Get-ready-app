@@ -84,7 +84,7 @@ src: url(https://dl.dropbox.com/s/388cvx0do21kj3n/KiwiSoda.ttf);
     font-size: 4em;
 }
   
-#hourfield{
+#minutesfield{
     border-radius: 16px;
     border: none;
     outline: none;
