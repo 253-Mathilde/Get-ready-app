@@ -75,7 +75,7 @@ input[type="number"]{
 font-family:'kiwi';
 src: url(https://dl.dropbox.com/s/388cvx0do21kj3n/KiwiSoda.ttf);
 }
-#notification{
+#notificationdots{
     margin: 0%;
     position: absolute;
     left: 45%;
@@ -102,5 +102,5 @@ src: url(https://dl.dropbox.com/s/388cvx0do21kj3n/KiwiSoda.ttf);
     top: 35%;
     left: 24%;
     font-family:'kiwi';
-    font-size: 4em;
+    font-size: 1.5em;
 }
