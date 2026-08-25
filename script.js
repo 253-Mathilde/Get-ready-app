@@ -20,7 +20,7 @@ if (sessionStorage.getItem("videoPlayed")) {
 
 
 document.getElementById("create").addEventListener("click", function() { 
-    window.location.href = "create1.html";
+    window.location.href = "screenone_arrivetime/create1.html";
  });
 
  document.getElementById("text").addEventListener("click", function() { 
