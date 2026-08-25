@@ -58,6 +58,7 @@ input:focus{
 }
 input[type="number"]{
     border-radius:16px;
+    z-index:3;
 }
 
 #hourfield{
@@ -69,6 +70,7 @@ input[type="number"]{
     height: 10%;
     width: 10%;
     left: 25%;
+    z-index:3;
 }
 
 @font-face {
@@ -82,6 +84,7 @@ font-family: winkle;
     top: 23%;
     font-family:'winkle';
     font-size: 4em;
+    z-index:3;
 }
   
 #minutesfield{
@@ -93,6 +96,7 @@ font-family: winkle;
     height: 10%;
     width: 10%;
     left: 60%;
+    z-index:3;
 }
 
 
@@ -103,4 +107,9 @@ font-family: winkle;
     left: 13%;
     font-family:'winkle';
     font-size: 1.5em;
+    z-index:3;
+}
+
+#backgroundforthetime{
+    position:absolute;
 }
