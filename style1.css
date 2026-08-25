@@ -132,7 +132,7 @@ input[type="number"] {
   color: #f5df3d; 
 }
 
-input[type="number"]::placeholder {
+input::placeholder {
   font-size: 60px;
   color: #f5df3d; 
 }
