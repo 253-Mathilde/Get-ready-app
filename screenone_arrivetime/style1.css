@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image:url('graphicsforeveryscreen/background.svg'); 
+    background-image:url('../graphicsforeveryscreen/background.svg'); 
      text-align:center;
     background-repeat:no-repeat;
 }
@@ -20,7 +20,7 @@ html{
 }
 
  #text1{
- background-image: url('graphics_homescreen/text (1).svg');
+ background-image: url('../graphics_homescreen/text (1).svg');
     background-size: 175%;
     background-position: 45% 100%;
     height:20%;
