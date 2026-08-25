@@ -125,7 +125,14 @@ font-family: winkle;
     border-color: white;
 }
 
-input::placeholder {
+
+
+input[type="number"] {
+  font-size: 30%;  
   color: #f5df3d; 
-  font-size:3em;
+}
+
+input[type="number"]::placeholder {
+  font-size: 10%;
+  color: #f5df3d; 
 }
