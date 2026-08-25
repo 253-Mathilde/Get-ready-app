@@ -133,6 +133,6 @@ input[type="number"] {
 }
 
 input[type="number"]::placeholder {
-  font-size: 200%;
+  font-size: 600%;
   color: #f5df3d; 
 }
