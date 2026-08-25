@@ -128,11 +128,11 @@ font-family: winkle;
 
 
 input[type="number"] {
-  font-size: 30%;  
+  font-size: 120%;  
   color: #f5df3d; 
 }
 
 input[type="number"]::placeholder {
-  font-size: 10%;
+  font-size: 200%;
   color: #f5df3d; 
 }
