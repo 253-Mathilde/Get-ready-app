@@ -72,15 +72,15 @@ input[type="number"]{
 }
 
 @font-face {
-font-family:'kiwi';
-src: url(https://dl.dropbox.com/s/388cvx0do21kj3n/KiwiSoda.ttf);
+src: url(https://dl.dropbox.com/s/mes7b666uvig5wc/Winkle-Regular.otf);
+font-family: winkle;
 }
 #notificationdots{
     margin: 0%;
     position: absolute;
     left: 45%;
     top: 23%;
-    font-family:'kiwi';
+    font-family:'winkle';
     font-size: 4em;
 }
   
@@ -101,6 +101,6 @@ src: url(https://dl.dropbox.com/s/388cvx0do21kj3n/KiwiSoda.ttf);
     position: absolute;
     top: 35%;
     left: 24%;
-    font-family:'kiwi';
+    font-family:'winkle';
     font-size: 1.5em;
 }
