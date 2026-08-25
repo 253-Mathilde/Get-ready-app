@@ -85,6 +85,7 @@ font-family: winkle;
     font-family:'winkle';
     font-size: 4em;
     z-index:3;
+    color:white;
 }
   
 #minutesfield{
@@ -108,6 +109,7 @@ font-family: winkle;
     font-family:'winkle';
     font-size: 1.5em;
     z-index:3;
+    color:white;
 }
 
 #backgroundforthetime{
@@ -125,4 +127,5 @@ font-family: winkle;
 
 input::placeholder {
   color: #f5df3d; 
+  font-size:3em;
 }
