@@ -69,7 +69,7 @@ input[type="number"]{
     top: 20%;
     height: 10%;
     width: 10%;
-    left: 25%;
+    left: 23%;
     z-index:3;
 }
 
@@ -80,8 +80,8 @@ font-family: winkle;
 #notificationdots{
     margin: 0%;
     position: absolute;
-    left: 45%;
-    top: 23%;
+    left: 48%;
+    top: 22%;
     font-family:'winkle';
     font-size: 4em;
     z-index:3;
@@ -95,7 +95,7 @@ font-family: winkle;
     top: 20%;
     height: 10%;
     width: 10%;
-    left: 60%;
+    left: 65%;
     z-index:3;
 }
 
@@ -112,4 +112,17 @@ font-family: winkle;
 
 #backgroundforthetime{
     position:absolute;
+    height:30%;
+    width: 80%;
+    background-color: blue;
+    top: 14%;
+    border-radius: 16px;
+    left: 10%;
+    background-image: url(https://dl.glitter-graphics.com/pub/3132/3132972qrp6ithw8b.jpg);
+    border: 5px dotted;
+    border-color: white;
+}
+
+input::placeholder {
+  color: #f5df3d; 
 }
