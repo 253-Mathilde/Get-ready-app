@@ -32,7 +32,7 @@ html{
 
 }
 @font-face {
-src: url(://dropboxusercontent.com/s/uougf9v63jmphoj/Jojoba.otf);
+src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
 font-family: jojoba;
 }
 
@@ -74,7 +74,7 @@ input[type="number"]{
 }
 
 @font-face {
-src: url(://dropboxusercontent.com/s/mes7b666uvig5wc/Winkle-Regular.otf);
+src: url(https://dl.dropbox.com/s/mes7b666uvig5wc/Winkle-Regular.otf);
 font-family: winkle;
 }
 #notificationdots{
