@@ -23,11 +23,8 @@ document.getElementById("create").addEventListener("click", function() {
     window.location.href = "screenone_arrivetime/create1.html";
  });
 
- document.getElementById("text").addEventListener("click", function() { 
-    window.location.href = "../index.html";
- });
-
+ 
 
  document.getElementById("text").addEventListener("click", function() { 
-    window.location.href = "../index.html";
+    window.location.href = "index.html";
  });
