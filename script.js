@@ -9,8 +9,8 @@ if (createBtn) {
 const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
-        // Ersetzt einfach den aktuellen Dateinamen "create1.html" mit der "index.html" eine Ebene höher
-        window.location.href = window.location.href.replace("screenone_arrivetime/create1.html", "index.html");
+        // Springt aus dem Unterordner eine Ebene höher zurück zur index.html
+        window.location.href = "../index.html";
     });
 }
 
