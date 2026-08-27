@@ -1,15 +1,19 @@
-
 const createBtn = document.getElementById("create");
 if (createBtn) {
     createBtn.addEventListener("click", function() { 
-        window.location.href = "screenone_arrivetime/create1.html";
+        // Holt die aktuelle Adresse, schneidet das Ende ab und setzt den Pfad neu zusammen
+        let base = window.location.href.split('/').slice(0, -1).join('/');
+        window.location.href = base + "/screenone_arrivetime/create1.html";
     });
 }
 
 const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
-        window.location.href = "index.html";
+        // Findet das Hauptverzeichnis der App und springt direkt zur index.html
+        let segments = window.location.href.split('/');
+        let base = segments.slice(0, segments.indexOf("screenone_arrivetime")).join('/');
+        window.location.href = base + "/index.html";
     });
 }
 
