@@ -136,3 +136,13 @@ input::placeholder {
   font-size: 60px;
   color: #f5df3d; 
 }
+
+
+
+  #nextbutton img{
+   position:absolute;
+    height: 500%;
+    width: 500%;
+    top: 680%;
+    left: -100%;}
+    
