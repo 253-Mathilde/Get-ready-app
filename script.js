@@ -5,7 +5,7 @@
 const createBtn = document.getElementById("create");
 if (createBtn) {
     createBtn.addEventListener("click", function() { 
-        window.location.href = "/screenone_arrivetime/create1.html";
+        window.location.href = "screenone_arrivetime/create1.html";
     });
 }
 
