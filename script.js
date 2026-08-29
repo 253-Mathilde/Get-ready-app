@@ -29,20 +29,16 @@ function nextsite() {
         window.location.href = basisPfad + "screenone_arrivetime/create1.html";
     }
 }
-const arrivetime1 = Number(document.getElementById("hour")?.value || 0)* 60;
-const arrivetime2 = Number(document.getElementById("minutes")?.value || 0);
+const arrivetime1 = Number(document.getElementById("hour")?.value )* 60;
+const arrivetime2 = Number(document.getElementById("minutes")?.value);
 const summe1 = arrivetime1 + arrivetime2;
-console.log("Summe 1:", summe1); 
 
-const waytime1 = Number(document.getElementById("hourfortheway")?.value || 0)* 60;
-const waytime2 = Number(document.getElementById("minutesfortheway")?.value || 0);
+const waytime1 = Number(document.getElementById("hourfortheway")?.value)* 60;
+const waytime2 = Number(document.getElementById("minutesfortheway")?.value);
+
 const summe2 = waytime1 + waytime2;
-
 const summezeit = summe1 - summe2;
-console.log("Endergebnis:", summezeit);
 
-
-
-const endStunden = Math.floor(ergebnis_in_minuten / 60);
-const endMinuten = ergebnis_in_minuten % 60;
+const endStunden = Math.floor(summezeit / 60);
+const endMinuten = summezeit % 60;
 console.log(`Ergebnis: ${endStunden} Stunden und ${endMinuten} Minuten`);
