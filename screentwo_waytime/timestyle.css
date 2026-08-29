@@ -139,12 +139,9 @@ input::placeholder {
 
 
 
-  #next{
+ #next{
     position: absolute;
-    height: 50%;
-    width: 100%;
-    top: 70%;
-    left: -10%;
-    pointer-events: visiblePainted;
-}
-    
+    width: 60%;
+    top: 79%;
+    left: 1%;
+    pointer-events: visiblePainted}
