@@ -136,13 +136,9 @@ input::placeholder {
   font-size: 60px;
   color: #f5df3d; 
 }
-
-
-#next{
-position: absolute;
-    height: 80%;
-    width: 100%;
-    top: 50%;
-    left: -20%;
-    pointer-events: visiblePainted;
-}
+ #next{
+    position: absolute;
+    width: 60%;
+    top: 79%;
+    left: 1%;
+    pointer-events: visiblePainted}
