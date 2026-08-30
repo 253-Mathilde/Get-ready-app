@@ -14,6 +14,8 @@ const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
         window.location.href = "../index.html";
+        const audiohome = document.querySelector("#homemusic");
+        audiohome.play;
     });
 }
 
@@ -21,7 +23,8 @@ if (textBtn) {
 //wechsel zur nächsten seite
 const aktuellerPfad = window.location.pathname;
 function nextsite() {
-
+     const audionext = document.querySelector("#nextmusic");
+    audionext.play;
      datenVerarbeiten();
    
     if (aktuellerPfad.includes("create1.html")) {
