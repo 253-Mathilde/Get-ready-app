@@ -47,8 +47,8 @@ function datenVerarbeiten() {
     
     if (window.location.href.includes("screentwo_waytime/time1.html")) {
         const loadedSumme1 = Number(localStorage.getItem("savedSumme1") || 0);
-        const wayStunden = Number(document.getElementById("hourfortheway")?.value || 0);
-        const wayMinuten = Number(document.getElementById("minutesfortheway")?.value || 0);
+        const wayStunden = Number(document.getElementById("hourfieldfortheway")?.value || 0);
+        const wayMinuten = Number(document.getElementById("minutesfieldfortheway")?.value || 0);
         const loadedSumme2 = (wayStunden * 60) + wayMinuten;
 
         const endZeit = loadedSumme1 - loadedSumme2;
