@@ -9,22 +9,26 @@ if (createBtn) {
 
 }
 
-//home button für alle seiten
-const textBtn = document.getElementById("text");
-if (textBtn) {
-    textBtn.addEventListener("click", function() { 
-        
-        const audiohome = document.querySelector("#homemusic");
-        audiohome.play();
-        window.location.href = "../index.html";
-    });
+//hometext button
+const aktuellerPfad = window.location.pathname;
+function nextsite() {
+    const audionext = document.querySelector("#nextmusic");
+    
+    datenVerarbeiten();
+   
+    if (audionext) {
+        audionext.play();
+        audionext.onended = function() {
+            fuehreSeitenwechselAus();
+        };
+    } else {
+        fuehreSeitenwechselAus();
+    }
 }
 
 
 
-
 //wechsel zur nächsten seite
-const aktuellerPfad = window.location.pathname;
 function nextsite() {
      const audionext = document.querySelector("#nextmusic");
     audionext.play();
