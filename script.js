@@ -1,12 +1,15 @@
-
+//beginn button für den normalen modus
 const createBtn = document.getElementById("create");
 if (createBtn) {
     createBtn.addEventListener("click", function() { 
         let base = window.location.href.split('/').slice(0, -1).join('/');
         window.location.href = base + "/screenone_arrivetime/create1.html";
     });
+
+
 }
 
+//home button für alle seiten
 const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
@@ -14,9 +17,13 @@ if (textBtn) {
     });
 }
 
-function nextsite() {
-    const aktuellerPfad = window.location.pathname;
 
+//wechsel zur nächsten seite
+const aktuellerPfad = window.location.pathname;
+function nextsite() {
+
+     datenVerarbeiten();
+   
     if (aktuellerPfad.includes("create1.html")) {
         let basisPfad = window.location.href.replace("screenone_arrivetime/create1.html", "");
         window.location.href = basisPfad + "screentwo_waytime/time1.html";
@@ -29,16 +36,50 @@ function nextsite() {
         window.location.href = basisPfad + "screenone_arrivetime/create1.html";
     }
 }
-const arrivetime1 = Number(document.getElementById("hour")?.value )* 60;
-const arrivetime2 = Number(document.getElementById("minutes")?.value);
-const summe1 = arrivetime1 + arrivetime2;
 
-const waytime1 = Number(document.getElementById("hourfortheway")?.value)* 60;
-const waytime2 = Number(document.getElementById("minutesfortheway")?.value);
 
-const summe2 = waytime1 + waytime2;
-const summezeit = summe1 - summe2;
 
-const endStunden = Math.floor(summezeit / 60);
-const endMinuten = summezeit % 60;
-console.log(`Ergebnis: ${endStunden} Stunden und ${endMinuten} Minuten`);
+
+
+
+
+
+function datenVerarbeiten() {
+    if (aktuellerPfad.includes("create1.html")) {
+        const hour = Number(document.getElementById("hour")?.value || 0);
+        const minutes = Number(document.getElementById("minutes")?.value || 0);
+        const Summe1 = (hour * 60) + minutes;
+        localStorage.setItem("savedSumme1", Summe1);
+    }
+    
+    if (aktuellerPfad.includes("screentwo_waytime/time1.html")) {
+        const loadedSumme1 = Number(localStorage.getItem("savedSumme1") || 0);
+        const wayStunden = Number(document.getElementById("hourfortheway")?.value || 0);
+        const wayMinuten = Number(document.getElementById("minutesfortheway")?.value || 0);
+        const loadedSumme2 = (wayStunden * 60) + wayMinuten;
+
+
+
+
+
+        const endZeit = loadedSumme1 - loadedSumme2;
+        const endStunden = Math.floor(endZeit / 60);
+        const endMinuten = endZeit % 60;
+        console.log(`Ergebnis: ${endStunden} Stunden und ${endMinuten} Minuten`);
+    }
+}
+
+
+
+window.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") { 
+
+        event.preventDefault(); 
+        datenVerarbeiten(); 
+
+         if (document.activeElement && typeof document.activeElement.blur === "function") {
+            document.activeElement.blur();
+        }
+    }
+});
+
