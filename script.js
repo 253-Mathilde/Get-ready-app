@@ -41,27 +41,19 @@ function nextsite() {
 
 
 
-
-
-
-
 function datenVerarbeiten() {
-    if (aktuellerPfad.includes("create1.html")) {
+    if (window.location.href.includes("create1.html")) {
         const hour = Number(document.getElementById("hour")?.value || 0);
         const minutes = Number(document.getElementById("minutes")?.value || 0);
         const Summe1 = (hour * 60) + minutes;
         localStorage.setItem("savedSumme1", Summe1);
     }
     
-    if (aktuellerPfad.includes("screentwo_waytime/time1.html")) {
+    if (window.location.href.includes("screentwo_waytime/time1.html")) {
         const loadedSumme1 = Number(localStorage.getItem("savedSumme1") || 0);
         const wayStunden = Number(document.getElementById("hourfortheway")?.value || 0);
         const wayMinuten = Number(document.getElementById("minutesfortheway")?.value || 0);
         const loadedSumme2 = (wayStunden * 60) + wayMinuten;
-
-
-
-
 
         const endZeit = loadedSumme1 - loadedSumme2;
         const endStunden = Math.floor(endZeit / 60);
@@ -72,15 +64,19 @@ function datenVerarbeiten() {
 
 
 
+
+
 window.addEventListener("keydown", function(event) {
     if (event.key === "Enter") { 
-
         event.preventDefault(); 
         datenVerarbeiten(); 
-
-         if (document.activeElement && typeof document.activeElement.blur === "function") {
+        if (document.activeElement && typeof document.activeElement.blur === "function") {
             document.activeElement.blur();
         }
     }
 });
+
+
+
+
 
