@@ -21,8 +21,8 @@ if (textBtn) {
 //wechsel zur nächsten seite
 function nextsite() {
     if (window.location.href.includes("create1.html")) {
-        const hour = Number(document.getElementById("hour")?.value || 0);
-        const minutes = Number(document.getElementById("minutes")?.value || 0);
+        const hour = Number(document.getElementById("hourfield")?.value || 0);
+        const minutes = Number(document.getElementById("minutesfield")?.value || 0);
         const Summe1 = (hour * 60) + minutes;
         let basisPfad = window.location.href.replace("screenone_arrivetime/create1.html", "");
         window.location.href = basisPfad + "screentwo_waytime/time1.html?wert=" + Summe1;
