@@ -30,10 +30,11 @@ if (textBtn) {
 const aktuellerPfad = window.location.pathname;
 function nextsite() {
      const audionext = document.querySelector("#nextmusic");
-    audionext.play();
+
+     audionext.play();
 
      datenVerarbeiten();
-   
+       setTimeout(function() {
     if (aktuellerPfad.includes("create1.html")) {
         let basisPfad = window.location.href.replace("screenone_arrivetime/create1.html", "");
         window.location.href = basisPfad + "screentwo_waytime/time1.html";
@@ -45,6 +46,7 @@ function nextsite() {
         }
         window.location.href = basisPfad + "screenone_arrivetime/create1.html";
     }
+    }, 2000); 
 }
 
 
