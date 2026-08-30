@@ -40,8 +40,8 @@ function nextsite() {
 
 function datenVerarbeiten() {
     if (window.location.href.includes("create1.html")) {
-        const hour = Number(document.getElementById("hour")?.value || 0);
-        const minutes = Number(document.getElementById("minutes")?.value || 0);
+        const hour = Number(document.getElementById("hourfield")?.value || 0);
+        const minutes = Number(document.getElementById("minutesfield")?.value || 0);
         const Summe1 = (hour * 60) + minutes;
         localStorage.setItem("savedSumme1", Summe1);
     }
