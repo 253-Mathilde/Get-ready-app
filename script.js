@@ -15,7 +15,7 @@ if (textBtn) {
     textBtn.addEventListener("click", function() { 
         window.location.href = "../index.html";
         const audiohome = document.querySelector("#homemusic");
-        audiohome.play;
+        audiohome.play();
     });
 }
 
@@ -24,7 +24,8 @@ if (textBtn) {
 const aktuellerPfad = window.location.pathname;
 function nextsite() {
      const audionext = document.querySelector("#nextmusic");
-    audionext.play;
+    audionext.play();
+    
      datenVerarbeiten();
    
     if (aktuellerPfad.includes("create1.html")) {
