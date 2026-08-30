@@ -19,25 +19,21 @@ if (textBtn) {
 
 
 //wechsel zur nächsten seite
-const aktuellerPfad = window.location.pathname;
 function nextsite() {
-
-     datenVerarbeiten();
-    setTimeout(function() {
-    if (aktuellerPfad.includes("create1.html")) {
+    if (window.location.href.includes("create1.html")) {
+        const hour = Number(document.getElementById("hour")?.value || 0);
+        const minutes = Number(document.getElementById("minutes")?.value || 0);
+        const Summe1 = (hour * 60) + minutes;
         let basisPfad = window.location.href.replace("screenone_arrivetime/create1.html", "");
-        window.location.href = basisPfad + "screentwo_waytime/time1.html";
-
+        window.location.href = basisPfad + "screentwo_waytime/time1.html?wert=" + Summe1;
     } else {
         let basisPfad = window.location.href.replace("index.html", "");
-    if (!basisPfad.endsWith("/")) {
+        if (!basisPfad.endsWith("/")) {
             basisPfad += "/";
         }
         window.location.href = basisPfad + "screenone_arrivetime/create1.html";
     }
-      }, 50); 
 }
-
 
 
 
