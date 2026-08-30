@@ -13,18 +13,14 @@ if (createBtn) {
 const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
-        const audiohome = document.querySelector("#homemusic");
         
-        if (audiohome) {
-            audiohome.play();
-            audiohome.onended = function() {
-                window.location.href = "../index.html";
-            };
-        } else {
-            window.location.href = "../index.html";
-        }
+        const audiohome = document.querySelector("#homemusic");
+        audiohome.play();
+        window.location.href = "../index.html";
     });
 }
+
+
 
 
 //wechsel zur nächsten seite
