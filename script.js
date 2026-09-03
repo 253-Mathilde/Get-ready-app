@@ -97,9 +97,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     minutes -= 5;
     localStorage.setItem("minutes", minutes);
     bag1.style.cssText = `
-      border-width: 8px;
-      border-style: solid;
-      border-image: url("https://media.tumblr.com/tumblr_ma3nl9PD1q1qbq39l.gif") 8 fill round;
+       border-width:8px;
+       border-style:solid;
+       border-image: url("https://dl.dropbox.com/s/v8iy6a8feyq041p/blue%20ver.png") 8 fill round;        
     `;
   });
 }
