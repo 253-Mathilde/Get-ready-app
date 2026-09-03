@@ -99,7 +99,11 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     bag1.style.cssText = `
        border-width:8px;
        border-style:solid;
-       border-image: url("https://dl.dropbox.com/s/v8iy6a8feyq041p/blue%20ver.png") 8 fill round;        
+       border-image: url("https://dl.dropbox.com/s/v8iy6a8feyq041p/blue%20ver.png") 8 fill round;   
+       position: absolute;
+       z-index: 10;
+       top: 20%;
+        left:50%;     
     `;
   });
 }
