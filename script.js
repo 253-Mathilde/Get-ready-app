@@ -99,6 +99,7 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     bag1.style.cssText = `
     border: 5px dotted;
     border-color: white;
+    border-radius: 16px;
     position: absolute;
     z-index: 10;
     top: 20%;
