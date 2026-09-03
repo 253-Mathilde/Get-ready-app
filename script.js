@@ -105,6 +105,7 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     top: 20%;
     left:50%;     
     `;
+    console.log(` ${minutes} Minuten`);
   });
 }
           
