@@ -69,6 +69,8 @@ function datenVerarbeiten() {
         const endStunden = Math.floor(endZeit / 60);
         const endMinuten = endZeit % 60;
         console.log(`Ergebnis: ${endStunden} Stunden und ${endMinuten} Minuten`);
+        localStorage.setItem("endStunden", endStunden);
+        localStorage.setItem("endMinuten", endMinuten);
     }
 }
 
@@ -87,6 +89,21 @@ window.addEventListener("keydown", function(event) {
 });
 
 
+
+if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
+  const bag1 = document.querySelector('#bag1'); 
+  bag1.addEventListener('click', () => {
+    let minutes = Number(localStorage.getItem("endMinuten"));
+    minutes -= 5;
+    localStorage.setItem("minutes", minutes);
+    bag1.style.cssText = `
+      border-width: 8px;
+      border-style: solid;
+      border-image: url("https://media.tumblr.com/tumblr_ma3nl9PD1q1qbq39l.gif") 8 fill round;
+    `;
+  });
+}
+          
 
 
 
