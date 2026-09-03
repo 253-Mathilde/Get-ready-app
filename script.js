@@ -97,13 +97,12 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     minutes -= 5;
     localStorage.setItem("minutes", minutes);
     bag1.style.cssText = `
-       border-width:8px;
-       border-style:solid;
-       border-image: url("https://dl.dropbox.com/s/v8iy6a8feyq041p/blue%20ver.png") 8 fill round;   
-       position: absolute;
-       z-index: 10;
-       top: 20%;
-        left:50%;     
+    border: 5px dotted;
+    border-color: white;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left:50%;     
     `;
   });
 }
