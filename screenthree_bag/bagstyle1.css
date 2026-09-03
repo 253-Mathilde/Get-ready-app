@@ -131,3 +131,11 @@ font-family: winkle;
     top: 79%;
     left: 1%;
     pointer-events: visiblePainted}
+
+    @font-face {
+src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
+font-family: willond;
+}
+    #bagname{
+    font-family: willond;
+    }
