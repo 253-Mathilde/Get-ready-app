@@ -103,7 +103,7 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
       localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
       localStorage.setItem("endMinuten", neueMinuten); 
-      console.log(`Ausgewählt: ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
     } else {
       bag1.classList.remove('selected');
       gesamtMinuten += 5;         //addieren
@@ -111,7 +111,7 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
       localStorage.setItem("endMinuten", neueMinuten);
-      console.log(`Abgewählt: ${neueMinuten} Minuten`); // neue minuten wenn deselected
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
     }
   });
 }
