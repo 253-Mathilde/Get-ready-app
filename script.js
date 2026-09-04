@@ -92,26 +92,26 @@ window.addEventListener("keydown", function(event) {
 
 if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
   const bag1 = document.querySelector('#bag1'); 
-  
   bag1.addEventListener('click', () => {
-    let minutes = Number(localStorage.getItem("minutes")) || Number(localStorage.getItem("endMinuten")) || 0;
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
     if (!bag1.classList.contains('selected')) {
-      bag1.classList.add('selected'); 
-      minutes -= 5;
-      localStorage.setItem("minutes", minutes);
-      console.log(`Ausgewählt: ${minutes} Minuten`);
-
+      bag1.classList.add('selected');                 
+      gesamtMinuten -= 5;                              //subtrahieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      console.log(`Ausgewählt: ${neueMinuten} Minuten`); //neue minuten wenn selected
     } else {
       bag1.classList.remove('selected');
-      minutes += 5;
-      localStorage.setItem("minutes", minutes);
-      console.log(`Abgewählt: ${minutes} Minuten`);
+      gesamtMinuten += 5;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      console.log(`Abgewählt: ${neueMinuten} Minuten`); // neue minuten wenn deselected
     }
   });
 }
-
-
-          
-
-
-
