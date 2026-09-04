@@ -155,3 +155,43 @@ font-family: willond;
   left: 50%;
   border: none; 
 }
+
+#bag2.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#bag2 {
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: 50%;
+  border: none; 
+}
+
+
+#bag3.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#bag3 {
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: 50%;
+  border: none; 
+}
+
+#bag4.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#bag4 {
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: 50%;
+  border: none; 
+}
