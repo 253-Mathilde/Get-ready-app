@@ -106,7 +106,26 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     left:50%;     
     `;
     console.log(` ${minutes} Minuten`);
+
+    if (bag1.style.border === "5px dotted white") {
+    bag1.addEventListener('click', () => {
+    bag1.style.cssText = `
+    border: none;
+    border-color: transparent;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left:50%;     
+    `;
+    let minutes = Number(localStorage.getItem("endMinuten"));
+     minutes = 5;
+     localStorage.setItem("minutes", minutes);
+     })
+    
+} 
   });
+
+  
 }
           
 
