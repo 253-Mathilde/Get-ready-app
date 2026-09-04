@@ -141,3 +141,17 @@ font-family: willond;
     margin-top: -9%;
     color: darkslateblue;
     }
+
+
+ #bag1.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#bag1 {
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: 50%;
+  border: none; 
+}
