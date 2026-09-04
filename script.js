@@ -120,6 +120,8 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     let minutes = Number(localStorage.getItem("minutes"));
      minutes -= 5;
      localStorage.setItem("minutes", minutes);
+      console.log(` ${minutes} Minuten`);
+
      })
     
 } 
