@@ -151,8 +151,8 @@ font-family: willond;
 #bag1 {
   position: absolute;
   z-index: 10;
-  top: 20%;
-  left: 50%;
+  top: 19%;
+  left: 52%;
   border: none; 
 }
 
@@ -165,7 +165,7 @@ font-family: willond;
   position: absolute;
   z-index: 10;
   top: 20%;
-  left: 50%;
+  left: 12%;
   border: none; 
 }
 
@@ -178,8 +178,8 @@ font-family: willond;
 #bag3 {
   position: absolute;
   z-index: 10;
-  top: 20%;
-  left: 50%;
+  top: 19%;
+  left: 12%;
   border: none; 
 }
 
@@ -192,6 +192,6 @@ font-family: willond;
   position: absolute;
   z-index: 10;
   top: 20%;
-  left: 50%;
+  left: 52%;
   border: none; 
 }
