@@ -117,8 +117,8 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     top: 20%;
     left:50%;     
     `;
-    let minutes = Number(localStorage.getItem("endMinuten"));
-     minutes = 5;
+    let minutes = Number(localStorage.getItem("minutes"));
+     minutes -= 5;
      localStorage.setItem("minutes", minutes);
      })
     
