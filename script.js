@@ -92,43 +92,37 @@ window.addEventListener("keydown", function(event) {
 
 if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
   const bag1 = document.querySelector('#bag1'); 
-  bag1.addEventListener('click', () => {
-    let minutes = Number(localStorage.getItem("endMinuten"));
-    minutes -= 5;
-    localStorage.setItem("minutes", minutes);
-    bag1.style.cssText = `
-    border: 5px dotted;
-    border-color: white;
-    border-radius: 16px;
-    position: absolute;
-    z-index: 10;
-    top: 20%;
-    left:50%;     
-    `;
-    console.log(` ${minutes} Minuten`);
-
-    if (bag1.style.border === "5px dotted white") {
-    bag1.addEventListener('click', () => {
-    bag1.style.cssText = `
-    border: none;
-    border-color: transparent;
-    position: absolute;
-    z-index: 10;
-    top: 20%;
-    left:50%;     
-    `;
-    let minutes = Number(localStorage.getItem("minutes"));
-     minutes -= 5;
-     localStorage.setItem("minutes", minutes);
-      console.log(` ${minutes} Minuten`);
-
-     })
-    
-} 
-  });
-
   
+  bag1.addEventListener('click', () => {
+    let minutes = Number(localStorage.getItem("minutes")) || Number(localStorage.getItem("endMinuten"));
+    if (bag1.style.borderStyle !== "dotted") {
+      minutes -= 5;
+      localStorage.setItem("minutes", minutes);
+      bag1.style.cssText = `
+        border: 5px dotted white;
+        border-radius: 16px;
+        position: absolute;
+        z-index: 10;
+        top: 20%;
+        left: 50%;     
+      `;
+      console.log(`Ausgewählt: ${minutes} Minuten`);
+
+    } else {
+      minutes -= 5;
+      localStorage.setItem("minutes", minutes);
+      bag1.style.cssText = `
+        border: none;
+        position: absolute;
+        z-index: 10;
+        top: 20%;
+        left: 50%;     
+      `;
+      console.log(`Abgewählt: ${minutes} Minuten`);
+    }
+  });
 }
+
           
 
 
