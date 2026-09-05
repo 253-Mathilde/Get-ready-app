@@ -105,7 +105,7 @@ font-family: winkle;
 #notificationfortheway{
     position: absolute;
     top: 12%;
-    left: 16%;
+    left: 11%;
     font-family:'winkle';
     font-size: 1.5em;
     z-index:3;
@@ -151,8 +151,8 @@ font-family: willond;
 #bag1 {
   position: absolute;
   z-index: 10;
-  top: 19%;
-  left: 52%;
+  top: 5%;
+  left: 2%;
   border: none; 
 }
 
@@ -164,8 +164,8 @@ font-family: willond;
 #bag2 {
   position: absolute;
   z-index: 10;
-  top: 38%;
-  left: 12%;
+  top: 5%;
+  left: 52%;
   border: none; 
 }
 
@@ -178,8 +178,8 @@ font-family: willond;
 #bag3 {
   position: absolute;
   z-index: 10;
-  top: 19%;
-  left: 12%;
+  top: 49%;
+  left: 2%;
   border: none; 
 }
 
@@ -191,7 +191,81 @@ font-family: willond;
 #bag4 {
   position: absolute;
   z-index: 10;
-  top: 38%;
+  top: 49%;
   left: 52%;
+  border: none; 
+}
+
+#timefortheway{
+    overflow-y: auto;
+    position: absolute;
+    height: 41%;
+    width: 82%;
+    left: 10%;
+    top: 15%;}
+
+
+ #stuff1.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff1 {
+  position: absolute;
+  z-index: 10;
+  top: 89%;
+  left:6%;
+  border: none; 
+}
+
+#stuff2.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff2 {
+  position: absolute;
+  z-index: 10;
+  top: 89%;
+  left: 54%;
+  border: none;
+}
+
+#stuff3.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff3 {
+  position: absolute;
+  z-index: 10;
+  top: 130%;
+  left: 2%;
+  border: none;
+}
+
+#stuff4.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff4 {
+  position: absolute;
+  z-index: 10;
+  top: 130%;
+  left: 52%;
+  border: none; 
+}
+
+#stuff5.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff5 {
+  position: absolute;
+  z-index: 10;
+  top: 170%;
+  left: 5%;
   border: none; 
 }
