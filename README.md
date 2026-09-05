@@ -4,4 +4,5 @@
 https://github.com/user-attachments/assets/dde383f5-a452-4906-a0a9-482123e477a8
 
 
+<img width="1920" height="480" alt="prête app multiple screens" src="https://github.com/user-attachments/assets/23e5e27a-cbe9-48af-a144-d227c800e818" />
 
