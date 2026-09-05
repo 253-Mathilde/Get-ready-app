@@ -1,0 +1,197 @@
+#text img{
+    position:absolute;
+    height: 5%;
+    left: 85%;
+    top: 2%;
+    border-radius: 50px;
+
+}
+
+body{
+    background-image:url('../graphicsforeveryscreen/background.svg'); 
+     text-align:center;
+    background-repeat:no-repeat;
+}
+
+html{
+    scrollbar-width: none;
+    overflow: hidden;
+
+}
+
+ #text1{
+ background-image: url('../graphics_homescreen/text (1).svg');
+    background-size: 175%;
+    background-position: 45% 100%;
+    height:20%;
+    width:59%;
+    position:absolute;
+    top: 60%;
+    left:22%;
+    pointer-events: all;
+
+}
+@font-face {
+src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
+font-family: jojoba;
+}
+
+#textcontent{
+position:relative;
+font-family:jojoba;
+font-size:1.1em;
+text-align:center;
+font-weight:lighter;
+top:17%;
+padding-left:10%;
+padding-right:2%;
+color:rgb(7, 33, 112);
+pointer-events:none;
+}
+
+
+
+input:focus{
+    outline:none;
+
+
+}
+input[type="number"]{
+    border-radius:16px;
+    z-index:3;
+}
+
+#hourfieldfortheway{
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    height: 10%;
+    width: 10%;
+    left: 23%;
+    z-index:3;
+}
+
+@font-face {
+src: url(https://dl.dropbox.com/s/mes7b666uvig5wc/Winkle-Regular.otf);
+font-family: winkle;
+}
+#notificationdotsfortheway{
+    margin: 0%;
+    position: absolute;
+    left: 48%;
+    top: 22%;
+    font-family:'winkle';
+    font-size: 4em;
+    z-index:3;
+    color:white;
+}
+  
+#minutesfieldfortheway{
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    height: 10%;
+    width: 10%;
+    left: 65%;
+    z-index:3;
+}
+
+
+
+#notificationfortheway{
+    position: absolute;
+    top: 12%;
+    left: 16%;
+    font-family:'winkle';
+    font-size: 1.5em;
+    z-index:3;
+    color:white;
+}
+
+#backgroundforthetimefortheway{
+    position:absolute;
+    height:42%;
+    width: 80%;
+    background-color: blue;
+    top: 14%;
+    border-radius: 16px;
+    left: 10%;
+    background-image: url(https://dl.glitter-graphics.com/pub/3132/3132972qrp6ithw8b.jpg);
+    border: 5px dotted;
+    border-color: white;
+}
+
+ #next{
+    position: absolute;
+    width: 60%;
+    top: 79%;
+    left: 1%;
+    pointer-events: visiblePainted}
+
+    @font-face {
+src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
+font-family: willond;
+}
+    #bagname{
+    font-family: willond;
+    margin-top: -9%;
+    color: darkslateblue;
+    }
+
+
+ #bag1.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#bag1 {
+  position: absolute;
+  z-index: 10;
+  top: 19%;
+  left: 52%;
+  border: none; 
+}
+
+#bag2.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#bag2 {
+  position: absolute;
+  z-index: 10;
+  top: 38%;
+  left: 12%;
+  border: none; 
+}
+
+
+#bag3.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#bag3 {
+  position: absolute;
+  z-index: 10;
+  top: 19%;
+  left: 12%;
+  border: none; 
+}
+
+#bag4.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#bag4 {
+  position: absolute;
+  z-index: 10;
+  top: 38%;
+  left: 52%;
+  border: none; 
+}
