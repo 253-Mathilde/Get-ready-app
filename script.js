@@ -43,7 +43,13 @@ function nextsite() {
             let basisPfad = window.location.href.replace("screentwo_waytime/time1.html", "");
             window.location.href = basisPfad + "screenthree_bag/bag1.html"; 
 
-        } else {
+        } 
+        else if (aktuellerPfad.includes("bag1.html")) {
+            let basisPfad = window.location.href.replace("screenthree_bag/bag1.html", "");
+            window.location.href = basisPfad + "screenfour_bagstuff/bagstuff1.html"; 
+
+        }
+        else {
           console.log("nextsite didn't work");
         }
     }, 2000); 
