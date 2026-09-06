@@ -278,7 +278,7 @@ font-family: willond;
 #stuff6 {
   position: absolute;
   z-index: 10;
-  top: 170%;
+  top: 240%;
   left: 5%;
   border: none; 
 }
@@ -290,8 +290,8 @@ font-family: willond;
 #stuff7 {
   position: absolute;
   z-index: 10;
-  top: 170%;
-  left: 5%;
+  top: 205%;
+  left: 52%;
   border: none; 
 }
 #stuff8.selected {
@@ -302,7 +302,7 @@ font-family: willond;
 #stuff8 {
   position: absolute;
   z-index: 10;
-  top: 170%;
+  top: 205%;
   left: 5%;
   border: none; 
 }
@@ -315,6 +315,6 @@ font-family: willond;
   position: absolute;
   z-index: 10;
   top: 170%;
-  left: 5%;
+  left: 52%;
   border: none; 
 }
