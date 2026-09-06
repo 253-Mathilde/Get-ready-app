@@ -34,11 +34,11 @@ I started by making a new VS project and structured that a little (it is importa
 it get's messy). I sorted it in multiple folders (one for each site) and called them site1,site2 .........
 In every folder there is the html and css for that site (all sites run on the same JS so this is just linked and not in each folder).
 After that I made a new github reposity and just threw in an index,a style,a manifest,a readme and the JS. 
-These are not in a folder. Then I made some folders (thsi is way easier in the programm then the web version so I would recommend using that) and just uploaded the content
+These are not in a folder. Then I made some folders (this is way easier in the programm then the web version so I would recommend using that, img a) and just uploaded the content
 of my folders from my local folders. For better understanding screenone_arrivetime gets the content of the site1 folder.
 Thsi helps you while working a lot because so you can upload everything super easy without searching for years.
 You can see that also on the img (c shows how it should look in your code editor and d shows how it should look in your file manager).
-But as you may have noticed in my folders are more files then just the html and css.The other stuff are the images on each of these sites. 
+But as you may have noticed in my folders are more files then just the html and css (img b).The other stuff are the images on each of these sites. 
 For the imgs: I jsut uploaded these to the folder on the github repo and not in the fodler in my file manager because that was easier 
 and so you can upload the new html and css files easier.
 For the img is it important that you just add the name like phone.png (ofc you use the name of YOUR img) and not screenthree_arrivetime/phone.png.
