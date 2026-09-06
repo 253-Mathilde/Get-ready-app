@@ -97,26 +97,32 @@ window.addEventListener("keydown", function(event) {
 
 
 if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
+
   const bag1 = document.querySelector('#bag1'); 
   bag1.addEventListener('click', () => {
     let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
     let minuten = Number(localStorage.getItem("endMinuten") || 0);
     let gesamtMinuten = (stunden * 60) + minuten;
     if (!bag1.classList.contains('selected')) {
+      
       bag1.classList.add('selected');                 
-      gesamtMinuten -= 5;                              //subtrahieren
+      gesamtMinuten -= 5;   //subtrahieren
+      let whatbagusestheuser = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
       localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
       localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatbagusestheuser", whatbagusestheuser);
       console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
     } else {
       bag1.classList.remove('selected');
+      let whatbagusestheuser = 0;
       gesamtMinuten += 5;         //addieren
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
       localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbagusestheuser", whatbagusestheuser);
       console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
     }
   });
@@ -127,20 +133,24 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     let minuten = Number(localStorage.getItem("endMinuten") || 0);
     let gesamtMinuten = (stunden * 60) + minuten;
     if (!bag2.classList.contains('selected')) {
-      bag2.classList.add('selected');                 
+      bag2.classList.add('selected'); 
+      let whatbagusestheuser = 2;                
       gesamtMinuten -= 5;                              //subtrahieren
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
       localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
       localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatbagusestheuser", whatbagusestheuser);
       console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
     } else {
       bag2.classList.remove('selected');
+      let whatbagusestheuser = 0;
       gesamtMinuten += 5;         //addieren
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
       localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbagusestheuser", whatbagusestheuser);
       console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
     }
   });
@@ -152,20 +162,24 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     let minuten = Number(localStorage.getItem("endMinuten") || 0);
     let gesamtMinuten = (stunden * 60) + minuten;
     if (!bag3.classList.contains('selected')) {
-      bag3.classList.add('selected');                 
+      bag3.classList.add('selected');  
+      let whatbagusestheuser = 3;                    
       gesamtMinuten -= 5;                              //subtrahieren
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
       localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
       localStorage.setItem("endMinuten", neueMinuten); 
+       localStorage.setItem("whatbagusestheuser", whatbagusestheuser);
       console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
     } else {
       bag3.classList.remove('selected');
+      let whatbagusestheuser = 0;
       gesamtMinuten += 5;         //addieren
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
       localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbagusestheuser", whatbagusestheuser);
       console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
     }
   });
@@ -177,20 +191,24 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
     let minuten = Number(localStorage.getItem("endMinuten") || 0);
     let gesamtMinuten = (stunden * 60) + minuten;
     if (!bag4.classList.contains('selected')) {
-      bag4.classList.add('selected');                 
+      bag4.classList.add('selected');
+      let whatbagusestheuser = 4;                      
       gesamtMinuten -= 5;                              //subtrahieren
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
       localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
-      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("endMinuten", neueMinuten);
+       localStorage.setItem("whatbagusestheuser", whatbagusestheuser); 
       console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
     } else {
       bag4.classList.remove('selected');
+      let whatbagusestheuser = 0;
       gesamtMinuten += 5;         //addieren
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
       localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbagusestheuser", whatbagusestheuser);
       console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
     }
   });
