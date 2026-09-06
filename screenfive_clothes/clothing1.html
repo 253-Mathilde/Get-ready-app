@@ -4,9 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>prête</title>
-    <link rel="stylesheet" href="bagstuffstyle1.css">
+    <link rel="stylesheet" href="clothing1style.css">
     <link rel="manifest" href="../manifest.json">
-</head>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap'>
+    </head>
 <body> 
      <audio id="homemusic" src="../graphicsforeveryscreen/home.mp3"></audio>
      <audio id="nextmusic" src="../graphicsforeveryscreen/next.mp3"></audio>
@@ -18,61 +20,47 @@
        <p id="textcontent">
       Great choice! Now, what should we do on the inside?</p> 
     </div>
-
-    <div id="timefortheway">
-           <div id="bag1" >
-            <img src="keys.png">
-            <p id="bagname">keys</p>
-           </div>
-           <div id="bag2" >
-            <img src="money.png">
-            <p id="bagname">money</p>
-           </div>
-           <div id="bag3" >
-           <img src="phone.png">
-           <p id="bagname">phone</p>
-           </div>
-           <div id="bag4" >
-           <img src="charger.png">
-           <p id="bagname">charger</p>
-           </div>
-           <div id="stuff1" >
-            <img src="writing stuff.png">
-            <p id="bagname">writing stuff</p>
-           </div>
-           <div id="stuff2" >
-            <img src="passport.png">
-            <p id="bagname">passport</p>
-           </div>
-            <div id="stuff3" >
-            <img src="lip balm.png">
-            <p id="bagname">lip balm</p>
-           </div>
-           <div id="stuff4" >
-            <img src="earphones.png">
-            <p id="bagname">earphones</p>
-           </div>
-            <div id="stuff5" >
-            <img src="bubble gum.png">
-            <p id="bagname">bubble gum</p>
-           </div>
-            <div id="stuff6" >
-            <img src="tech stuff.png">
-            <p id="bagname">tech stuff</p>
-           </div>
-            <div id="stuff7" >
-            <img src="books.png">
-            <p id="bagname">books</p>
-           </div>
-            <div id="stuff8" >
-            <img src="random bag stuff.png">
-            <p id="bagname">random bag stuff</p>
-           </div>
-            <div id="stuff9" >
-            <img src="food.png">
-            <p id="bagname">food</p>
-           </div>
+      <div class="container">
+  <div class="app-container" id="contain" data-theme="light">
+    <div class="app-top-bar">
+      <button class="button button-small">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <h1 class="app-heading">Weather App</h1>
+      <button class="button button-small" id="toogler">
+        <i class="fas fa-light fa-moon" id="toogler-icon"></i>
+      </button>
+    </div>
+    <div class="app-content">
+      <button class="button button-block">
+        <span class="subtle">Period</span> <span>Today</span> <div class="button button-small"><i class="fas fa-chevron-right"></i></div>
+      </button>
+      <div class="button button-dial">
+        <span class="button-dial-spoke"></span>
+        <span class="button-dial-spoke"></span>
+        <span class="button-dial-spoke"></span>
+        <span class="button-dial-spoke"></span>
+        <span class="button-dial-spoke"></span>
+        <span class="button-dial-spoke"></span>
+        <div class="button-dial-top"></div>
+        <div class="button-dial-label">
+          <i class="fas fa-light fa-temperature-half"></i>
+          27&deg;C
         </div>
+      </div>
+      <div class="flex-button-container">
+        <button class="button button-large">
+          <i class="fas fa-light fa-cloud-rain fa-2xl" style="color: #1885ffe3;"></i>
+          13%
+        </button>
+        <button class="button button-large">
+          <i class="fas fa-light fa-wind fa-2xl" style="color: #0f345fe3;" id="wind"></i>
+          6 Km/h
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <p id="notificationfortheway">Choose the stuff inside your bag:</p>
   
