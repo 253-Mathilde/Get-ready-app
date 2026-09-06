@@ -178,7 +178,7 @@ font-family: willond;
 #bag3 {
   position: absolute;
   z-index: 10;
-  top: 49%;
+  top: 53%;
   left: 2%;
   border: none; 
 }
@@ -191,7 +191,7 @@ font-family: willond;
 #bag4 {
   position: absolute;
   z-index: 10;
-  top: 49%;
+  top: 53%;
   left: 52%;
   border: none; 
 }
@@ -213,8 +213,8 @@ font-family: willond;
 #stuff1 {
   position: absolute;
   z-index: 10;
-  top: 89%;
-  left:6%;
+  top: 101%;
+  left: 2%;
   border: none; 
 }
 
@@ -226,8 +226,8 @@ font-family: willond;
 #stuff2 {
   position: absolute;
   z-index: 10;
-  top: 89%;
-  left: 54%;
+  top: 101%;
+  left: 52%;
   border: none;
 }
 
@@ -239,7 +239,7 @@ font-family: willond;
 #stuff3 {
   position: absolute;
   z-index: 10;
-  top: 130%;
+  top: 150%;
   left: 2%;
   border: none;
 }
@@ -252,7 +252,7 @@ font-family: willond;
 #stuff4 {
   position: absolute;
   z-index: 10;
-  top: 130%;
+  top: 150%;
   left: 52%;
   border: none; 
 }
@@ -265,8 +265,8 @@ font-family: willond;
 #stuff5 {
   position: absolute;
   z-index: 10;
-  top: 170%;
-  left: 5%;
+  top: 200%;
+  left: 2%;
   border: none; 
 }
 
@@ -278,8 +278,8 @@ font-family: willond;
 #stuff6 {
   position: absolute;
   z-index: 10;
-  top: 240%;
-  left: 5%;
+  top: 294%;
+  left: 2%;
   border: none; 
 }
 #stuff7.selected {
@@ -290,7 +290,7 @@ font-family: willond;
 #stuff7 {
   position: absolute;
   z-index: 10;
-  top: 205%;
+  top: 247%;
   left: 52%;
   border: none; 
 }
@@ -302,8 +302,8 @@ font-family: willond;
 #stuff8 {
   position: absolute;
   z-index: 10;
-  top: 205%;
-  left: 5%;
+  top: 247%;
+  left: 2%;
   border: none; 
 }
 #stuff9.selected {
@@ -314,7 +314,7 @@ font-family: willond;
 #stuff9 {
   position: absolute;
   z-index: 10;
-  top: 170%;
+  top: 200%;
   left: 52%;
   border: none; 
 }
