@@ -50,7 +50,7 @@ function nextsite() {
 
         }
         else if (aktuellerPfad.includes("bagstuff1.html")) {
-            let basisPfad = window.location.href.replace("screenthree_bag/bagstuff1.html", "");
+            let basisPfad = window.location.href.replace("screenfour_bagstuff/bagstuff1.html", "");
             window.location.href = basisPfad + "screenfive_clothes/clothing1.html"; 
 
         }
