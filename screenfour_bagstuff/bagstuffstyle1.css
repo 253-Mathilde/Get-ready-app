@@ -269,3 +269,52 @@ font-family: willond;
   left: 5%;
   border: none; 
 }
+
+#stuff6.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff6 {
+  position: absolute;
+  z-index: 10;
+  top: 170%;
+  left: 5%;
+  border: none; 
+}
+#stuff7.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff7 {
+  position: absolute;
+  z-index: 10;
+  top: 170%;
+  left: 5%;
+  border: none; 
+}
+#stuff8.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff8 {
+  position: absolute;
+  z-index: 10;
+  top: 170%;
+  left: 5%;
+  border: none; 
+}
+#stuff9.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#stuff9 {
+  position: absolute;
+  z-index: 10;
+  top: 170%;
+  left: 5%;
+  border: none; 
+}
