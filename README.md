@@ -24,7 +24,9 @@ and feel confident!
 <br>
 
 <img width="1920" height="480" alt="prête app multiple screens" src="https://github.com/user-attachments/assets/23e5e27a-cbe9-48af-a144-d227c800e818" />
-
+<br>
+<br>
+<br>
 So to build an app you need to do way more then just coding. You need to build the graphics and the whole files and ofc the final app files (yk for examples apk...).
 But I don't want to demotivate you so we are going to start right at the beginning. I myself did that for the first time and it took me a lot of yt videos to 
 build this whole thing, so they are probably better ways to do stuff but it was the easier way for me :).
