@@ -209,6 +209,10 @@ summary::marker {
   display: none;
 }
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
 
 
 
