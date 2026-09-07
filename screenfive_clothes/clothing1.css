@@ -217,6 +217,12 @@ summary::-webkit-details-marker {
 ::marker{
     display:none;}
 
+details summary {
+  list-style: none;
+}
 
+details summary::marker {
+  display: none !important;
+}
 
 
