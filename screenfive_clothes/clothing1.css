@@ -204,3 +204,11 @@ font-family: willond;
     left: 10%;
     top: 17%;}
 
+
+summary::marker {
+  display: none;
+}
+
+
+
+
