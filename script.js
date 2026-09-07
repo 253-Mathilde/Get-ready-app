@@ -637,3 +637,11 @@ if (aktuellerPfad.includes("screenfive_clothes/clothes1.html")) {
 
 
   };
+
+
+
+
+
+
+
+
