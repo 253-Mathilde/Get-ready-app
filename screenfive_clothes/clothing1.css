@@ -236,6 +236,11 @@ details summary::marker {
     position:absolute;
 }
 
+#clothingitem3{
+    z-index:60;
+    position:absolute;
+}
+
 #clothingitem4{
     z-index:60;
     position:absolute;
