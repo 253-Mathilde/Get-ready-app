@@ -289,3 +289,11 @@ details summary::marker {
     z-index:60;
     position:absolute;
 }
+
+
+.shirts{
+    position: absolute;
+    height: 10%;
+    width: 80%;
+    overflow-x: hidden;
+    left: 11%;}
