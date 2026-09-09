@@ -307,9 +307,10 @@ details summary::marker {
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 20%;
+    height: 13%;
     top: 17%;
     position: absolute;
+    left:11%;
 }
 
 .shoes{
