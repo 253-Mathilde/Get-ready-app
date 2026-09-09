@@ -252,10 +252,14 @@ details summary::marker {
 #clothingitem6{
     z-index:60;
     position:absolute;
+    padding-left:5%;
+     left:180%;
 }
 #clothingitem7{
     z-index:60;
     position:absolute;
+    padding-left:5%;
+     left:130%;
 }
 #clothingitem8{
     z-index:60;
@@ -276,14 +280,20 @@ details summary::marker {
 #clothingitem12{
     z-index:60;
     position:absolute;
+    padding-right:5%;
+    left:5%;
 }
 #clothingitem13{
     z-index:60;
     position:absolute;
+    padding-left:5%;
+     left:40%;
 }
 #clothingitem14{
     z-index:60;
     position:absolute;
+    padding-left:5%;
+     left:80%;
 }
 #clothingitem15{
     z-index:60;
@@ -298,7 +308,7 @@ details summary::marker {
     overflow-x: auto;
     overflow-y: hidden;
     height: 20%;
-    top: 20%;
+    top: 17%;
     position: absolute;
 }
 
@@ -309,7 +319,7 @@ details summary::marker {
     overflow-x: auto;
     overflow-y: hidden;
     height: 20%;
-    top: 20%;
+    top: 32%;
     position: absolute;
 }
 .bottoms{
@@ -319,6 +329,6 @@ details summary::marker {
     overflow-x: auto;
     overflow-y: hidden;
     height: 20%;
-    top: 20%;
+    top: 32%;
     position: absolute;
 }
