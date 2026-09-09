@@ -229,25 +229,35 @@ details summary::marker {
 #clothingitem1{
     z-index:60;
     position:absolute;
+     padding-left:5%;
+     left:40%;
 }
 
 #clothingitem2{
     z-index:60;
     position:absolute;
+     padding-right:5%;
+     left:5%;
 }
 
 #clothingitem3{
     z-index:60;
     position:absolute;
+     padding-left:5%;
+     left:80%;
 }
 
 #clothingitem4{
     z-index:60;
     position:absolute;
+     padding-left:5%;
+     left:80%;
 }
 #clothingitem5{
     z-index:60;
     position:absolute;
+    padding-right:5%;
+    left:5%;
 }
 #clothingitem6{
     z-index:60;
@@ -264,18 +274,26 @@ details summary::marker {
 #clothingitem8{
     z-index:60;
     position:absolute;
+    padding-left:5%;
+    left:40%;
 }
 #clothingitem9{
     z-index:60;
     position:absolute;
+     padding-left:5%;
+     left:130%;
 }
 #clothingitem10{
     z-index:60;
     position:absolute;
+     padding-left:5%;
+     left:180%;
 }
 #clothingitem11{
     z-index:60;
     position:absolute;
+     padding-left:5%;
+     left:130%;
 }
 #clothingitem12{
     z-index:60;
@@ -298,6 +316,8 @@ details summary::marker {
 #clothingitem15{
     z-index:60;
     position:absolute;
+     padding-left:5%;
+     left:180%;
 }
 
 
@@ -319,9 +339,10 @@ details summary::marker {
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 20%;
-    top: 32%;
+    height: 13%;
+    top: 46%;
     position: absolute;
+    left:11%;
 }
 .bottoms{
     display: block;
@@ -329,7 +350,8 @@ details summary::marker {
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 20%;
-    top: 50%;
+    height: 13%;
+    top: 33%;
+    left:11%;
     position: absolute;
 }
