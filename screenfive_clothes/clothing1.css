@@ -292,8 +292,33 @@ details summary::marker {
 
 
 .shirts{
-    position: absolute;
-    height: 10%;
+    display: block;
     width: 80%;
-    overflow-x: hidden;
-    left: 11%;}
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 20%;
+    top: 20%;
+    position: absolute;
+}
+
+.shoes{
+    display: block;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 20%;
+    top: 20%;
+    position: absolute;
+}
+.bottoms{
+    display: block;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 20%;
+    top: 20%;
+    position: absolute;
+}
