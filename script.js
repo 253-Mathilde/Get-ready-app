@@ -770,6 +770,308 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
       console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
     }
   });
+
+
+
+    const clothing6 = document.querySelector('#clothingitem6'); 
+    clothing6.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing6.classList.contains('selected')) {
+      clothing6.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatshirtwearstheuser = 1;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`shirt:  ${whatshirtwearstheuser}`) ; 
+    } else {
+      clothing6.classList.remove('selected');
+      let whatshirtwearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+const clothing7 = document.querySelector('#clothingitem7'); 
+    clothing7.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing7.classList.contains('selected')) {
+      clothing7.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatshirtwearstheuser = 2;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`shirt:  ${whatshirtwearstheuser}`) ; 
+    } else {
+      clothing7.classList.remove('selected');
+      let whatshirtwearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+
+  const clothing8 = document.querySelector('#clothingitem14'); 
+    clothing8.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing8.classList.contains('selected')) {
+      clothing8.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatshirtwearstheuser = 3;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`shirt:  ${whatshirtwearstheuser}`) ; 
+    } else {
+      clothing8.classList.remove('selected');
+      let whatshirtwearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+
+   const clothing9 = document.querySelector('#clothingitem13'); 
+    clothing9.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing9.classList.contains('selected')) {
+      clothing9.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatshirtwearstheuser = 4;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`shirt:  ${whatshirtwearstheuser}`) ; 
+    } else {
+      clothing9.classList.remove('selected');
+      let whatshirtwearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+  
+
+   const clothing10 = document.querySelector('#clothingitem12'); 
+    clothing10.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing10.classList.contains('selected')) {
+      clothing10.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatshirtwearstheuser = 5;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`shirt:  ${whatshirtwearstheuser}`) ; 
+    } else {
+      clothing10.classList.remove('selected');
+      let whatshirtwearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatshirtwearstheuser", whatshirtwearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+
+const clothing11 = document.querySelector('#clothingitem5'); 
+    clothing11.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing11.classList.contains('selected')) {
+      clothing11.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatbottomswearstheuser = 1;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`bottom:  ${whatbottomswearstheuser}`) ; 
+    } else {
+      clothing11.classList.remove('selected');
+      let whatbottomswearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+  const clothing12 = document.querySelector('#clothingitem3'); 
+    clothing12.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing12.classList.contains('selected')) {
+      clothing12.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatbottomswearstheuser = 2;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`bottom:  ${whatbottomswearstheuser}`) ; 
+    } else {
+      clothing12.classList.remove('selected');
+      let whatbottomswearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+
+
+  const clothing13 = document.querySelector('#clothingitem10'); 
+    clothing13.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing13.classList.contains('selected')) {
+      clothing13.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatbottomswearstheuser = 3;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`bottom:  ${whatbottomswearstheuser}`) ; 
+    } else {
+      clothing13.classList.remove('selected');
+      let whatbottomswearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+
+
+  const clothing14 = document.querySelector('#clothingitem9'); 
+    clothing14.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing14.classList.contains('selected')) {
+      clothing14.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatbottomswearstheuser = 4;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`bottom:  ${whatbottomswearstheuser}`) ; 
+    } else {
+      clothing14.classList.remove('selected');
+      let whatbottomswearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
+
+
+   const clothing15 = document.querySelector('#clothingitem8'); 
+    clothing15.addEventListener('click', () => {
+    let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
+    let minuten = Number(localStorage.getItem("endMinuten") || 0);
+    let gesamtMinuten = (stunden * 60) + minuten;
+    if (!clothing15.classList.contains('selected')) {
+      clothing15.classList.add('selected');                 
+      gesamtMinuten -= 4;   //subtrahieren
+      let whatbottomswearstheuser = 5;                           
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
+      let neueMinuten = gesamtMinuten % 60;            //umwandeln
+      localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
+      localStorage.setItem("endMinuten", neueMinuten); 
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Ausgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); //neue minuten wenn selected
+      console.log(`bottom:  ${whatbottomswearstheuser}`) ; 
+    } else {
+      clothing15.classList.remove('selected');
+      let whatbottomswearstheuser = 0;
+      gesamtMinuten += 4;         //addieren
+      let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
+      let neueMinuten = gesamtMinuten % 60;             //umwandeln
+      localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
+      localStorage.setItem("endMinuten", neueMinuten);
+      localStorage.setItem("whatbottomswearstheuser", whatbottomswearstheuser);
+      console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
+    }
+  });
 }
 
 
