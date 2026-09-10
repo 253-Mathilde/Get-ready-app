@@ -321,64 +321,48 @@ details summary::marker {
 }
 
 #clothingitem1.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem2.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem4.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem3.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem5.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem6.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem7.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem8.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem9.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem10.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);}
 #clothingitem11.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+  filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem12.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+  filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem13.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+  filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem14.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 #clothingitem15.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
+ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
 }
 .shirts{
     display: block;
