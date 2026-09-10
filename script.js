@@ -742,7 +742,7 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
 
 
 
-   const clothing5 = document.querySelector('#clothingitem15'); 
+   const clothing5 = document.querySelector('#clothingitem4'); 
    clothing5.addEventListener('click', () => {
     let stunden = Number(localStorage.getItem("endStunden") || 0); // altes aufrufen
     let minuten = Number(localStorage.getItem("endMinuten") || 0);
