@@ -320,7 +320,66 @@ details summary::marker {
      left:180%;
 }
 
-
+#clothingitem1.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem2.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem4.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem3.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem5.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem6.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem7.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem8.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem9.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem10.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem11.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem12.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem13.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem14.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+#clothingitem15.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
 .shirts{
     display: block;
     width: 80%;
