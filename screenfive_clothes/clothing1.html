@@ -38,16 +38,16 @@
     </summary>
     <div style="padding: 1rem 1rem 1px 1rem;">
       <div id="backgroundforallthenotes" style="z-index: 100000000000000000; position: absolute; left: 5%; top: 18%; width: 89%; height: 500px; background-color: lightblue; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   overflow: hidden;">
-       <div ><div id="clouds">
-	  <div class="cloud x1"></div>
-	  <div class="cloud x2"></div>
-	  <div class="cloud x3"></div>
-	  <div class="cloud x4"></div>
-	  <div class="cloud x5"></div>
+       <div><div id="clouds" style="position:absolute; z-index:1;">
+	  <div class="cloud x1" style="position:absolute; z-index:1;"></div>
+	  <div class="cloud x2" style="position:absolute; z-index:1;"></div>
+	  <div class="cloud x3" style="position:absolute; z-index:1;" ></div>
+	  <div class="cloud x4" style="position:absolute; z-index:1;"></div>
+	  <div class="cloud x5" style="position:absolute; z-index:1;"></div>
     </div></div>
-        <p> Leave yourself a note :D</p>
-       <input type="text" id="noteinput" placeholder="I want to wear the sweater from my mother, the jeans are still in the laundry!">
-       <button id="savenote" onclick="saveNote()">Save Note</button>
+        <p style="position:absolute; z-index:100000000000000;"> Leave yourself a note :D</p>
+       <input type="text" id="noteinput" placeholder="I want to wear the sweater from my mother, the jeans are still in the laundry!" style="position:absolute; z-index:10000;">
+       <button id="savenote" onclick="saveNote()" style="position:absolute; z-index:10000;">Save Note</button>
       </div>
     </div>
     </details>
