@@ -445,22 +445,23 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
 /*Time to animate*/
 .x1 {
 	-webkit-animation: moveclouds 15s linear infinite;
+  animation: moveclouds 15s linear infinite;
 	-moz-animation: moveclouds 15s linear infinite;
 	-o-animation: moveclouds 15s linear infinite;
 }
 
-/*variable speed, opacity, and position of clouds for realistic effect*/
+
 .x2 {
 	left: 200px;
 	
 	-webkit-transform: scale(0.6);
 	-moz-transform: scale(0.6);
 	transform: scale(0.6);
-	opacity: 0.6; /*opacity proportional to the size*/
+	opacity: 0.6; 
 	
-	/*Speed will also be proportional to the size and opacity*/
-	/*More the speed. Less the time in 's' = seconds*/
+
 	-webkit-animation: moveclouds 25s linear infinite;
+  animation: moveclouds 25s linear infinite;
 	-moz-animation: moveclouds 25s linear infinite;
 	-o-animation: moveclouds 25s linear infinite;
 }
@@ -471,11 +472,13 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
 	transform: scale(0.8);
-	opacity: 0.8; /*opacity proportional to the size*/
+	opacity: 0.8; 
 	
 	-webkit-animation: moveclouds 20s linear infinite;
+  animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
 	-o-animation: moveclouds 20s linear infinite;
+  animation: moveclouds 20s linear infinite;
 }
 
 .x4 {
@@ -484,9 +487,10 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
 	-webkit-transform: scale(0.75);
 	-moz-transform: scale(0.75);
 	transform: scale(0.75);
-	opacity: 0.75; /*opacity proportional to the size*/
+	opacity: 0.75; 
 	
 	-webkit-animation: moveclouds 18s linear infinite;
+  animation: moveclouds 18s linear infinite;
 	-moz-animation: moveclouds 18s linear infinite;
 	-o-animation: moveclouds 18s linear infinite;
 }
@@ -497,11 +501,12 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
 	transform: scale(0.8);
-	opacity: 0.8; /*opacity proportional to the size*/
+	opacity: 0.8; 
 	
 	-webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
 	-o-animation: moveclouds 20s linear infinite;
+  animation: moveclouds 20s linear infinite;
 }
 
 @-webkit-keyframes moveclouds {
@@ -515,4 +520,8 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
 @-o-keyframes moveclouds {
 	0% {margin-left: 1000px;}
 	100% {margin-left: -1000px;}
+}
+@keyframes moveclouds {
+  0% {margin-left: 1000px;}
+  100% {margin-left: -1000px;}
 }
