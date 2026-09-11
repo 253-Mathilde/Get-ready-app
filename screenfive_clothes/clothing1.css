@@ -398,3 +398,21 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
     left:11%;
     position: absolute;
 }
+
+
+
+
+@import url("https://unpkg.com/papercss@1.9.2/dist/paper.css") layer(csspaper);
+
+form:has(input:invalid) {
+  border-color: var(--danger);
+}
+
+
+.card {
+  background-color: #f5f5f5;
+  width: 320px;
+  max-width: 90vw;
+}
+
+
