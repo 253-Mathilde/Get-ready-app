@@ -23,6 +23,14 @@ and feel confident!
 <br>
 <br>
 
+
+<img width="1920" height="480" alt="prête app idea" src="https://github.com/user-attachments/assets/35b44761-26d4-469c-b829-71456088797c" />
+
+
+
+<br>
+<br>
+<br>
 <img width="1920" height="480" alt="prête app multiple screens" src="https://github.com/user-attachments/assets/23e5e27a-cbe9-48af-a144-d227c800e818" />
 <br>
 <br>
@@ -46,4 +54,7 @@ Because that will cause a bug. In general teh only thing that should not be in t
 you always need to add ../ before the file name. ../ that tells the device to jump one folder higher. So when I am on the thir site I am IN the third folder 
 but the JS is outside of it so we need to tell the device to go out of the folder.
 That is baiscally the file structure. I hope you understood a little bit. If thats not the case: feel free to ask me!
+
+
+
 
