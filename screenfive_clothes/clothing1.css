@@ -370,7 +370,7 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 13%;
+    height: 14%;
     top: 17%;
     position: absolute;
     left:11%;
@@ -382,8 +382,8 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 13%;
-    top: 46%;
+    height: 12%;
+    top: 47%;
     position: absolute;
     left:11%;
 }
@@ -393,7 +393,7 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 13%;
+    height: 14%;
     top: 33%;
     left:11%;
     position: absolute;
