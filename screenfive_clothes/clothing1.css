@@ -371,7 +371,7 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
     overflow-x: auto;
     overflow-y: hidden;
     height: 14%;
-    top: 17%;
+    top: 18%;
     position: absolute;
     left:11%;
 }
@@ -401,18 +401,33 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
 
 
 
+.save{
+        font-family: hearts;
 
-@import url("https://unpkg.com/papercss@1.9.2/dist/paper.css") layer(csspaper);
-
-form:has(input:invalid) {
-  border-color: var(--danger);
 }
 
-
-.card {
-  background-color: #f5f5f5;
-  width: 320px;
-  max-width: 90vw;
+.input-block{ 
+    padding: 4rem 8rem;
+    display: inline-block;
+    border: 3px solid #333333;
+    font-size: 2.5rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+    position: relative;
+    
+    &::before {
+        content: '';
+        border: 2px solid #353535;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+        border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+    }
 }
-
 
