@@ -204,3 +204,229 @@ font-family: willond;
     left: 10%;
     top: 17%;}
 
+
+summary::marker {
+  display: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+
+::marker{
+    display:none;}
+
+details summary {
+  list-style: none;
+}
+
+details summary::marker {
+  display: none !important;
+}
+
+
+#clothingitem1{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:40%;
+}
+
+#clothingitem2{
+    z-index:60;
+    position:absolute;
+     padding-right:5%;
+     left:5%;
+}
+
+#clothingitem3{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:80%;
+}
+
+#clothingitem4{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:80%;
+}
+#clothingitem5{
+    z-index:60;
+    position:absolute;
+    padding-right:5%;
+    left:5%;
+}
+#clothingitem6{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+     left:180%;
+}
+#clothingitem7{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+     left:130%;
+}
+#clothingitem8{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+    left:40%;
+}
+#clothingitem9{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:130%;
+}
+#clothingitem10{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:180%;
+}
+#clothingitem11{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:130%;
+}
+#clothingitem12{
+    z-index:60;
+    position:absolute;
+    padding-right:5%;
+    left:5%;
+}
+#clothingitem13{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+     left:40%;
+}
+#clothingitem14{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+     left:80%;
+}
+#clothingitem15{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:180%;
+}
+
+#clothingitem1.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem2.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem4.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem3.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem5.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem6.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem7.selected {
+ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem8.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem9.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem10.selected {
+filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);}
+#clothingitem11.selected {
+  filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem12.selected {
+  filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem13.selected {
+  filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem14.selected {
+ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+#clothingitem15.selected {
+ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0 2px 0 white) drop-shadow(0 -1px 0 white) drop-shadow(0 1px 1.5px white) drop-shadow(0 -1px 1.5px white) drop-shadow(1px -1px 1.5px white) drop-shadow(-1px -1px 1.5px lightyellow);
+}
+.shirts{
+    display: block;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 14%;
+    top: 18%;
+    position: absolute;
+    left:11%;
+}
+
+.shoes{
+    display: block;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 12%;
+    top: 47%;
+    position: absolute;
+    left:11%;
+}
+.bottoms{
+    display: block;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 14%;
+    top: 33%;
+    left:11%;
+    position: absolute;
+}
+
+
+
+.save{
+        font-family: hearts;
+
+}
+
+.input-block{ 
+    padding: 4% 8%;
+    display: inline-block;
+    border: 3px solid #333333;
+    font-size: 1%;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    background: #ffffff;
+    position: relative;
+    z-index:100000000000000000;
+    &::before {
+        content: '';
+        border: 2px solid #353535;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+        border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+    }
+}
+
