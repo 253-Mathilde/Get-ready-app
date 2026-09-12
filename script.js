@@ -1074,9 +1074,10 @@ const clothing11 = document.querySelector('#clothingitem5');
   });
 
   savenote.addEventListener('click',()=>{
-  const notetext= document.getElementById('noteinput');
-  localStorage.setItem('notestext',notetext.value);
-  console.log(`Abgewählt:  ${notetext} `);
+   const noteInput = document.getElementById('noteinput'); 
+   const noteText = noteInput.value;
+    localStorage.setItem('notestext', noteText); 
+    console.log(`Gespeichert: ${noteText}`); 
   });
 }
 
