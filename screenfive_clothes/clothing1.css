@@ -525,3 +525,8 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
   0% {margin-left: 1000px;}
   100% {margin-left: -1000px;}
 }
+
+
+
+
+ @font-face {font-family: "Disney"; src: url('http://static.tumblr.com/npggxjg/VdAlzs1dx/disney.otf');}
