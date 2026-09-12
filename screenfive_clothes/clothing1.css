@@ -539,3 +539,8 @@ src: url(https://dl.dropbox.com/s/qrdm3wived8sm66/Yipes.ttf);
     font-size: 1.5em;
     color: white;
    }
+
+
+   input::placeholder {
+  color: #888888;
+  font-style: italic;}
