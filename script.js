@@ -54,7 +54,7 @@ function nextsite() {
             window.location.href = basisPfad + "screenfive_clothes/clothing1.html"; 
 
         }
-         else if (aktuellerPfad.includes("extratime.html")) {
+         else if (aktuellerPfad.includes("clothing1.html")) {
             let basisPfad = window.location.href.replace("screenfive_clothes/clothing1.html", "");
             window.location.href = basisPfad + "screensix_extratime/extratime.html"; 
 
