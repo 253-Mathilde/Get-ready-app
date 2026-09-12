@@ -1072,6 +1072,12 @@ const clothing11 = document.querySelector('#clothingitem5');
       console.log(`Abgewählt:  ${neueStunden}  ${neueMinuten} Minuten`); // neue minuten wenn deselected
     }
   });
+
+  savenote.addEventListener('click',()=>{
+  const notetext= document.getElementById('noteinput');
+  localStorage.setItem('notestext',notetext.value);
+  console.log(`Abgewählt:  ${notetext} `);
+  });
 }
 
 
