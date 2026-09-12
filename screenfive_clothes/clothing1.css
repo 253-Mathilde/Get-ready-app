@@ -528,10 +528,14 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
 
 
 
-@font-face {font-family: "Cinnamon Cake"; src: url(http://static.tumblr.com/npggxjg/Jm9m1xlt2/cinnamon_cake.ttf);}
+@font-face {
+font-family:'yipes';
+src: url(https://dl.dropbox.com/s/qrdm3wived8sm66/Yipes.ttf);
+ 
+}
 
    #notesheading{
-    font-family: 'Cinnamon Cake';
+    font-family: 'yipes';
     font-size: 1.5em;
     color: white;
    }
