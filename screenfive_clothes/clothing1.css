@@ -529,4 +529,12 @@ filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px 1px 0 white) drop-shadow(0
 
 
 
- @font-face {font-family: "Disney"; src: url('http://static.tumblr.com/npggxjg/VdAlzs1dx/disney.otf');}
+ @font-face 
+ {font-family: "Disney";
+   src: url('http://static.tumblr.com/npggxjg/VdAlzs1dx/disney.otf');}
+
+   #notesheading{
+    font-family: Disney;
+    font-size: 1.5em;
+    color: white;
+   }
