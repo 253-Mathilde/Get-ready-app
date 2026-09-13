@@ -145,3 +145,72 @@ input::placeholder {
     top: 79%;
     left: 1%;
     pointer-events: visiblePainted}
+
+
+  
+
+    @font-face {
+src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
+font-family: willond;
+}
+    #extraname{
+    font-family: willond;
+    margin-top: -9%;
+    color: darkslateblue;
+    }
+
+
+ #extra1.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra1 {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  left: 2%;
+  border: none; 
+}
+
+#extra2.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra2 {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  left: 52%;
+  border: none; 
+}
+
+
+#extra3.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra3 {
+  position: absolute;
+  z-index: 10;
+  top: 53%;
+  left: 2%;
+  border: none; 
+}
+
+#extra4.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra4 {
+  position: absolute;
+  z-index: 10;
+  top: 53%;
+  left: 52%;
+  border: none; 
+}
+
+
