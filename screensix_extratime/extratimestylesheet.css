@@ -213,4 +213,11 @@ font-family: willond;
   border: none; 
 }
 
+#timefortheway{
+    overflow-y: auto;
+    position: absolute;
+    height: 41%;
+    width: 82%;
+    left: 10%;
+    top: 17%;}
 
