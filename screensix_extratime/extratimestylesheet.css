@@ -229,8 +229,8 @@ font-family: willond;
 #extra5 {
   position: absolute;
   z-index: 10;
-  top: 53%;
-  left: 52%;
+  top: 100%;
+  left: 2%;
   border: none; 
 }
 #extra6.selected {
@@ -241,7 +241,7 @@ font-family: willond;
 #extra6 {
   position: absolute;
   z-index: 10;
-  top: 53%;
+  top: 100%;
   left: 52%;
   border: none; 
 }
@@ -253,8 +253,8 @@ font-family: willond;
 #extra7 {
   position: absolute;
   z-index: 10;
-  top: 53%;
-  left: 52%;
+  top: 150%;
+  left: 2%;
   border: none; 
 }
 #extra8.selected {
@@ -265,7 +265,7 @@ font-family: willond;
 #extra8 {
   position: absolute;
   z-index: 10;
-  top: 53%;
+  top: 150%;
   left: 52%;
   border: none; 
 }
