@@ -1,7 +1,10 @@
+const aktuellerPfad = window.location.pathname;
 window.addEventListener('DOMContentLoaded', () => {
-    const lastPage = localStorage.getItem('lastVisitedPage');
-    if (lastPage && lastPage !== window.location.href) {
-        window.location.href = lastPage;
+  if (aktuellerPfad.endsWith("index.html") || aktuellerPfad === "/" || aktuellerPfad.endsWith("/")) {
+        const lastPage = localStorage.getItem('lastVisitedPage');
+        if (lastPage && lastPage !== window.location.href) {
+            window.location.href = lastPage;
+        }
     }
 });
 document.addEventListener('visibilitychange', () => {
@@ -19,6 +22,7 @@ const createBtn = document.getElementById("create");
 if (createBtn) {
     createBtn.addEventListener("click", function() { 
         let base = window.location.href.split('/').slice(0, -1).join('/');
+         localStorage.setItem('lastVisitedPage',base + "/screenone_arrivetime/create1.html" );
         window.location.href = base + "/screenone_arrivetime/create1.html";
     });
 
@@ -44,7 +48,7 @@ if (textBtn) {
 
 
 //wechsel zur nächsten seite
-const aktuellerPfad = window.location.pathname;
+
 
 function nextsite() {
     const audionext = document.querySelector("#nextmusic");
