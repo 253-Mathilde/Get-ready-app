@@ -7,14 +7,6 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
-document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') {
-        if (!window.location.pathname.endsWith("index.html") && window.location.pathname !== "/") {
-            localStorage.setItem('lastVisitedPage', window.location.href);
-        }
-    }
-});
-
 
 
 //beginn button für den normalen modus
