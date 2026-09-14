@@ -83,6 +83,14 @@ function nextsite() {
 
         }
 
+         else if (aktuellerPfad.includes("extratime.html")) {
+            let basisPfad = window.location.href.replace("screensix_extratime/extratime.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the_actual_mode_one/changingscreen.html" );
+            window.location.href = basisPfad + "screen_for_the_actual_mode_one/changingscreen.html"; 
+            
+
+        }
+
         else {
           console.log("nextsite didn't work");
         }
