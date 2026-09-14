@@ -1,3 +1,19 @@
+window.addEventListener('DOMContentLoaded', () => {
+    const lastPage = localStorage.getItem('lastVisitedPage');
+    if (lastPage && lastPage !== window.location.href) {
+        window.location.href = lastPage;
+    }
+});
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') {
+        if (!window.location.pathname.endsWith("index.html") && window.location.pathname !== "/") {
+            localStorage.setItem('lastVisitedPage', window.location.href);
+        }
+    }
+});
+
+
+
 //beginn button für den normalen modus
 const createBtn = document.getElementById("create");
 if (createBtn) {
@@ -13,6 +29,7 @@ if (createBtn) {
 const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
+       localStorage.removeItem('lastVisitedPage'); 
         const audiohome = document.querySelector("#homemusic");
         if (audiohome) {
             audiohome.play();
@@ -36,27 +53,37 @@ function nextsite() {
 
     setTimeout(function() {
         if (aktuellerPfad.includes("create1.html")) {
-            let basisPfad = window.location.href.replace("screenone_arrivetime/create1.html", "");
-            window.location.href = basisPfad + "screentwo_waytime/time1.html";
+            let basisPfad = window.location.href.replace("screenone_arrivetime/create1.html", "");  
+            localStorage.setItem('lastVisitedPage',basisPfad + "screentwo_waytime/time1.html" );
+            window.location.href = basisPfad + "screentwo_waytime/time1.html"; 
+          
+
 
         } else if (aktuellerPfad.includes("time1.html")) {
             let basisPfad = window.location.href.replace("screentwo_waytime/time1.html", "");
+            localStorage.setItem('lastVisitedPage',basisPfad + "screenthree_bag/bag1.html" );
             window.location.href = basisPfad + "screenthree_bag/bag1.html"; 
-
+            
         } 
         else if (aktuellerPfad.includes("bag1.html")) {
-            let basisPfad = window.location.href.replace("screenthree_bag/bag1.html", "");
+            let basisPfad = window.location.href.replace("screenthree_bag/bag1.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screenfour_bagstuff/bagstuff1.html");
             window.location.href = basisPfad + "screenfour_bagstuff/bagstuff1.html"; 
+            
 
         }
         else if (aktuellerPfad.includes("bagstuff1.html")) {
-            let basisPfad = window.location.href.replace("screenfour_bagstuff/bagstuff1.html", "");
+            let basisPfad = window.location.href.replace("screenfour_bagstuff/bagstuff1.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screenfive_clothes/clothing1.html");
             window.location.href = basisPfad + "screenfive_clothes/clothing1.html"; 
+           
 
         }
          else if (aktuellerPfad.includes("clothing1.html")) {
-            let basisPfad = window.location.href.replace("screenfive_clothes/clothing1.html", "");
+            let basisPfad = window.location.href.replace("screenfive_clothes/clothing1.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screensix_extratime/extratime.html" );
             window.location.href = basisPfad + "screensix_extratime/extratime.html"; 
+            
 
         }
 
