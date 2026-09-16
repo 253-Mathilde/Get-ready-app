@@ -91,15 +91,22 @@ font-family: winkle;
     left: 65%;
     z-index:3;
 }
-
-
+#instruction{
+    position: absolute;
+    z-index: 4;
+    top: 20%;
+    left: 10%;
+    font-size: 1.2em;
+    width: 78%;
+    font-family: 'winkle';
+    color: antiquewhite;}
 
 #notificationfortheway{
     position: absolute;
     top: 12%;
-    left: 23%;
+    left: 36%;
     font-family:'winkle';
-    font-size: 1.5em;
+    font-size: 1.6em;
     z-index:3;
     color:white;
 }
