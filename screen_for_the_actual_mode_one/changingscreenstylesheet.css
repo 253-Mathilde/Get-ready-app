@@ -127,15 +127,6 @@ font-family: winkle;
 
 
 
-input[type="number"] {
-  font-size: 30px;  
-  color: #f5df3d; 
-}
-
-input::placeholder {
-  font-size: 60px;
-  color: #f5df3d; 
-}
 
 
 
@@ -153,119 +144,6 @@ input::placeholder {
 src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
 font-family: willond;
 }
-    #extraname{
-    font-family: willond;
-    margin-top: -9%;
-    color: darkslateblue;
-    }
 
 
- #extra1.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
 
-#extra1 {
-  position: absolute;
-  z-index: 10;
-  top: 5%;
-  left: 2%;
-  border: none; 
-}
-
-#extra2.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
-
-#extra2 {
-  position: absolute;
-  z-index: 10;
-  top: 5%;
-  left: 52%;
-  border: none; 
-}
-
-
-#extra3.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
-
-#extra3 {
-  position: absolute;
-  z-index: 10;
-  top: 53%;
-  left: 2%;
-  border: none; 
-}
-
-#extra4.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
-
-#extra4 {
-  position: absolute;
-  z-index: 10;
-  top: 53%;
-  left: 52%;
-  border: none; 
-}
-
-#timefortheway{
-    overflow-y: auto;
-    position: absolute;
-    height: 41%;
-    width: 82%;
-    left: 10%;
-    top: 17%;}
-
-#extra5.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
-
-#extra5 {
-  position: absolute;
-  z-index: 10;
-  top: 100%;
-  left: 2%;
-  border: none; 
-}
-#extra6.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
-
-#extra6 {
-  position: absolute;
-  z-index: 10;
-  top: 100%;
-  left: 52%;
-  border: none; 
-}
-#extra7.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
-
-#extra7 {
-  position: absolute;
-  z-index: 10;
-  top: 150%;
-  left: 2%;
-  border: none; 
-}
-#extra8.selected {
-  border: 5px dotted white;
-  border-radius: 16px;
-}
-
-#extra8 {
-  position: absolute;
-  z-index: 10;
-  top: 150%;
-  left: 52%;
-  border: none; 
-}
