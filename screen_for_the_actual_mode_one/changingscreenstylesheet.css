@@ -39,14 +39,15 @@ font-family: jojoba;
 #textcontent{
 position:relative;
 font-family:jojoba;
-font-size:1.1em;
+font-size:1em;
 text-align:center;
 font-weight:lighter;
 top:9%;
-padding-left:10%;
+padding-left:16%;
 padding-right:2%;
 color:rgb(7, 33, 112);
 pointer-events:none;
+width:75%;
 }
 
 
