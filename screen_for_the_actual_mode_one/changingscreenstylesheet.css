@@ -39,10 +39,10 @@ font-family: jojoba;
 #textcontent{
 position:relative;
 font-family:jojoba;
-font-size:1.1em;
+font-size:0.95em;
 text-align:center;
 font-weight:lighter;
-top:9%;
+top:16%;
 padding-left:10%;
 padding-right:2%;
 color:rgb(7, 33, 112);
@@ -51,15 +51,7 @@ pointer-events:none;
 
 
 
-input:focus{
-    outline:none;
 
-
-}
-input[type="number"]{
-    border-radius:16px;
-    z-index:3;
-}
 
 #hourfieldfortheway{
     border-radius: 16px;
@@ -80,7 +72,7 @@ font-family: winkle;
 #notificationdotsfortheway{
     margin: 0%;
     position: absolute;
-    left: 48%;
+    left: 37%;
     top: 22%;
     font-family:'winkle';
     font-size: 4em;
