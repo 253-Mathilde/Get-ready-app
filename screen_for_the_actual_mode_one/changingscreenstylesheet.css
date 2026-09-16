@@ -52,6 +52,8 @@ width:75%;
 
 
 
+
+
 input:focus{
     outline:none;
 
@@ -113,6 +115,16 @@ font-family: winkle;
     color:white;
 }
 
+
+#notificationfortheway1{
+    position: absolute;
+    top: 12%;
+    left: 23%;
+    font-family:'winkle';
+    font-size: 1.5em;
+    z-index:3;
+    color:white;
+}
 #backgroundforthetimefortheway{
     position:absolute;
     height:43.5%;
