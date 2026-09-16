@@ -1,0 +1,271 @@
+#text img{
+    position:absolute;
+    height: 5%;
+    left: 85%;
+    top: 2%;
+    border-radius: 50px;
+
+}
+
+body{
+    background-image:url('../graphicsforeveryscreen/background.svg'); 
+     text-align:center;
+    background-repeat:no-repeat;
+}
+
+html{
+    scrollbar-width: none;
+    overflow: hidden;
+
+}
+
+ #text1{
+ background-image: url('../graphics_homescreen/text (1).svg');
+    background-size: 175%;
+    background-position: 45% 100%;
+    height:20%;
+    width:59%;
+    position:absolute;
+    top: 59%;
+    left:25%;
+    pointer-events: all;
+
+}
+@font-face {
+src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
+font-family: jojoba;
+}
+
+#textcontent{
+position:relative;
+font-family:jojoba;
+font-size:1.1em;
+text-align:center;
+font-weight:lighter;
+top:9%;
+padding-left:10%;
+padding-right:2%;
+color:rgb(7, 33, 112);
+pointer-events:none;
+}
+
+
+
+input:focus{
+    outline:none;
+
+
+}
+input[type="number"]{
+    border-radius:16px;
+    z-index:3;
+}
+
+#hourfieldfortheway{
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    height: 10%;
+    width: 10%;
+    left: 23%;
+    z-index:3;
+}
+
+@font-face {
+src: url(https://dl.dropbox.com/s/mes7b666uvig5wc/Winkle-Regular.otf);
+font-family: winkle;
+}
+#notificationdotsfortheway{
+    margin: 0%;
+    position: absolute;
+    left: 48%;
+    top: 22%;
+    font-family:'winkle';
+    font-size: 4em;
+    z-index:3;
+    color:white;
+}
+  
+#minutesfieldfortheway{
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    height: 10%;
+    width: 10%;
+    left: 65%;
+    z-index:3;
+}
+
+
+
+#notificationfortheway{
+    position: absolute;
+    top: 12%;
+    left: 23%;
+    font-family:'winkle';
+    font-size: 1.5em;
+    z-index:3;
+    color:white;
+}
+
+#backgroundforthetimefortheway{
+    position:absolute;
+    height:43.5%;
+    width: 80%;
+    background-color: blue;
+    top: 14%;
+    border-radius: 16px;
+    left: 10%;
+    background-image: url(https://dl.glitter-graphics.com/pub/3132/3132972qrp6ithw8b.jpg);
+    border: 5px dotted;
+    border-color: white;
+}
+
+
+
+input[type="number"] {
+  font-size: 30px;  
+  color: #f5df3d; 
+}
+
+input::placeholder {
+  font-size: 60px;
+  color: #f5df3d; 
+}
+
+
+
+ #next{
+    position: absolute;
+    width: 60%;
+    top: 79%;
+    left: 1%;
+    pointer-events: visiblePainted}
+
+
+  
+
+    @font-face {
+src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
+font-family: willond;
+}
+    #extraname{
+    font-family: willond;
+    margin-top: -9%;
+    color: darkslateblue;
+    }
+
+
+ #extra1.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra1 {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  left: 2%;
+  border: none; 
+}
+
+#extra2.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra2 {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  left: 52%;
+  border: none; 
+}
+
+
+#extra3.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra3 {
+  position: absolute;
+  z-index: 10;
+  top: 53%;
+  left: 2%;
+  border: none; 
+}
+
+#extra4.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra4 {
+  position: absolute;
+  z-index: 10;
+  top: 53%;
+  left: 52%;
+  border: none; 
+}
+
+#timefortheway{
+    overflow-y: auto;
+    position: absolute;
+    height: 41%;
+    width: 82%;
+    left: 10%;
+    top: 17%;}
+
+#extra5.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra5 {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 2%;
+  border: none; 
+}
+#extra6.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra6 {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 52%;
+  border: none; 
+}
+#extra7.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra7 {
+  position: absolute;
+  z-index: 10;
+  top: 150%;
+  left: 2%;
+  border: none; 
+}
+#extra8.selected {
+  border: 5px dotted white;
+  border-radius: 16px;
+}
+
+#extra8 {
+  position: absolute;
+  z-index: 10;
+  top: 150%;
+  left: 52%;
+  border: none; 
+}
