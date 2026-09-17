@@ -1,0 +1,11 @@
+{
+  "name": "prête",
+  "version": "1.0.0",
+  "build": 1,
+  "id": "com.mathilde.prete",
+  "android": {
+    "permissions": [
+      "android.permission.POST_NOTIFICATIONS"
+    ]
+  }
+}
