@@ -1368,7 +1368,12 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
 
 
 
+if (aktuellerPfad.includes("screen_for_the_actual_mode_one/changingscreen.html")) {
+const time = localStorage.getItem(`${neueStunden}:${neueMinuten}`);
+const text = document.getElementById ('timetext');
+text.textContent = time;
 
+}
 
 
 
