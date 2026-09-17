@@ -1367,14 +1367,15 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
 
 
 
-
 if (aktuellerPfad.includes("screen_for_the_actual_mode_one/changingscreen.html")) {
-const time = localStorage.getItem(`${neueStunden}:${neueMinuten}`);
-const text = document.getElementById ('timetext');
-text.textContent = time;
-
+    const stunden = localStorage.getItem("endStunden") || "0";
+    const minuten = localStorage.getItem("endMinuten") || "0";
+    const formatierteMinuten = minuten.padStart(2, '0');
+    const text = document.getElementById('timetext');
+    if (text) {
+        text.textContent = `${stunden}:${formatierteMinuten}`;
+    }
 }
-
 
 
 
