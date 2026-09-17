@@ -91,6 +91,14 @@ function nextsite() {
 
         }
 
+         else if (aktuellerPfad.includes("changingscreen.html")) {
+            let basisPfad = window.location.href.replace("screen_for_the_actual_mode_one/changingscreen.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the_actual_mode_two/clothingscreen.html" );
+            window.location.href = basisPfad + "screen_for_the_actual_mode_two/clothingscreen.html"; 
+            
+
+        }
+
         else {
           console.log("nextsite didn't work");
         }
