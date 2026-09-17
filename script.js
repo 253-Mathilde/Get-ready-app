@@ -1375,6 +1375,13 @@ if (aktuellerPfad.includes("screen_for_the_actual_mode_one/changingscreen.html")
     if (text) {
         text.textContent = `${stunden}:${formatierteMinuten}`;
     }
+
+
+    Notification.requestPermission().then(permission => {
+    if (permission === 'granted') {
+        new Notification(`You should start getting ready at ${stunden}:${formatierteMinuten}. Don't miss that time, maybe set yourself an alarm! So proud of you for doing this, Mira <3`);
+    }
+});
 }
 
 
