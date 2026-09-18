@@ -1401,21 +1401,12 @@ if (aktuellerPfad.includes("screen_for_the_actual_mode_one/changingscreen.html")
 }
 
 
-if (aktuellerPfad.includes("screen_for_the_actual_mode_one/changingscreen.html")) {
-    const stunden = localStorage.getItem("endStunden") || "0";
-    const minuten = localStorage.getItem("endMinuten") || "0";
-    const formatierteMinuten = minuten.padStart(2, '0');
+if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearstheuser.html")) {
+    const note = localStorage.getItem("noteText");
     const text = document.getElementById('timetext');
     if (text) {
-        text.textContent = `${stunden}:${formatierteMinuten}`;
+        text.textContent = `${note}`;
     }
-
-
-    Notification.requestPermission().then(permission => {
-    if (permission === 'granted') {
-        new Notification(`You should start getting ready at ${stunden}:${formatierteMinuten}. Don't miss that time, maybe set yourself an alarm! So proud of you for doing this, Mira <3`);
-    }
-});
 }
 
 
