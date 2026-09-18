@@ -113,12 +113,12 @@ font-family: winkle;
 
 #backgroundforthetimefortheway{
     position:absolute;
-    height:43.5%;
-    width: 80%;
+    height:75%;
+    width: 84%;
     background-color: blue;
     top: 14%;
     border-radius: 16px;
-    left: 10%;
+    left: 6.5%;
     background-image: url(https://dl.glitter-graphics.com/pub/3132/3132972qrp6ithw8b.jpg);
     border: 5px dotted;
     border-color: white;
