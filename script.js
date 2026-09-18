@@ -1402,7 +1402,7 @@ if (aktuellerPfad.includes("screen_for_the_actual_mode_one/changingscreen.html")
 
 
 if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearstheuser.html")) {
-    const note = localStorage.getItem("notesText");
+    const note = localStorage.getItem("notestext");
     const text = document.getElementById('timetext');
     if (text) {
         text.textContent = `${note}`;
