@@ -1474,6 +1474,35 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
     }
 
 
+    if (shoes === "1") {
+    document.getElementById('clothingitem1').style.display ="block";
+    }
+    
+    if (shoes=== "2") {
+    document.getElementById('clothingitem2').style.display ="block";
+    }
+ 
+    if (shoes === "3") {
+    document.getElementById('clothingitem11').style.display ="block";
+    }
+
+    if(shoes=== "4") {
+    document.getElementById('clothingitem15').style.display ="block";
+    }
+
+    if (shoes === "5") {
+    document.getElementById('clothingitem4').style.display ="block";
+    }
+
+     if (shoes === "0") {
+    document.getElementById('clothingitem1').style.display ="block";
+    document.getElementById('clothingitem2').style.display ="block";
+    document.getElementById('clothingitem11').style.display ="block";
+    document.getElementById('clothingitem15').style.display ="block";
+    document.getElementById('clothingitem4').style.display ="block";
+    }
+
+
 
 }
 
