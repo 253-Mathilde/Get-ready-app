@@ -60,46 +60,27 @@ font-family: jojoba;
 
 
 #bag1 {
-  position: absolute;
-  z-index: 10;
-  top: 5%;
-  left: 2%;
-  border: none; 
-  margin-left:2%;
-  margin-right:2%;
+   z-index:60;
+    position:relative;
 }
 
 
 
 #bag2 {
-  position: absolute;
-  z-index: 10;
-  top: 5%;
-  margin-left:2%;
-  margin-right:2%;
-  border: none; 
-}
+  z-index:60;
+    position:relative;}
 
 
 
 
 #bag3 {
-  position: absolute;
-  z-index: 10;
-  top: 53%;
- margin-left:2%;
-  margin-right:2%;
-  border: none; 
-}
+  z-index:60;
+    position:relative;}
 
 
 #bag4 {
-  position: absolute;
-  z-index: 10;
-  top: 53%;
- margin-left:2%;
-  margin-right:2%;
-  border: none; 
+  z-index:60;
+    position:relative;
 }
 
 
@@ -107,145 +88,120 @@ font-family: jojoba;
 
 
 #clothingitem1{
-    z-index:60;
-    position:absolute;
-    margin-left:2%;
-  margin-right:2%;
+   z-index:60;
+    position:relative;
     
 }
 
 #clothingitem2{
-    z-index:60;
-    position:absolute;
-   margin-left:2%;
-  margin-right:2%;
+   z-index:60;
+    position:relative;
    
 }
 
 #clothingitem3{
-    z-index:60;
-    position:absolute;
-   margin-left:2%;
-  margin-right:2%;
-    
+  z-index:60;
+    position:relative;
 }
 
 #clothingitem4{
-    z-index:60;
-    position:absolute;
-     margin-left:2%;
-  margin-right:2%;
+  z-index:60;
+    position:relative;
     
 }
 #clothingitem5{
-    z-index:60;
-    position:absolute;
-   margin-left:2%;
-  margin-right:2%;
+     z-index:60;
+    position:relative;
 }
 #clothingitem6{
-    z-index:60;
-    position:absolute;
-    margin-left:2%;
-  margin-right:2%;
+     z-index:60;
+    position:relative;
      
 }
 #clothingitem7{
     z-index:60;
-    position:absolute;
-    margin-left:2%;
-  margin-right:2%;
+    position:relative;
      
 }
 #clothingitem8{
-    z-index:60;
-    position:absolute;
-    margin-left:2%;
-   margin-right:2%;
+   z-index:60;
+    position:relative;
    
 }
 #clothingitem9{
-    z-index:60;
-    position:absolute;
-   margin-left:2%;
-  margin-right:2%;
+     z-index:60;
+    position:relative;
 }
 #clothingitem10{
-    z-index:60;
-    position:absolute;
-     margin-left:2%;
-  margin-right:2%;
+      z-index:60;
+    position:relative;
     
 }
 #clothingitem11{
-    z-index:60;
-    position:absolute;
-     margin-left:2%;
-  margin-right:2%;
+   z-index:60;
+    position:relative;
     
 }
 #clothingitem12{
-    z-index:60;
-    position:absolute;
-   margin-left:2%;
-  margin-right:2%;}
+     z-index:60;
+    position:relative;}
 #clothingitem13{
-    z-index:60;
-    position:absolute;
-  margin-left:2%;
-  margin-right:2%;
+     z-index:60;
+    position:relative;
     
 }
 #clothingitem14{
     z-index:60;
-    position:absolute;
-   margin-left:2%;
-  margin-right:2%;
+    position:relative;
     
 }
 #clothingitem15{
     z-index:60;
-    position:absolute;
-    margin-left:2%;
-  margin-right:2%;
+    position:relative;
+ 
     
 }
 
 
 .shirts{
-    display: block;
-    width: 58%;
+     display: flex;
     white-space: nowrap;
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     height: 14%;
     top: 23%;
-    position: absolute;
     left: 19.5%;
+    position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
 }
 
 .shoes{
-    display: block;
-    width: 58%;
+     display: flex;
     white-space: nowrap;
     overflow-x: auto;
-    overflow-y: hidden;
-    height: 11.5%;
+    overflow-y: auto;
+    height: 14%;
     top: 44%;
-    position: absolute;
     left: 19.5%;
-    align-items:center;
+    position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
 }
 .bottoms{
-    display: block;
-    width: 58%;
+    display: flex;
     white-space: nowrap;
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     height: 14%;
     top: 34%;
     left: 19.5%;
     position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
 }
 
 
