@@ -1412,7 +1412,7 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
 
 
     const shirt= localStorage.getItem("whatshirtwearstheuser");
-    const bottom= localStorage.getItem("whatbottomwearstheuser");
+    const bottom= localStorage.getItem("whatbottomswearstheuser");
     const shoes= localStorage.getItem("whatshoeswearstheuser");
 
     if (shirt === "1") {
