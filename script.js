@@ -1424,18 +1424,24 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
     }
  
     if (shirt === "3") {
-    document.getElementById('clothingitem8').style.display ="block";
+    document.getElementById('clothingitem14').style.display ="block";
     }
 
     if (shirt === "4") {
-    document.getElementById('clothingitem9').style.display ="block";
+    document.getElementById('clothingitem13').style.display ="block";
     }
 
     if (shirt === "5") {
-    document.getElementById('clothingitem10').style.display ="block";
+    document.getElementById('clothingitem12').style.display ="block";
     }
 
-    
+     if (shirt === "0") {
+    document.getElementById('clothingitem6').style.display ="block";
+    document.getElementById('clothingitem7').style.display ="block";
+    document.getElementById('clothingitem14').style.display ="block";
+    document.getElementById('clothingitem13').style.display ="block";
+    document.getElementById('clothingitem12').style.display ="block";
+    }
 
 }
 
