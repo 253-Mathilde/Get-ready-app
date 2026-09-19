@@ -65,6 +65,8 @@ font-family: jojoba;
   top: 5%;
   left: 2%;
   border: none; 
+  margin-left:2%;
+  margin-right:2%;
 }
 
 
@@ -73,7 +75,8 @@ font-family: jojoba;
   position: absolute;
   z-index: 10;
   top: 5%;
-
+  margin-left:2%;
+  margin-right:2%;
   border: none; 
 }
 
@@ -84,7 +87,8 @@ font-family: jojoba;
   position: absolute;
   z-index: 10;
   top: 53%;
- 
+ margin-left:2%;
+  margin-right:2%;
   border: none; 
 }
 
@@ -93,7 +97,8 @@ font-family: jojoba;
   position: absolute;
   z-index: 10;
   top: 53%;
- 
+ margin-left:2%;
+  margin-right:2%;
   border: none; 
 }
 
@@ -104,94 +109,105 @@ font-family: jojoba;
 #clothingitem1{
     z-index:60;
     position:absolute;
-     padding-left:5%;
+    margin-left:2%;
+  margin-right:2%;
     
 }
 
 #clothingitem2{
     z-index:60;
     position:absolute;
-     padding-right:5%;
-     left:5%;
+   margin-left:2%;
+  margin-right:2%;
+   
 }
 
 #clothingitem3{
     z-index:60;
     position:absolute;
-     padding-left:5%;
+   margin-left:2%;
+  margin-right:2%;
     
 }
 
 #clothingitem4{
     z-index:60;
     position:absolute;
-     padding-left:5%;
+     margin-left:2%;
+  margin-right:2%;
     
 }
 #clothingitem5{
     z-index:60;
     position:absolute;
-    padding-right:5%;
-    left:5%;
+   margin-left:2%;
+  margin-right:2%;
 }
 #clothingitem6{
     z-index:60;
     position:absolute;
-    padding-left:5%;
+    margin-left:2%;
+  margin-right:2%;
      
 }
 #clothingitem7{
     z-index:60;
     position:absolute;
-    padding-left:5%;
+    margin-left:2%;
+  margin-right:2%;
      
 }
 #clothingitem8{
     z-index:60;
     position:absolute;
-    padding-left:5%;
+    margin-left:2%;
+   margin-right:2%;
    
 }
 #clothingitem9{
     z-index:60;
     position:absolute;
-     padding-left:5%;
-    
+   margin-left:2%;
+  margin-right:2%;
 }
 #clothingitem10{
     z-index:60;
     position:absolute;
-     padding-left:5%;
+     margin-left:2%;
+  margin-right:2%;
     
 }
 #clothingitem11{
     z-index:60;
     position:absolute;
-     padding-left:5%;
+     margin-left:2%;
+  margin-right:2%;
     
 }
 #clothingitem12{
     z-index:60;
     position:absolute;
-    padding-right:5%;
-    left:5%;
-}
+   margin-left:2%;
+  margin-right:2%;}
 #clothingitem13{
     z-index:60;
     position:absolute;
-    padding-left:5%;
+  margin-left:2%;
+  margin-right:2%;
     
 }
 #clothingitem14{
     z-index:60;
     position:absolute;
-    padding-left:5%;
+   margin-left:2%;
+  margin-right:2%;
     
 }
 #clothingitem15{
     z-index:60;
     position:absolute;
-     padding-left:5%;
+    margin-left:2%;
+  margin-right:2%;
     
 }
 
