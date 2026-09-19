@@ -1407,6 +1407,36 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
     if (text) {
         text.textContent = `${note}`;
     }
+
+
+
+
+    const shirt= localStorage.getItem("whatshirtwearstheuser");
+    const bottom= localStorage.getItem("whatbottomwearstheuser");
+    const shoes= localStorage.getItem("whatshoeswearstheuser");
+
+    if (shirt === "1") {
+    document.getElementById('clothingitem6').style.display ="block";
+    }
+    
+    if (shirt === "2") {
+    document.getElementById('clothingitem7').style.display ="block";
+    }
+ 
+    if (shirt === "3") {
+    document.getElementById('clothingitem8').style.display ="block";
+    }
+
+    if (shirt === "4") {
+    document.getElementById('clothingitem9').style.display ="block";
+    }
+
+    if (shirt === "5") {
+    document.getElementById('clothingitem10').style.display ="block";
+    }
+
+    
+
 }
 
 
