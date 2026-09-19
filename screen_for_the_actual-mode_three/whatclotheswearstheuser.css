@@ -58,6 +58,185 @@ font-family: jojoba;
 
 
 
+
+#bag1 {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  left: 2%;
+  border: none; 
+}
+
+
+
+#bag2 {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  left: 52%;
+  border: none; 
+}
+
+
+
+
+#bag3 {
+  position: absolute;
+  z-index: 10;
+  top: 53%;
+  left: 2%;
+  border: none; 
+}
+
+
+#bag4 {
+  position: absolute;
+  z-index: 10;
+  top: 53%;
+  left: 52%;
+  border: none; 
+}
+
+
+
+
+
+#clothingitem1{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:40%;
+}
+
+#clothingitem2{
+    z-index:60;
+    position:absolute;
+     padding-right:5%;
+     left:5%;
+}
+
+#clothingitem3{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:80%;
+}
+
+#clothingitem4{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:80%;
+}
+#clothingitem5{
+    z-index:60;
+    position:absolute;
+    padding-right:5%;
+    left:5%;
+}
+#clothingitem6{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+     left:180%;
+}
+#clothingitem7{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+     left:130%;
+}
+#clothingitem8{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+    left:40%;
+}
+#clothingitem9{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:130%;
+}
+#clothingitem10{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:180%;
+}
+#clothingitem11{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:130%;
+}
+#clothingitem12{
+    z-index:60;
+    position:absolute;
+    padding-right:5%;
+    left:5%;
+}
+#clothingitem13{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+     left:40%;
+}
+#clothingitem14{
+    z-index:60;
+    position:absolute;
+    padding-left:5%;
+     left:80%;
+}
+#clothingitem15{
+    z-index:60;
+    position:absolute;
+     padding-left:5%;
+     left:180%;
+}
+
+
+.shirts{
+    display: block;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 14%;
+    top: 18%;
+    position: absolute;
+    left:11%;
+}
+
+.shoes{
+    display: block;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 12%;
+    top: 47%;
+    position: absolute;
+    left:11%;
+}
+.bottoms{
+    display: block;
+    width: 80%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 14%;
+    top: 33%;
+    left:11%;
+    position: absolute;
+}
+
+
+
+
+
+
+
 #hourfieldfortheway{
     border-radius: 16px;
     border: none;
