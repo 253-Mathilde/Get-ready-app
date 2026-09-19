@@ -1405,8 +1405,10 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
     const note = localStorage.getItem("notestext");
     const text = document.getElementById('timetext');
     if (text) {
-        text.textContent = `${note}`;
+        text.textContent = note ||"Looks like you didn't leave yourself a note! But I'm here for you ,so...Wish you the best for your event!";
+        
     }
+
 
 
 
