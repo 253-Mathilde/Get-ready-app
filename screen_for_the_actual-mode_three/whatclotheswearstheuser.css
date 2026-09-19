@@ -62,25 +62,26 @@ font-family: jojoba;
 #bag1 {
    z-index:60;
     position:relative;
+    display: none;
 }
 
 
 
 #bag2 {
   z-index:60;
-    position:relative;}
+    position:relative; display: none;}
 
 
 
 
 #bag3 {
   z-index:60;
-    position:relative;}
+    position:relative; display: none;}
 
 
 #bag4 {
   z-index:60;
-    position:relative;
+    position:relative; display: none;
 }
 
 
@@ -89,75 +90,75 @@ font-family: jojoba;
 
 #clothingitem1{
    z-index:60;
-    position:relative;
+    position:relative; display: none;
     
 }
 
 #clothingitem2{
    z-index:60;
-    position:relative;
+    position:relative; display: none;
    
 }
 
 #clothingitem3{
   z-index:60;
-    position:relative;
+    position:relative; display: none;
 }
 
 #clothingitem4{
   z-index:60;
-    position:relative;
+    position:relative; display: none;
     
 }
 #clothingitem5{
      z-index:60;
-    position:relative;
+    position:relative; display: none;
 }
 #clothingitem6{
      z-index:60;
-    position:relative;
+    position:relative; display: none;
      
 }
 #clothingitem7{
     z-index:60;
-    position:relative;
+    position:relative; display: none;
      
 }
 #clothingitem8{
    z-index:60;
-    position:relative;
+    position:relative; display: none;
    
 }
 #clothingitem9{
      z-index:60;
-    position:relative;
+    position:relative; display: none;
 }
 #clothingitem10{
       z-index:60;
-    position:relative;
+    position:relative; display: none;
     
 }
 #clothingitem11{
    z-index:60;
-    position:relative;
+    position:relative; display: none;
     
 }
 #clothingitem12{
      z-index:60;
-    position:relative;}
+    position:relative; display: none;}
 #clothingitem13{
      z-index:60;
-    position:relative;
+    position:relative; display: none;
     
 }
 #clothingitem14{
     z-index:60;
-    position:relative;
+    position:relative; display: none;
     
 }
 #clothingitem15{
     z-index:60;
-    position:relative;
+    position:relative; display: none;
  
     
 }
