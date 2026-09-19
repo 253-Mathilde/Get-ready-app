@@ -1443,6 +1443,38 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
     document.getElementById('clothingitem12').style.display ="block";
     }
 
+   
+
+    if (bottom === "1") {
+    document.getElementById('clothingitem5').style.display ="block";
+    }
+    
+    if (bottom === "2") {
+    document.getElementById('clothingitem3').style.display ="block";
+    }
+ 
+    if (bottom === "3") {
+    document.getElementById('clothingitem10').style.display ="block";
+    }
+
+    if (bottom === "4") {
+    document.getElementById('clothingitem9').style.display ="block";
+    }
+
+    if (bottom === "5") {
+    document.getElementById('clothingitem8').style.display ="block";
+    }
+
+     if (bottom === "0") {
+    document.getElementById('clothingitem5').style.display ="block";
+    document.getElementById('clothingitem3').style.display ="block";
+    document.getElementById('clothingitem10').style.display ="block";
+    document.getElementById('clothingitem9').style.display ="block";
+    document.getElementById('clothingitem8').style.display ="block";
+    }
+
+
+
 }
 
 
