@@ -1524,6 +1524,21 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
 
 
 
+
+    const startTiming = 20
+    let time = startTiming * 60
+    const count = document.getElementById("countdownTimer")
+    setInterval(updateTimer,1000)
+    function updateTimer (){
+      const minutes = Math.floor(time/60)
+      let seconds = time % 60
+
+      seconds = seconds <10 ? '0' + seconds : seconds
+      count.innerHTML = `${minutes}: ${seconds}`
+      time--
+    }
+
+
 }
 
 
