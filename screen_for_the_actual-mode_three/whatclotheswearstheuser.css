@@ -301,3 +301,16 @@ font-family: winkle;
 src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
 font-family: willond;
 }
+
+
+
+@font-face {
+font-family:'fenotype';
+src: url(https://dl.dropbox.com/s/klo6yfrf62916qp/02.10FEN.TTF);
+}
+
+
+#coundownTimer{
+font-family:'fenotype';
+font-size: 2em;
+}
