@@ -305,12 +305,10 @@ font-family: willond;
 
 
 @font-face {
-font-family:'fenotype';
-src: url(https://dl.dropbox.com/s/klo6yfrf62916qp/02.10FEN.TTF);
-}
-
+src: url(https://dl.dropbox.com/s/ktlx5w7t8gk42nb/SakeMoru-Regular.ttf);
+font-family: SakeMoru;}
 
 #countdownTimer{
-font-family:'fenotype';
+font-family: SakeMoru; 
 font-size: 2em;
 }
