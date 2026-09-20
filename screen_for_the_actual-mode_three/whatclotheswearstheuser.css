@@ -309,6 +309,12 @@ src: url(https://dl.dropbox.com/s/ktlx5w7t8gk42nb/SakeMoru-Regular.ttf);
 font-family: SakeMoru;}
 
 #countdownTimer{
-font-family: SakeMoru; 
-font-size: 2em;
+font-family: SakeMoru;
+    font-size: 1.3em;
+    color: antiquewhite;
+    font-weight: bold;
+    position: absolute;
+    left: 32%;
+    top: 82%;
+    z-index: 20;
 }
