@@ -1546,7 +1546,7 @@ let time = startTiming * 60
     function updateTimer (){
      if (time <= 0) {
       clearInterval(timerInterval);
-      count.innerHTML = "It is time for the next step!"; 
+      count.innerHTML = "(★‿★)"; 
        new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
         return;
      }
