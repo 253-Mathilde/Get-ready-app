@@ -1455,7 +1455,7 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
     document.getElementById('clothingitem13').style.display ="block";
     document.getElementById('clothingitem12').style.display ="block";
     document.getElementById('shirts').style.justifyContent = "";
-    startTiming = 0;
+   
     }
 
    
@@ -1497,7 +1497,7 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
     document.getElementById('clothingitem9').style.display ="block";
     document.getElementById('clothingitem8').style.display ="block";
     document.getElementById('bottoms').style.justifyContent = "";
-    startTiming = 0;
+    
     }
 
 
@@ -1538,13 +1538,18 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
     document.getElementById('clothingitem15').style.display ="block";
     document.getElementById('clothingitem4').style.display ="block";
     document.getElementById('shoes').style.justifyContent = "";
-    startTiming = 0;
     }
 
 
 let time = startTiming * 60
-    setInterval(updateTimer,1000)
+    const timerInterval =  setInterval(updateTimer,1000)
     function updateTimer (){
+     if (time <= 0) {
+      clearInterval(timerInterval);
+      count.innerHTML = "It is time for the next step!"; 
+       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+        return;
+     }
       const minutes = Math.floor(time/60)
       let seconds = time % 60
 
@@ -1552,10 +1557,6 @@ let time = startTiming * 60
       count.innerHTML = `${minutes}: ${seconds}`
       time--
     }
-
- 
-
-
 }
 
 
