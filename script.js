@@ -1409,123 +1409,7 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
         
     }
 
-
-
-
-
-    const shirt= localStorage.getItem("whatshirtwearstheuser");
-    const bottom= localStorage.getItem("whatbottomswearstheuser");
-    const shoes= localStorage.getItem("whatshoeswearstheuser");
-
-    if (shirt === "1") {
-    document.getElementById('clothingitem6').style.display ="block";
-    document.getElementById('shirts').style.justifyContent = "center";
-    }
-    
-    if (shirt === "2") {
-    document.getElementById('clothingitem7').style.display ="block";
-    document.getElementById('shirts').style.justifyContent = "center";
-    }
- 
-    if (shirt === "3") {
-    document.getElementById('clothingitem14').style.display ="block";
-    document.getElementById('shirts').style.justifyContent = "center";
-    }
-
-    if (shirt === "4") {
-    document.getElementById('clothingitem13').style.display ="block";
-    document.getElementById('shirts').style.justifyContent = "center";
-    }
-
-    if (shirt === "5") {
-    document.getElementById('clothingitem12').style.display ="block";
-    document.getElementById('shirts').style.justifyContent = "center";
-    }
-
-     if (shirt === "0") {
-    document.getElementById('clothingitem6').style.display ="block";
-    document.getElementById('clothingitem7').style.display ="block";
-    document.getElementById('clothingitem14').style.display ="block";
-    document.getElementById('clothingitem13').style.display ="block";
-    document.getElementById('clothingitem12').style.display ="block";
-    document.getElementById('shirts').style.justifyContent = "";
-    }
-
-   
-
-    if (bottom === "1") {
-    document.getElementById('clothingitem5').style.display ="block";
-    document.getElementById('bottoms').style.justifyContent = "center";
-    }
-    
-    if (bottom === "2") {
-    document.getElementById('clothingitem3').style.display ="block";
-    document.getElementById('bottoms').style.justifyContent = "center";
-    }
- 
-    if (bottom === "3") {
-    document.getElementById('clothingitem10').style.display ="block";
-    document.getElementById('bottoms').style.justifyContent = "center";
-    }
-
-    if (bottom === "4") {
-    document.getElementById('clothingitem9').style.display ="block";
-    document.getElementById('bottoms').style.justifyContent = "center";
-    }
-
-    if (bottom === "5") {
-    document.getElementById('clothingitem8').style.display ="block";
-    document.getElementById('bottoms').style.justifyContent = "center";
-    }
-
-     if (bottom === "0") {
-    document.getElementById('clothingitem5').style.display ="block";
-    document.getElementById('clothingitem3').style.display ="block";
-    document.getElementById('clothingitem10').style.display ="block";
-    document.getElementById('clothingitem9').style.display ="block";
-    document.getElementById('clothingitem8').style.display ="block";
-    document.getElementById('bottoms').style.justifyContent = "";
-    }
-
-
-    if (shoes === "1") {
-    document.getElementById('clothingitem1').style.display ="block";
-    document.getElementById('shoes').style.justifyContent = "center";
-    }
-    
-    if (shoes=== "2") {
-    document.getElementById('clothingitem2').style.display ="block";
-     document.getElementById('shoes').style.justifyContent = "center";
-    }
- 
-    if (shoes === "3") {
-    document.getElementById('clothingitem11').style.display ="block";
-     document.getElementById('shoes').style.justifyContent = "center";
-    }
-
-    if(shoes=== "4") {
-    document.getElementById('clothingitem15').style.display ="block";
-     document.getElementById('shoes').style.justifyContent = "center";
-    }
-
-    if (shoes === "5") {
-    document.getElementById('clothingitem4').style.display ="block";
-    document.getElementById('shoes').style.justifyContent = "center";
-    }
-
-     if (shoes === "0") {
-    document.getElementById('clothingitem1').style.display ="block";
-    document.getElementById('clothingitem2').style.display ="block";
-    document.getElementById('clothingitem11').style.display ="block";
-    document.getElementById('clothingitem15').style.display ="block";
-    document.getElementById('clothingitem4').style.display ="block";
-    document.getElementById('shoes').style.justifyContent = "";
-    }
-
-
-
-
-    const startTiming = 20
+   var startTiming = 0
     let time = startTiming * 60
     const count = document.getElementById("countdownTimer")
     setInterval(updateTimer,1000)
@@ -1537,6 +1421,140 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearsthe
       count.innerHTML = `${minutes}: ${seconds}`
       time--
     }
+
+
+
+    const shirt= localStorage.getItem("whatshirtwearstheuser");
+    const bottom= localStorage.getItem("whatbottomswearstheuser");
+    const shoes= localStorage.getItem("whatshoeswearstheuser");
+
+    if (shirt === "1") {
+    document.getElementById('clothingitem6').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+    
+    if (shirt === "2") {
+    document.getElementById('clothingitem7').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+ 
+    if (shirt === "3") {
+    document.getElementById('clothingitem14').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+    if (shirt === "4") {
+    document.getElementById('clothingitem13').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+    if (shirt === "5") {
+    document.getElementById('clothingitem12').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+     if (shirt === "0") {
+    document.getElementById('clothingitem6').style.display ="block";
+    document.getElementById('clothingitem7').style.display ="block";
+    document.getElementById('clothingitem14').style.display ="block";
+    document.getElementById('clothingitem13').style.display ="block";
+    document.getElementById('clothingitem12').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "";
+    startTiming = 0;
+    }
+
+   
+
+    if (bottom === "1") {
+    document.getElementById('clothingitem5').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+    
+    if (bottom === "2") {
+    document.getElementById('clothingitem3').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+ 
+    if (bottom === "3") {
+    document.getElementById('clothingitem10').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+    if (bottom === "4") {
+    document.getElementById('clothingitem9').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+    if (bottom === "5") {
+    document.getElementById('clothingitem8').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+     if (bottom === "0") {
+    document.getElementById('clothingitem5').style.display ="block";
+    document.getElementById('clothingitem3').style.display ="block";
+    document.getElementById('clothingitem10').style.display ="block";
+    document.getElementById('clothingitem9').style.display ="block";
+    document.getElementById('clothingitem8').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "";
+    startTiming = 0;
+    }
+
+
+    if (shoes === "1") {
+    document.getElementById('clothingitem1').style.display ="block";
+    document.getElementById('shoes').style.justifyContent = "center";
+    startTiming = startTiming + 3;
+    }
+    
+    if (shoes=== "2") {
+    document.getElementById('clothingitem2').style.display ="block";
+     document.getElementById('shoes').style.justifyContent = "center";
+     startTiming = startTiming + 3;
+    }
+ 
+    if (shoes === "3") {
+    document.getElementById('clothingitem11').style.display ="block";
+     document.getElementById('shoes').style.justifyContent = "center";
+     startTiming = startTiming + 3;
+    }
+
+    if(shoes=== "4") {
+    document.getElementById('clothingitem15').style.display ="block";
+     document.getElementById('shoes').style.justifyContent = "center";
+     startTiming = startTiming + 3;
+    }
+
+    if (shoes === "5") {
+    document.getElementById('clothingitem4').style.display ="block";
+    document.getElementById('shoes').style.justifyContent = "center";
+    startTiming = startTiming + 3;
+    }
+
+     if (shoes === "0") {
+    document.getElementById('clothingitem1').style.display ="block";
+    document.getElementById('clothingitem2').style.display ="block";
+    document.getElementById('clothingitem11').style.display ="block";
+    document.getElementById('clothingitem15').style.display ="block";
+    document.getElementById('clothingitem4').style.display ="block";
+    document.getElementById('shoes').style.justifyContent = "";
+    startTiming = 0;
+    }
+
+
+
+
+ 
 
 
 }
