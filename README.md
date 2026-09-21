@@ -59,7 +59,27 @@ Because that will cause a bug. In general teh only thing that should not be in t
 you always need to add ../ before the file name. ../ that tells the device to jump one folder higher. So when I am on the thir site I am IN the third folder 
 but the JS is outside of it so we need to tell the device to go out of the folder.
 That is baiscally the file structure. I hope you understood a little bit. If thats not the case: feel free to ask me!
+<br>
+<br>
+<br>
 
-
+<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/ea3ac442-3f2f-4cc7-801c-76e3f266e5ce" />
+<br>
+<br>
+<br>
+As you can see I did made my own animations for my app and you can build your own ones too! To build an animation is actual super duper easy and you can do it yourself. 
+In general: yes there are AI tools out there to do that but you don't need one because it is super easy and looks way better if you do it yourself. 
+For the tools: I did use the canva vd tool but you can use any vd editor that let's you duplicate whole sites and let's you save everything in the .gif.
+Let's start. Okay so first of all you need a base image. A base image is the image that is liek the background and stuff. For better understanding: You want to make an 
+animation where an item walks or moves. That item is in a room or like a setting yk. That room or setting is our base image. In that base iamge we also have like the item that will move.
+Make sure to not add to much details but please,please don't make it boring. An item that moves ona plain background is just boring and looks TERRIBLE. 
+When we have the base image you need we are going to right click on it and then we will duplicate it.
+Now we are going to move our item just a LITTLE bit. And that we will do as long as we need to get our item to it's position.
+If you want to do an effect like lightening (a lamp goes on and off) then you will need more then just one  screen where the lamp is colored because every site of the vd is only about 1.5 or 2 sec long.
+To make it look smoth and like an actual animation we will use a chaning effect: Match and Moves. This effect kinda melts these sites together.
+Ones we are finished with our animation we are going to download it (make sure to save it as a .gif and look if you need a transparent background). 
+If you want to get your aniamtion faster or slower you can use this site to make the gif faster or alower ( https://ezgif.com/ ).
+To include our animation in our code we will link it with an image tag. And boom now you have a super cool animation in your project that doesn't load as long as 
+an mpf4 and looks super cool. 
 
 
