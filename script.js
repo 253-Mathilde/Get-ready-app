@@ -99,6 +99,14 @@ function nextsite() {
 
         }
 
+        else if (aktuellerPfad.includes("clothingscreen.html")) {
+            let basisPfad = window.location.href.replace("screen_for_the_actual_mode_two/clothingscreen.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the_actual-mode_three/whatclotheswearstheuser.html" );
+            window.location.href = basisPfad + "screen_for_the_actual-mode_three/whatclotheswearstheuser.html"; 
+            
+
+        }
+
         else {
           console.log("nextsite didn't work");
         }
@@ -1393,6 +1401,163 @@ if (aktuellerPfad.includes("screen_for_the_actual_mode_one/changingscreen.html")
 }
 
 
+if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearstheuser.html")) {
+    const note = localStorage.getItem("notestext");
+    const text = document.getElementById('timetext');
+    if (text) {
+        text.textContent = note ||"Looks like you didn't leave yourself a note! But I'm here for you ,so...Wishing you the best for your event!";
+        
+    }
+
+     var startTiming = 0
+    const count = document.getElementById("countdownTimer")
+
+
+
+    const shirt= localStorage.getItem("whatshirtwearstheuser");
+    const bottom= localStorage.getItem("whatbottomswearstheuser");
+    const shoes= localStorage.getItem("whatshoeswearstheuser");
+
+    if (shirt === "1") {
+    document.getElementById('clothingitem6').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+    
+    if (shirt === "2") {
+    document.getElementById('clothingitem7').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+ 
+    if (shirt === "3") {
+    document.getElementById('clothingitem14').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+    if (shirt === "4") {
+    document.getElementById('clothingitem13').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+    if (shirt === "5") {
+    document.getElementById('clothingitem12').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+     if (shirt === "0") {
+    document.getElementById('clothingitem6').style.display ="block";
+    document.getElementById('clothingitem7').style.display ="block";
+    document.getElementById('clothingitem14').style.display ="block";
+    document.getElementById('clothingitem13').style.display ="block";
+    document.getElementById('clothingitem12').style.display ="block";
+    document.getElementById('shirts').style.justifyContent = "";
+   
+    }
+
+   
+
+    if (bottom === "1") {
+    document.getElementById('clothingitem5').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+    
+    if (bottom === "2") {
+    document.getElementById('clothingitem3').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+ 
+    if (bottom === "3") {
+    document.getElementById('clothingitem10').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+    if (bottom === "4") {
+    document.getElementById('clothingitem9').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+    if (bottom === "5") {
+    document.getElementById('clothingitem8').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "center";
+    startTiming = startTiming + 4;
+    }
+
+     if (bottom === "0") {
+    document.getElementById('clothingitem5').style.display ="block";
+    document.getElementById('clothingitem3').style.display ="block";
+    document.getElementById('clothingitem10').style.display ="block";
+    document.getElementById('clothingitem9').style.display ="block";
+    document.getElementById('clothingitem8').style.display ="block";
+    document.getElementById('bottoms').style.justifyContent = "";
+    
+    }
+
+
+    if (shoes === "1") {
+    document.getElementById('clothingitem1').style.display ="block";
+    document.getElementById('shoes').style.justifyContent = "center";
+    startTiming = startTiming + 3;
+    }
+    
+    if (shoes=== "2") {
+    document.getElementById('clothingitem2').style.display ="block";
+     document.getElementById('shoes').style.justifyContent = "center";
+     startTiming = startTiming + 3;
+    }
+ 
+    if (shoes === "3") {
+    document.getElementById('clothingitem11').style.display ="block";
+     document.getElementById('shoes').style.justifyContent = "center";
+     startTiming = startTiming + 3;
+    }
+
+    if(shoes=== "4") {
+    document.getElementById('clothingitem15').style.display ="block";
+     document.getElementById('shoes').style.justifyContent = "center";
+     startTiming = startTiming + 3;
+    }
+
+    if (shoes === "5") {
+    document.getElementById('clothingitem4').style.display ="block";
+    document.getElementById('shoes').style.justifyContent = "center";
+    startTiming = startTiming + 3;
+    }
+
+     if (shoes === "0") {
+    document.getElementById('clothingitem1').style.display ="block";
+    document.getElementById('clothingitem2').style.display ="block";
+    document.getElementById('clothingitem11').style.display ="block";
+    document.getElementById('clothingitem15').style.display ="block";
+    document.getElementById('clothingitem4').style.display ="block";
+    document.getElementById('shoes').style.justifyContent = "";
+    }
+
+
+let time = startTiming * 60
+    const timerInterval =  setInterval(updateTimer,1000)
+    function updateTimer (){
+     if (time <= 0) {
+      clearInterval(timerInterval);
+      count.innerHTML = "(★‿★)"; 
+       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+        return;
+     }
+      const minutes = Math.floor(time/60)
+      let seconds = time % 60
+
+      seconds = seconds <10 ? '0' + seconds : seconds
+      count.innerHTML = `${minutes}: ${seconds}`
+      time--
+    }
+}
 
 
 

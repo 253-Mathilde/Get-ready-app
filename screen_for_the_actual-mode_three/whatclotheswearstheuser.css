@@ -1,0 +1,320 @@
+#text img{
+    position:absolute;
+    height: 5%;
+    left: 85%;
+    top: 2%;
+    border-radius: 50px;
+
+}
+
+body{
+    background-image:url('https://raw.githubusercontent.com/253-Mathilde/Get-ready-app/80f2a8279231c90f5332c83bda16e0102901ac73/screen_for_the_actual_mode_two/background.svg'); 
+     text-align:center;
+    background-repeat:no-repeat;
+}
+
+html{
+    scrollbar-width: none;
+    overflow: hidden;
+
+}
+
+ #text1{
+ background-image: url('../graphics_homescreen/text (1).svg');
+    background-size: 175%;
+    background-position: 45% 100%;
+    height:20%;
+    width:59%;
+    position:absolute;
+    top: 59%;
+    left:25%;
+    pointer-events: all;
+
+}
+@font-face {
+src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
+font-family: jojoba;
+}
+
+#timetext{
+    position: absolute;
+    font-family: jojoba;
+    font-size: 0.95em;
+    text-align: center;
+    font-weight: lighter;
+    top: 36em;
+    color: rgb(7, 33, 112);
+    z-index: 20;
+    width: 35%;
+    height: 13.5%;
+    overflow-y: auto;
+    left: 29%;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+
+
+
+
+#bag1 {
+   z-index:60;
+    position:relative;
+    display: none;
+}
+
+
+
+#bag2 {
+  z-index:60;
+    position:relative; display: none;}
+
+
+
+
+#bag3 {
+  z-index:60;
+    position:relative; display: none;}
+
+
+#bag4 {
+  z-index:60;
+    position:relative; display: none;
+}
+
+
+
+
+
+#clothingitem1{
+   z-index:60;
+    position:relative; display: none;
+    
+}
+
+#clothingitem2{
+   z-index:60;
+    position:relative; display: none;
+   
+}
+
+#clothingitem3{
+  z-index:60;
+    position:relative; display: none;
+}
+
+#clothingitem4{
+  z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem5{
+     z-index:60;
+    position:relative; display: none;
+}
+#clothingitem6{
+     z-index:60;
+    position:relative; display: none;
+     
+}
+#clothingitem7{
+    z-index:60;
+    position:relative; display: none;
+     
+}
+#clothingitem8{
+   z-index:60;
+    position:relative; display: none;
+   
+}
+#clothingitem9{
+     z-index:60;
+    position:relative; display: none;
+}
+#clothingitem10{
+      z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem11{
+   z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem12{
+     z-index:60;
+    position:relative; display: none;}
+#clothingitem13{
+     z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem14{
+    z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem15{
+    z-index:60;
+    position:relative; display: none;
+ 
+    
+}
+
+
+.shirts{
+     display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 14%;
+    top: 23%;
+    left: 19.5%;
+    position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
+}
+
+.shoes{
+     display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 14%;
+    top: 44%;
+    left: 19.5%;
+    position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
+}
+.bottoms{
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 14%;
+    top: 34%;
+    left: 19.5%;
+    position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
+}
+
+
+
+
+
+
+
+#hourfieldfortheway{
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    height: 10%;
+    width: 10%;
+    left: 23%;
+    z-index:3;
+}
+
+@font-face {
+src: url(https://dl.dropbox.com/s/mes7b666uvig5wc/Winkle-Regular.otf);
+font-family: winkle;
+}
+#notificationdotsfortheway{
+    margin: 0%;
+    position: absolute;
+    left: 37%;
+    top: 22%;
+    font-family:'winkle';
+    font-size: 4em;
+    z-index:3;
+    color:white;
+}
+  
+#minutesfieldfortheway{
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    height: 10%;
+    width: 10%;
+    left: 65%;
+    z-index:3;
+}
+#instruction{
+    position: absolute;
+    z-index: 4;
+    top: 20%;
+    left: 10%;
+    font-size: 1.2em;
+    width: 78%;
+    font-family: 'winkle';
+    color: antiquewhite;}
+
+#notificationfortheway{
+    position: absolute;
+    top: 12%;
+    left: 19%;
+    font-family:'winkle';
+    font-size: 1.6em;
+    z-index:3;
+    color:white;
+}
+
+#backgroundforthetimefortheway{
+    position:absolute;
+    height:75%;
+    width: 84%;
+    background-color: blue;
+    top: 14%;
+    border-radius: 16px;
+    left: 6.5%;
+    background-image: url(https://dl.glitter-graphics.com/pub/3132/3132972qrp6ithw8b.jpg);
+    border: 5px dotted;
+    border-color: white;
+}
+
+
+
+
+
+
+ #next{
+    position: absolute;
+    width: 60%;
+    top: 82%;
+    left: -30%;
+    pointer-events: visiblePainted}
+
+
+  
+
+    @font-face {
+src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
+font-family: willond;
+}
+
+
+
+@font-face {
+src: url(https://dl.dropbox.com/s/ktlx5w7t8gk42nb/SakeMoru-Regular.ttf);
+font-family: SakeMoru;}
+
+#countdownTimer{
+font-family: SakeMoru;
+    font-size: 1.3em;
+    color: antiquewhite;
+    font-weight: bold;
+    position: absolute;
+    left: 32%;
+    top: 82%;
+    z-index: 20;
+}
