@@ -72,12 +72,13 @@ font-family: winkle;
 #notificationdotsfortheway{
     margin: 0%;
     position: absolute;
-    left: 37%;
+    left: 11.5%;
     top: 22%;
     font-family:'winkle';
     font-size: 4em;
     z-index:3;
     color:white;
+    width:80%;
 }
   
 #minutesfieldfortheway{
