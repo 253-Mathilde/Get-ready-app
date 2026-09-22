@@ -105,11 +105,12 @@ font-family: winkle;
 #notificationfortheway{
     position: absolute;
     top: 12%;
-    left: 16%;
+    left: 11.5%;
     font-family:'winkle';
     font-size: 1.6em;
     z-index:3;
     color:white;
+     width:80%;
 }
 
 #backgroundforthetimefortheway{
