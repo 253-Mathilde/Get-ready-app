@@ -117,7 +117,7 @@ function nextsite() {
         }
          
          else if (aktuellerPfad.includes("whatextrasdoestheuser.html")) {
-            let basisPfad = window.location.href.replace("screen_for_the-actual_mode_five/extrasite.html", ""); 
+            let basisPfad = window.location.href.replace("screen_for_the_actual_mode_four/whatextrasdoestheuser.html", ""); 
             localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the-actual_mode_five/extrasite.html" );
             window.location.href = basisPfad + "screen_for_the-actual_mode_five/extrasite.html"; 
             
