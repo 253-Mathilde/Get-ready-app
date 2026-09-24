@@ -36,18 +36,176 @@ src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
 font-family: jojoba;
 }
 
-#textcontent{
-position:relative;
-font-family:jojoba;
-font-size:0.95em;
-text-align:center;
-font-weight:lighter;
-top:16%;
-padding-left:10%;
-padding-right:2%;
-color:rgb(7, 33, 112);
-pointer-events:none;
+#timetext{
+    position: absolute;
+    font-family: jojoba;
+    font-size: 0.95em;
+    text-align: center;
+    font-weight: lighter;
+    top: 36em;
+    color: rgb(7, 33, 112);
+    z-index: 20;
+    width: 35%;
+    height: 13.5%;
+    overflow-y: auto;
+    left: 29%;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
+
+
+
+
+
+
+#bag1 {
+   z-index:60;
+    position:relative;
+    display: none;
+}
+
+
+
+#bag2 {
+  z-index:60;
+    position:relative; display: none;}
+
+
+
+
+#bag3 {
+  z-index:60;
+    position:relative; display: none;}
+
+
+#bag4 {
+  z-index:60;
+    position:relative; display: none;
+}
+
+
+
+
+
+#clothingitem1{
+   z-index:60;
+    position:relative; display: none;
+    
+}
+
+#clothingitem2{
+   z-index:60;
+    position:relative; display: none;
+   
+}
+
+#clothingitem3{
+  z-index:60;
+    position:relative; display: none;
+}
+
+#clothingitem4{
+  z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem5{
+     z-index:60;
+    position:relative; display: none;
+}
+#clothingitem6{
+     z-index:60;
+    position:relative; display: none;
+     
+}
+#clothingitem7{
+    z-index:60;
+    position:relative; display: none;
+     
+}
+#clothingitem8{
+   z-index:60;
+    position:relative; display: none;
+   
+}
+#clothingitem9{
+     z-index:60;
+    position:relative; display: none;
+}
+#clothingitem10{
+      z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem11{
+   z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem12{
+     z-index:60;
+    position:relative; display: none;}
+#clothingitem13{
+     z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem14{
+    z-index:60;
+    position:relative; display: none;
+    
+}
+#clothingitem15{
+    z-index:60;
+    position:relative; display: none;
+ 
+    
+}
+
+
+.shirts{
+     display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 14%;
+    top: 23%;
+    left: 19.5%;
+    position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
+}
+
+.shoes{
+     display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 14%;
+    top: 44%;
+    left: 19.5%;
+    position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
+}
+.bottoms{
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 14%;
+    top: 34%;
+    left: 19.5%;
+    position: absolute;
+    flex-wrap: nowrap;
+    gap: 2%;
+    width: 58%;
+}
+
+
 
 
 
@@ -72,13 +230,12 @@ font-family: winkle;
 #notificationdotsfortheway{
     margin: 0%;
     position: absolute;
-    left: 11.5%;
+    left: 37%;
     top: 22%;
     font-family:'winkle';
     font-size: 4em;
     z-index:3;
     color:white;
-    width:80%;
 }
   
 #minutesfieldfortheway{
@@ -105,22 +262,21 @@ font-family: winkle;
 #notificationfortheway{
     position: absolute;
     top: 12%;
-    left: 11.5%;
+    left: 19%;
     font-family:'winkle';
     font-size: 1.6em;
     z-index:3;
     color:white;
-     width:80%;
 }
 
 #backgroundforthetimefortheway{
     position:absolute;
-    height:43.5%;
-    width: 80%;
+    height:75%;
+    width: 84%;
     background-color: blue;
     top: 14%;
     border-radius: 16px;
-    left: 10%;
+    left: 6.5%;
     background-image: url(https://dl.glitter-graphics.com/pub/3132/3132972qrp6ithw8b.jpg);
     border: 5px dotted;
     border-color: white;
@@ -134,8 +290,8 @@ font-family: winkle;
  #next{
     position: absolute;
     width: 60%;
-    top: 59%;
-    left: 21%;
+    top: 82%;
+    left: -30%;
     pointer-events: visiblePainted}
 
 
@@ -144,4 +300,21 @@ font-family: winkle;
     @font-face {
 src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
 font-family: willond;
+}
+
+
+
+@font-face {
+src: url(https://dl.dropbox.com/s/ktlx5w7t8gk42nb/SakeMoru-Regular.ttf);
+font-family: SakeMoru;}
+
+#countdownTimer{
+font-family: SakeMoru;
+    font-size: 1.3em;
+    color: antiquewhite;
+    font-weight: bold;
+    position: absolute;
+    left: 32%;
+    top: 82%;
+    z-index: 20;
 }
