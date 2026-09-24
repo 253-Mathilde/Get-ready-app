@@ -107,6 +107,15 @@ function nextsite() {
 
         }
 
+        
+        else if (aktuellerPfad.includes("whatclotheswearstheuser.html")) {
+            let basisPfad = window.location.href.replace("screen_for_the_actual-mode_three/whatclotheswearstheuser.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the_actual_mode_four/whatextrasdoestheuser.html" );
+            window.location.href = basisPfad + "screen_for_the_actual_mode_four/whatextrasdoestheuser.html"; 
+            
+
+        }
+
         else {
           console.log("nextsite didn't work");
         }
@@ -1554,7 +1563,7 @@ let time = startTiming * 60
       let seconds = time % 60
 
       seconds = seconds <10 ? '0' + seconds : seconds
-      count.innerHTML = `${minutes}: ${seconds}`
+      count.innerHTML = `${minutes}:${seconds}`
       time--
     }
 }
