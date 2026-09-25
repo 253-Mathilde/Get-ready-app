@@ -1577,4 +1577,111 @@ let time = startTiming * 60
 }
 
 
+if (aktuellerPfad.includes("screen_for_the-actual_mode_five/extrasite.html")) {
+     var startTiming = 0
+     const count = document.getElementById("countdownTimer")
+
+
+
+    const buffer= localStorage.getItem("buffer");
+    const scrolling= localStorage.getItem("scrolling");
+    const eating= localStorage.getItem("eating");
+    const hair= localStorage.getItem("hair");
+    const make_up= localStorage.getItem("make_up");
+    const shower= localStorage.getItem("shower");
+    const teeth= localStorage.getItem("teeth");
+     const cleaning= localStorage.getItem("cleaning");
+
+
+    if (buffer === "1") {
+    document.getElementById('extra1').style.visibility ="visible";
+    startTiming = startTiming + 10;
+    }
+    
+    if (scrolling === "1") {
+    document.getElementById('extra2').style.visibility ="visible";
+    startTiming = startTiming + 15;
+    }
+ 
+    if (eating === "1") {
+    document.getElementById('extra3').style.visibility ="visible";
+    startTiming = startTiming + 15;
+    }
+
+    if (hair === "1") {
+    document.getElementById('extra4').style.visibility ="visible";
+    startTiming = startTiming + 20;
+    }
+
+    if (make_up === "1") {
+    document.getElementById('extra5').style.visibility ="visible";
+    startTiming = startTiming + 20;
+    }
+    if (shower === "1") {
+    document.getElementById('extra6').style.visibility ="visible";
+    startTiming = startTiming + 15;
+    }
+    if (teeth === "1") {
+    document.getElementById('extra7').style.visibility ="visible";
+    startTiming = startTiming + 2;
+    }
+    if (cleaning === "1") {
+    document.getElementById('extra8').style.visibility ="visible";
+    startTiming = startTiming + 15;
+    }
+
+     if (buffer === "0") {
+    document.getElementById('extra1').style.visibility ="hidden";
+   
+    }
+     if (scrolling === "0") {
+    document.getElementById('extra2').style.visibility ="hidden";
+   
+    }
+     if (eating === "0") {
+    document.getElementById('extra3').style.visibility ="hidden";
+   
+    }
+     if (hair === "0") {
+    document.getElementById('extra4').style.visibility ="hidden";
+   
+    }
+     if (make_up === "0") {
+    document.getElementById('extra5').style.visibility ="hidden";
+   
+    }
+     if (shower === "0") {
+    document.getElementById('extra6').style.visibility ="hidden";
+   
+    }
+     if (teeth === "0") {
+    document.getElementById('extra7').style.visibility ="hidden";
+   
+    }
+     if (cleaning === "0") {
+    document.getElementById('extra8').style.visibility ="hidden";
+   
+    }
+
+
+
+let time = startTiming * 60
+    const timerInterval =  setInterval(updateTimer,1000)
+    function updateTimer (){
+     if (time <= 0) {
+      clearInterval(timerInterval);
+      count.innerHTML = "(★‿★)"; 
+       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+        return;
+     }
+      const minutes = Math.floor(time/60)
+      let seconds = time % 60
+
+      seconds = seconds <10 ? '0' + seconds : seconds
+      count.innerHTML = `${minutes}:${seconds}`
+      time--
+    }
+}
+
+
 
