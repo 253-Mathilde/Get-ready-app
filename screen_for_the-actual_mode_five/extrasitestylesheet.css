@@ -178,55 +178,79 @@ font-family: SakeMoru;
 
 @font-face {
     font-family: "night sky"; 
-    src: url('http://static.tumblr.com/nsunyax/htIm0707z/airplanes_in_the_night_sky.ttf')format("truetype");
+    src: url('airplanes_in_the_night_sky.ttf')format("truetype");
     }
 
 
  .extratask1{
-    position:absolute;
-    font-family:'night sky';
-    color:darkblue;
+   position: absolute;
+    font-family: 'night sky';
+    color: darkblue;
+    top: 20%;
+    z-index: 500;
+    left: 28%;
  }
 
  .extratask2{
-    position:absolute;
-    font-family:'night sky';
-    color:darkblue;
+       position: absolute;
+    font-family: 'night sky';
+    color: darkblue;
+    z-index: 500;
+    top: 24%;
+    left: 28%;
  }
  .extratask3{
-    position:absolute;
-    font-family:'night sky';
-    color:darkblue;
+        position: absolute;
+    font-family: 'night sky';
+    color: darkblue;
+    top: 30%;
+    z-index: 500;
+    left: 28%;
  }
 
  .extratask4{
-    position:absolute;
-    font-family:'night sky';
-    color:darkblue;
+     position: absolute;
+    font-family: 'night sky';
+    color: darkblue;
+    top: 35%;
+    z-index: 500;
+    left: 28%;
  }
 
  .extratask5{
-    position:absolute;
-    font-family:'night sky';
-    color:darkblue;
+       position: absolute;
+    font-family: 'night sky';
+    color: darkblue;
+    top: 41%;
+    z-index: 500;
+    left: 28%;
  }
 
  .extratask6{
-    position:absolute;
-    font-family:'night sky';
-    color:darkblue;
+      position: absolute;
+    font-family: 'night sky';
+    color: darkblue;
+    top: 45%;
+    z-index: 500;
+    left: 28%;
  }
 
  .extratask7{
-    position:absolute;
-    font-family:'night sky';
-    color:darkblue;
+        position: absolute;
+    font-family: 'night sky';
+    color: darkblue;
+    top: 52%;
+    z-index: 500;
+    left: 28%;
  }
 
  .extratask8{
-    position:absolute;
-    font-family:'night sky';
-    color:darkblue;
+     position: absolute;
+    font-family: 'night sky';
+    color: darkblue;
+    top: 58%;
+    z-index: 500;
+    left: 28%;
  }
 
 
