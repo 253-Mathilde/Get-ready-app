@@ -1595,71 +1595,87 @@ if (aktuellerPfad.includes("screen_for_the-actual_mode_five/extrasite.html")) {
 
     if (buffer === "1") {
     document.getElementById('extra1').style.visibility ="visible";
+    document.getElementById('extra1_box').style.visibility ="visible";
     startTiming = startTiming + 10;
     }
     
     if (scrolling === "1") {
     document.getElementById('extra2').style.visibility ="visible";
+    document.getElementById('extra2_box').style.visibility ="visible";
     startTiming = startTiming + 15;
     }
  
     if (eating === "1") {
     document.getElementById('extra3').style.visibility ="visible";
+    document.getElementById('extra3_box').style.visibility ="visible";
     startTiming = startTiming + 15;
     }
 
     if (hair === "1") {
     document.getElementById('extra4').style.visibility ="visible";
+    document.getElementById('extra4_box').style.visibility ="visible";
     startTiming = startTiming + 20;
     }
 
     if (make_up === "1") {
     document.getElementById('extra5').style.visibility ="visible";
+    document.getElementById('extra5_box').style.visibility ="visible";
     startTiming = startTiming + 20;
     }
     if (shower === "1") {
     document.getElementById('extra6').style.visibility ="visible";
+    document.getElementById('extra6_box').style.visibility ="visible";
     startTiming = startTiming + 15;
     }
     if (teeth === "1") {
     document.getElementById('extra7').style.visibility ="visible";
+    document.getElementById('extra7_box').style.visibility ="visible";
     startTiming = startTiming + 2;
     }
     if (cleaning === "1") {
     document.getElementById('extra8').style.visibility ="visible";
+    document.getElementById('extra8_box').style.visibility ="visible";
     startTiming = startTiming + 15;
     }
 
      if (buffer === "0") {
     document.getElementById('extra1').style.visibility ="hidden";
+    document.getElementById('extra1_box').style.visibility ="hidden";
    
     }
      if (scrolling === "0") {
     document.getElementById('extra2').style.visibility ="hidden";
+    document.getElementById('extra2_box').style.visibility ="hidden";
    
     }
      if (eating === "0") {
     document.getElementById('extra3').style.visibility ="hidden";
+    document.getElementById('extra3_box').style.visibility ="hidden";
    
     }
      if (hair === "0") {
     document.getElementById('extra4').style.visibility ="hidden";
+    document.getElementById('extra4_box').style.visibility ="hidden";
    
     }
      if (make_up === "0") {
     document.getElementById('extra5').style.visibility ="hidden";
+    document.getElementById('extra5_box').style.visibility ="hidden";
    
     }
      if (shower === "0") {
     document.getElementById('extra6').style.visibility ="hidden";
+    document.getElementById('extra6_box').style.visibility ="hidden";
    
     }
      if (teeth === "0") {
     document.getElementById('extra7').style.visibility ="hidden";
+    document.getElementById('extra7_box').style.visibility ="hidden";
    
     }
      if (cleaning === "0") {
     document.getElementById('extra8').style.visibility ="hidden";
+    document.getElementById('extra8_box').style.visibility ="hidden";
    
     }
 
