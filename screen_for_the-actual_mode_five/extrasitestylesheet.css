@@ -186,9 +186,10 @@ font-family: SakeMoru;
    position: absolute;
     font-family: 'night sky';
     color: darkblue;
-    top: 20%;
+    top: 19%;
     z-index: 500;
     left: 28%;
+     font-weight: bold;
  }
 
  .extratask2{
@@ -196,8 +197,9 @@ font-family: SakeMoru;
     font-family: 'night sky';
     color: darkblue;
     z-index: 500;
-    top: 24%;
+    top: 25%;
     left: 28%;
+     font-weight: bold;
  }
  .extratask3{
         position: absolute;
@@ -206,51 +208,57 @@ font-family: SakeMoru;
     top: 30%;
     z-index: 500;
     left: 28%;
+     font-weight: bold;
  }
 
  .extratask4{
      position: absolute;
     font-family: 'night sky';
     color: darkblue;
-    top: 35%;
+    top: 36%;
     z-index: 500;
     left: 28%;
+     font-weight: bold;
  }
 
  .extratask5{
        position: absolute;
     font-family: 'night sky';
     color: darkblue;
-    top: 41%;
+    top: 40%;
     z-index: 500;
     left: 28%;
+     font-weight: bold;
  }
 
  .extratask6{
       position: absolute;
     font-family: 'night sky';
     color: darkblue;
-    top: 45%;
+    top: 46%;
     z-index: 500;
     left: 28%;
+     font-weight: bold;
  }
 
  .extratask7{
         position: absolute;
     font-family: 'night sky';
     color: darkblue;
-    top: 52%;
+    top: 50.5%;
     z-index: 500;
     left: 28%;
+     font-weight: bold;
  }
 
  .extratask8{
      position: absolute;
     font-family: 'night sky';
     color: darkblue;
-    top: 58%;
+    top: 56.5%;
     z-index: 500;
     left: 28%;
+     font-weight: bold;
  }
 
 
