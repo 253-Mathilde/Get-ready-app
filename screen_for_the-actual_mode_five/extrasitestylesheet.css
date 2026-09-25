@@ -176,7 +176,58 @@ font-family: SakeMoru;
 }
 
 
+@font-face {
+    font-family: "night sky"; 
+    src: url('http://static.tumblr.com/nsunyax/htIm0707z/airplanes_in_the_night_sky.ttf')format("truetype");
+    }
 
+
+ .extratask1{
+    position:absolute;
+    font-family:'night sky';
+    color:darkblue;
+ }
+
+ .extratask2{
+    position:absolute;
+    font-family:'night sky';
+    color:darkblue;
+ }
+ .extratask3{
+    position:absolute;
+    font-family:'night sky';
+    color:darkblue;
+ }
+
+ .extratask4{
+    position:absolute;
+    font-family:'night sky';
+    color:darkblue;
+ }
+
+ .extratask5{
+    position:absolute;
+    font-family:'night sky';
+    color:darkblue;
+ }
+
+ .extratask6{
+    position:absolute;
+    font-family:'night sky';
+    color:darkblue;
+ }
+
+ .extratask7{
+    position:absolute;
+    font-family:'night sky';
+    color:darkblue;
+ }
+
+ .extratask8{
+    position:absolute;
+    font-family:'night sky';
+    color:darkblue;
+ }
 
 
 
