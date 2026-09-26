@@ -75,6 +75,51 @@ but the JS is outside of it so we need to tell the device to go out of the folde
 That is baiscally the file structure. I hope you understood a little bit. If thats not the case: feel free to ask me!
 </details>
 
+<details>
+<summary> <em>Code for the changing structure (with explanation)</em> </summary>
+<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/ea3ac442-3f2f-4cc7-801c-76e3f266e5ce" />
+<br>
+<br>
+<br>
+I myself decided that I wanted a whole main site with under-site parts. I know that there are other ways out there to do this 
+ (working with multiple div's and display none/ visibilaty or even with differnt branches) but this was the easiest method for me
+ and I actually did everything myself. The code has a lot of explanations and if you did the file structure as explained (one paragraph above from here) 
+ this is eaven easier for you!
+ 
+```ruby
+function nextsite() { //this is the function call it with a button or an element to happen
+    const audionext = document.querySelector("#nextmusic");   //this is a add on it basically jsut plays a sound while changing just make sure to add teh audio to every site
+    audionext.play();
+    datenVerarbeiten(); //this is just a function from my app that calculates stuff (just delete it)
+
+    setTimeout(function() {   // you don't need a time out if you don't do a sound it just tell the computer to wait 20sec before changing because the sound is about 20sec so you actually hear it
+        if (aktuellerPfad.includes("create1.html")) { //this asks the computer what site we are on now you need to declare it at the top (code for that is below) 
+            let basisPfad = window.location.href.replace("screenone_arrivetime/create1.html", "");  //this tells the computer to replace the actual link name to nothing
+            localStorage.setItem('lastVisitedPage',basisPfad + "screentwo_waytime/time1.html" );   //this is for the user to get back were he left but you need to declare that at the top too
+            window.location.href = basisPfad + "screentwo_waytime/time1.html";  //this finally replaces the name (empty) with the new site name you jsut copy in your path of your html file
+          
+
+
+        } else if (aktuellerPfad.includes("time1.html")) { //this is the same you just adde more else if'S and change the names
+            let basisPfad = window.location.href.replace("screentwo_waytime/time1.html", "");
+            localStorage.setItem('lastVisitedPage',basisPfad + "screenthree_bag/bag1.html" );
+            window.location.href = basisPfad + "screenthree_bag/bag1.html"; 
+            
+        } 
+     
+        else {
+          console.log("nextsite didn't work");
+        }
+    }, 2000); 
+}
+```
+
+
+```ruby
+const aktuellerPfad = window.location.pathname;//declare that at the top 
+```
+
+</details>
 
 
 
