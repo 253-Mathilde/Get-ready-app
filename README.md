@@ -1,4 +1,4 @@
-<img width="1920" height="480" alt="prête app (1)" src="https://github.com/user-attachments/assets/16adc688-73cb-40d7-8adb-f19c18641562"/>
+<img width="1920" height="480" alt="prête app (1)" src="https://github.com/user-attachments/assets/48b57848-916f-4c31-b60c-952a18aaaffa"/>
 
 <br>
 <br>
