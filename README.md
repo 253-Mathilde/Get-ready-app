@@ -24,7 +24,7 @@ and feel confident!
 
 </details>
  <details>
-<summary><em> How to turn an idea into an actual app</em></summary><img width="1920" height="480" alt="prête app idea" src="https://github.com/user-attachments/assets/35b44761-26d4-469c-b829-71456088797c" />
+<summary><em> How to turn an idea into an actual app</em> </summary><img width="1920" height="480" alt="prête app idea" src="https://github.com/user-attachments/assets/35b44761-26d4-469c-b829-71456088797c" />
 <br>
 <br>
 <br>
@@ -50,7 +50,7 @@ sent teh file per slack to my mobile).
 
 
 <details>
-<summary> <em>How to make the file structure.<em/></summary><img width="1920" height="480" alt="prête app multiple screens" src="https://github.com/user-attachments/assets/23e5e27a-cbe9-48af-a144-d227c800e818" />
+<summary> <em>How to make the file structure. </em> </summary><img width="1920" height="480" alt="prête app multiple screens" src="https://github.com/user-attachments/assets/23e5e27a-cbe9-48af-a144-d227c800e818" />
 <br>
 <br>
 <br>
@@ -81,7 +81,7 @@ That is baiscally the file structure. I hope you understood a little bit. If tha
 
 
 <details>
-<summary> <em>How to make your own animations</em>.</summary>
+<summary> <em>How to make your own animations </em> </summary>
 <img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/ea3ac442-3f2f-4cc7-801c-76e3f266e5ce" />
 <br>
 <br>
