@@ -124,6 +124,14 @@ function nextsite() {
 
         }
 
+        else if (aktuellerPfad.includes("extrasite.html")) {
+            let basisPfad = window.location.href.replace("screen_for_the-actual_mode_five/extrasite.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the-actual_mode_six/baggrabbing.html" );
+            window.location.href = basisPfad + "screen_for_the-actual_mode_six/baggrabbing.html"; 
+            
+
+        }
+
         else {
           console.log("nextsite didn't work");
         }
@@ -1701,3 +1709,22 @@ let time = startTiming * 60
 
 
 
+if (aktuellerPfad.includes("screen_for_the-actual_mode_six/baggrabbing.html")) {
+    const bag = localStorage.getItem("whatbagusestheuser");
+    const text = document.getElementById('notificationfortheway');
+    if (bag==="1") {
+        text.textContent = "Please grab your basic bag.";
+    }
+    else if (bag==="2") {
+        text.textContent = "Please grab your backpack.";
+    }
+    else if (bag==="3") {
+        text.textContent = "Please grab your Tote bag.";
+    }
+    else if (bag==="4") {
+        text.textContent = "Please grab your athletic bag.";
+    }
+    else {
+            text.textContent = "You didn't select a bag.";
+        }
+}
