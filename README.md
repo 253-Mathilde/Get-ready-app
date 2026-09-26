@@ -2,13 +2,15 @@
 
 <br>
 <br>
-<br>
-In this README you'll find everything you need. If you have any questions or don't understand something: please contact me. If you need to see the 
-img bigger: just click on it and you should be able to see every detail. 
 
+> [!TIP]
+> In this README you'll find everything you need. If you have any questions or don't understand something: please contact me. If you need to see the 
+img bigger: just click on it and you should be able to see every detail. To show each text please click on the symbols to expand everything.<br/>
+ <details>
 
-  <br>   Okay so what is prête? <br>
- You can watch the video or read the explanation :)
+<summary>Okay so what is prête? </summary>
+
+### You can watch the video or read the explanation :)
 
 https://github.com/user-attachments/assets/dde383f5-a452-4906-a0a9-482123e477a8
 
@@ -19,12 +21,10 @@ Prête app is an app that helps you to get ready and to reduce your stress. With
 something. If you leave your home in stress the rest of your day or your event is gone because you are in such 
 a bad mood and don't feel confident. With the help of your personal partner Mira you can get ready without any stress or even leave in 15 mintes
 and feel confident!
-<br>
-<br>
-<br>
 
-
-<img width="1920" height="480" alt="prête app idea" src="https://github.com/user-attachments/assets/35b44761-26d4-469c-b829-71456088797c" />
+</details>
+ <details>
+<summary> How to turn an idea into an actual app</summary><img width="1920" height="480" alt="prête app idea" src="https://github.com/user-attachments/assets/35b44761-26d4-469c-b829-71456088797c" />
 <br>
 <br>
 <br>
@@ -46,13 +46,11 @@ When you codet enough for a little test version: use an online converter to turn
 I also often used the console to try how it would look like on a phone (iphone 12 format covers most of the phones). 
 <a href=”https://app.html2app.dev/“>Here</a> is the site I used for converting ( just copy the whole folder from github turn the copy in a zip upload and then delete to save storage,I
 sent teh file per slack to my mobile).
+</details>
 
 
-
-<br>
-<br>
-<br>
-<img width="1920" height="480" alt="prête app multiple screens" src="https://github.com/user-attachments/assets/23e5e27a-cbe9-48af-a144-d227c800e818" />
+<details>
+<summary> How to make the file structure.</summary><img width="1920" height="480" alt="prête app multiple screens" src="https://github.com/user-attachments/assets/23e5e27a-cbe9-48af-a144-d227c800e818" />
 <br>
 <br>
 <br>
@@ -75,10 +73,15 @@ Because that will cause a bug. In general teh only thing that should not be in t
 you always need to add ../ before the file name. ../ that tells the device to jump one folder higher. So when I am on the thir site I am IN the third folder 
 but the JS is outside of it so we need to tell the device to go out of the folder.
 That is baiscally the file structure. I hope you understood a little bit. If thats not the case: feel free to ask me!
-<br>
-<br>
-<br>
+</details>
 
+
+
+
+
+
+<details>
+<summary> How to make your own animations.</summary>
 <img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/ea3ac442-3f2f-4cc7-801c-76e3f266e5ce" />
 <br>
 <br>
@@ -95,7 +98,14 @@ If you want to do an effect like lightening (a lamp goes on and off) then you wi
 To make it look smoth and like an actual animation we will use a chaning effect: Match and Moves. This effect kinda melts these sites together.
 Ones we are finished with our animation we are going to download it (make sure to save it as a .gif and look if you need a transparent background). 
 If you want to get your aniamtion faster or slower you can use this site to make the gif faster or alower ( https://ezgif.com/ ).
-To include our animation in our code we will link it with an image tag. And boom now you have a super cool animation in your project that doesn't load as long as 
+To include our animation in our code we will link it with an image tag.
+
+```ruby
+   <img src="linktoyourgifanimation">
+```
+
+And boom now you have a super cool animation in your project that doesn't load as long as 
 an mpf4 and looks super cool. 
+</details>
 
 
