@@ -124,6 +124,14 @@ function nextsite() {
 
         }
 
+        else if (aktuellerPfad.includes("extrasite.html")) {
+            let basisPfad = window.location.href.replace("screen_for_the-actual_mode_five/extrasite.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the-actual_mode_six" );
+            window.location.href = basisPfad + "screen_for_the-actual_mode_six"; 
+            
+
+        }
+
         else {
           console.log("nextsite didn't work");
         }
