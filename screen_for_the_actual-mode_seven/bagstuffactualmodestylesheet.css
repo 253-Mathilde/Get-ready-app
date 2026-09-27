@@ -176,14 +176,16 @@ font-family: SakeMoru;
 }
 
 .wrapper {
-    display: grid;
+     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 100%;
+    grid-auto-rows: 50%;
     position: absolute;
     width: 83%;
     top: 22%;
     z-index: 20;
     left: 8%;
+    height: 20em;
+    overflow-y: auto;
 }
 
 
