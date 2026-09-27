@@ -158,6 +158,9 @@ src: url(https://dl.dropbox.com/s/0yg7g2z7st9k0xg/Willond.ttf);
 font-family: willond;
 }
 
+#bagstuff1,#bagstuff2,#bagstuff3,#bagstuff4,#bagstuff5,#bagstuff6,#bagstuff7,#bagstuff8,#bagstuff9,#bagstuff10,#bagstuff11,#bagstuff12,#bagstuff13{
+  font-family:'willond';
+}
 
 
 @font-face {
