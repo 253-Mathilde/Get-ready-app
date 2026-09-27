@@ -1737,3 +1737,98 @@ if (aktuellerPfad.includes("screen_for_the-actual_mode_six/baggrabbing.html")) {
             text.textContent = "You didn't select a bag.";
         }
 }
+
+
+
+if (aktuellerPfad.includes("screen_for_the_actual-mode_seven/bagstuffactualmode.html")) {
+     var startTiming = 0
+     const count = document.getElementById("countdownTimer")
+    const stuff1= localStorage.getItem("whatstuffusestheuser1");
+    const stuff2= localStorage.getItem("whatstuffusestheuser2");
+    const stuff3= localStorage.getItem("whatstuffusestheuser3");
+    const stuff4= localStorage.getItem("whatstuffusestheuser4");
+    const stuff5= localStorage.getItem("whatstuffusestheuser5");
+    const stuff6= localStorage.getItem("whatstuffusestheuser6");
+    const stuff7= localStorage.getItem("whatstuffusestheuser7");
+    const stuff8= localStorage.getItem("whatstuffusestheuser8");
+    const stuff9= localStorage.getItem("whatstuffusestheuser9");
+    const stuff10= localStorage.getItem("whatstuffusestheuser10");
+    const stuff11= localStorage.getItem("whatstuffusestheuser11");
+    const stuff12= localStorage.getItem("whatstuffusestheuser12");
+    const stuff13= localStorage.getItem("whatstuffusestheuser13");
+
+    if (stuff1 === "1") {
+    document.getElementById('bagstuff1').style.display ="block";
+    startTiming = startTiming + 6;
+    }
+ 
+     if (stuff2 === "1") {
+    document.getElementById('bagstuff2').style.display ="block";
+    startTiming = startTiming + 5;
+    }
+     if (stuff3 === "1") {
+    document.getElementById('bagstuff3').style.display ="block";
+    startTiming = startTiming + 1;
+    }
+     if (stuff4 === "1") {
+    document.getElementById('bagstuff4').style.display ="block";
+    startTiming = startTiming + 3;
+    }
+     if (stuff5 === "1") {
+    document.getElementById('bagstuff5').style.display ="block";
+    startTiming = startTiming + 5;
+    }
+     if (stuff6 === "1") {
+    document.getElementById('bagstuff6').style.display ="block";
+    startTiming = startTiming + 7;
+    }
+     if (stuff7 === "1") {
+    document.getElementById('bagstuff7').style.display ="block";
+    startTiming = startTiming + 1;
+    }
+     if (stuff8 === "1") {
+    document.getElementById('bagstuff8').style.display ="block";
+    startTiming = startTiming + 6;
+    }
+     if (stuff9 === "1") {
+    document.getElementById('bagstuff9').style.display ="block";
+    startTiming = startTiming + 2;
+    }
+     if (stuff10 === "1") {
+    document.getElementById('bagstuff10').style.display ="block";
+    startTiming = startTiming + 10;
+    }
+     if (stuff11 === "1") {
+    document.getElementById('bagstuff11').style.display ="block";
+    startTiming = startTiming + 2;
+    }
+     if (stuff12 === "1") {
+    document.getElementById('bagstuff12').style.display ="block";
+    startTiming = startTiming + 8;
+    }
+     if (stuff13 === "1") {
+    document.getElementById('bagstuff13').style.display ="block";
+    startTiming = startTiming + 7;
+    }
+
+
+
+let time = startTiming * 60
+    const timerInterval =  setInterval(updateTimer,1000)
+    function updateTimer (){
+     if (time <= 0) {
+      clearInterval(timerInterval);
+      count.innerHTML = "(★‿★)"; 
+       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+        return;
+     }
+      const minutes = Math.floor(time/60)
+      let seconds = time % 60
+
+      seconds = seconds <10 ? '0' + seconds : seconds
+      count.innerHTML = `${minutes}:${seconds}`
+      time--
+    }
+}
+
+
