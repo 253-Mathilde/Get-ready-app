@@ -117,7 +117,7 @@ font-family: winkle;
 #notificationfortheway{
     position: absolute;
     top: 12%;
-    left: 10%;
+    left: 8%;
     font-family:'winkle';
     font-size: 1.6em;
     z-index:3;
