@@ -1845,9 +1845,8 @@ let time = startTiming * 60
 
 
 if (aktuellerPfad.includes("screen_for_the_actual_mode_winning_finished_congrats_gift_claiming/gift.html")) {
-  const envelope = document.getElementById("envelope");
-envelope.addEventListener("click", () => {
-  envelope.classList.toggle("open");
+document.querySelector("#present").addEventListener("click", (e) => {
+	document.querySelector("#present").classList.toggle("unpacked");
 });
 }
 
