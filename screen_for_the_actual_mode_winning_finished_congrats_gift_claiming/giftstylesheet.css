@@ -149,266 +149,739 @@ font-family: willond;
 
 
 
-@keyframes upthenscale {
-  0% {
-    transform: translateY(250px);
-  }
-  
-  50% {
-    transform: translateY(0);
-  }
-  
-  60% {
-    height: 100px;
-    width: 90px;
-    transform: translateY(0);
-  }
-  
-  100% { 
-    height:  250px;
-    width: 100%; 
-    transform: translateY(0);
-  }
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/* reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-@keyframes scalethendown {
-  0% {
-    height:  250px;
-    width: 100%; 
-    transform: translateY(0);
-  }
-  
-  50% {
-    height: 100px;
-    width: 90px;
-    transform: translateY(0);
-  }
-  
-  60% {
-    transform: translateY(0);
-  }
-  
-  100% { 
-    transform: translateY(250px);
-  }
+html {
+    line-height: 1;
 }
 
-@keyframes waitfade {
-  0%, 50% {
-    opacity: 0;
-  }
-  
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes wiggle {
-  0% {
-    transform: translateY(310px) rotate(0);
-  }
-  
-  25% {
-    transform: translateY(310px) rotate(2deg);
-  }
-  
-  50% {
-    transform: translateY(310px) rotate(0deg);
-  }
-  
-  75% {
-    transform: translateY(310px) rotate(-2deg);
-  }
-  
-  100% {
-    transform: translateY(310px) rotate(0);
-  }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
 }
 
 
-.letter {
-  margin: 150px auto;
-  max-width: 350px;
-  height: 375px;
-  position: relative;
-  overflow: hidden;
-  display: block;
+/* body */
+
+body {
+    font-family: Satisfy, serif;
+    color: #837362;
+    background: #fbf8f7;
 }
 
-.letter--open .paper {
-  animation-name: upthenscale;
-  animation-duration: .6s;
-  animation-fill-mode: forwards;
+h2 {
+    font-size: 1.5em;
+    line-height: 1.6;
 }
 
-.letter--close .paper {
-  animation-name: scalethendown;
-  animation-duration: .4s;
-  animation-fill-mode: forwards;
+
+/* links */
+
+a {
+    color: #9b4849;
+    text-decoration: none;
+    display: block;
 }
 
-.letter--open .paper-content {
-  animation-name: waitfade;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
+a:hover {
+    color: #783839;
 }
 
-.letter--open .envelope {
-  animation: pause;
+#open {
+    margin-top: 50px;
 }
 
-.paper-content {
-  color: #545454;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  padding: 25px;
-  opacity: 0;
+#flip {
+    padding: 160px 20px 0 0;
 }
 
-.paper {
-  height: 50px;
-  width: 90px;
-  background: #f1f0c3;
-  transform: translateY(250px);
-  margin: 0 auto;
-  transition: transform 0.3s 0.1s ease;
-  border-radius: 2px;
-  position: relative;
+#flip2back {
+    margin-top: 10px;
 }
 
-.envelope {
-  width: 94px;
-  height: 60px;
-  background: #f36363;
-  position: relative;
-  margin: auto;
-  z-index: 2;
-  cursor: pointer;
-  border-radius: 3px;
-  transition: box-shadow 0.3s ease;
-  transform: translateY(310px);
-  animation: wiggle 0.3s 0.2s infinite;
-  &:hover {
-    animation: pause;
-    & .envelope-paper {
-        transform: translateY(-20px);
-    }
-    & .envelope-flap {
-      transform: translateY(-45px);
-    }
-    & .envelope-detail::after {
-      visibility: hidden;
-    }
-  }
+#close {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
-.envelope-paper {
-  height: 50px;
-  width: 90px;
-  background: #f1f0c3;
-  transform: translateY(0);
-  margin: 0 auto;
-  transition: transform 0.3s 0.1s ease;
-  border-radius: 2px;
-  position: absolute;
-  border: 2px solid transparent;
+
+/*****************************/
+
+section.container {
+    position: relative;
+    width: 600px;
+    height: 345px;
+    margin: 33em auto 0;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
 }
 
-.letter--open .envelope-paper {
-  visibility: hidden;
-}
-
-.letter--open .envelope-detail::after {
-   visibility: hidden;
- }
-
-
-.letter--close .envelope-paper {
-  visibility: hidden;
-}
-
-.envelope-flap {
-  content: '';
-  width: 0; 
-  height: 0; 
-  border-left: 45px solid transparent;
-  border-right: 45px solid transparent;
-  border-bottom: 45px solid #f36363;
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: auto;
-  transform: translateY(0);
-}
-
-.letter--open .envelope-flap {
-  transform: translateY(-45px);
-}
-
-.letter--open .envelope-detail {
-  border-top: 2px solid #e25b5b;
-}
-
-.envelope-detail {
-    overflow: hidden;
-    height: 100%;
+section.container>form.flip {
     width: 100%;
-    display: block;
+    height: 100%;
     position: absolute;
-    background: #f36363;
-    border-top: 2px solid transparent;
-    &:before {
-    content: '';
-    width: 70px; 
-    height: 70px;
-    background: #f36363;
-    display: inline-block;
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 30px;
-    margin: auto;
-    transform: rotate(45deg);
-    border: 4px solid #e65454;
-  }
-  &:after {
-    content: '';
-    width: 70px; 
-    height: 70px;
-    background: #f36363;
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -45px;
-    margin: auto;
-    transform: rotate(45deg);
-    border: 4px solid #e65454;
-  }
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 0.7s 0s;
+    -moz-transition: -moz-transform 0.7s 0s;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
 }
 
-.envelope__fold {
-  height: 25px;
-  width: 86px;
-  background: #f36363;
-  border: 4px solid #e65454;
-  display: block;
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  transition: all 0.3s ease;
-  border-radius: 3px;
+section.container>form.flip>.front, section.container>form.flip>.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
 }
 
-.paper-close {
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  display: inline-block;
-  cursor: pointer;
+section.container>form.flip>.back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    background: #837362;
+    box-shadow: inset 0 10px 30px -10px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.2);
+}
+
+section.container:target>form.flip {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+}
+
+.no-csstransforms3d section.container:target>form.flip>.back {
+    display: none;
+}
+
+.container#lid {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    z-index: 2;
+    -moz-transition: z-index 0s 1s;
+    -webkit-transition: z-index 0s 1s;
+}
+
+.no-csstransforms3d .container#lid {
+    -webkit-transition: none;
+    -moz-transition: none;
+}
+
+#content:target .container#lid {
+    z-index: -1;
+    -moz-transition: z-index 0s .5s;
+    -webkit-transition: z-index 0s .5s;
+}
+
+.no-csstransforms3d #content:target .container#lid {
+    -webkit-transition: none;
+    -moz-transition: none;
+}
+
+.no-csstransforms3d .container#lid .back {
+    display: none;
+}
+
+.no-csstransforms3d #content:target .container#lid .back {
+    display: block;
+    top: -150px;
+}
+
+#lid .flip {
+    width: 100%;
+    height: 100%;
+}
+
+#lid .flip {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 0.5s 1s;
+    -moz-transition: -moz-transform 0.5s 1s;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+}
+
+#lid .flip>.front, #lid .flip>.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+#lid .flip>.back {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+}
+
+#content:target #lid .flip {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+}
+
+#letter .flip>div, #lid .flip>div, section.container>form.flip>div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#lid .flip .front, section.container>form.flip .front {
+    background: beige url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    border: 1px #eae1d5 solid;
+    box-shadow: inset 0 0 10px 1px rgba(255, 255, 255, 0.6), 0 2px 3px -2px rgba(0, 0, 0, 0.6);
+    padding: 20px 30px;
+    color: #837362;
+    text-shadow: 0 1px 0 #fff, 0 1px 0 #fff;
+}
+
+section.container>form.flip>.front {
+    font-size: 1.25em;
+    background: beige url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    background: url("../images/scStamp1.png") no-repeat 478px 4px, url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    padding: 120px 20px 20px 0;
+    text-align: center;
+    border: 1px #eae1d5 solid;
+}
+
+#lid .flip .front {
+    font-size: 1.25em;
+    border-radius: 0 0 40px 40px;
+}
+
+#lid .flip .back {
+    background: #837362;
+    border-radius: 40px 40px 0 0;
+    border: 35px solid rgba(255, 255, 255, 0.1);
+    border-bottom: none;
+    box-shadow: inset 0 10px 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+#top {
+    text-align: right;
+    background: beige url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(163, 140, 130, 0.17))), url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg");
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    border: 1px #eae1d5 solid;
+    box-shadow: inset 0 0 10px 1px rgba(255, 255, 255, 0.6), 0 -2px 4px -3px rgba(0, 0, 0, 0.75), 0 2px 3px -2px rgba(0, 0, 0, 0.6);
+}
+
+#letter {
+    background-image: url(http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg);
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    z-index: 0;
+    -webkit-transition: .5s .5s;
+    -moz-transition: .5s .5s;
+    -o-transition: 0s 0s;
+}
+
+#content:target #letter {
+    top: -20em;
+    left: 1.2em;
+    height: 25em;
+    padding: 0 10px 5px 10px;
+    font-size: 18px;
+    line-height: 1.2;
+    -o-transition: .5s .5s;
+}
+
+#letter .container {
+    position: absolute;
+    width: 100%;
+    height: 36%;
+    -webkit-perspective: 800px;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0s 0s;
+    -moz-perspective: 800px;
+    -moz-transition: 0s 0s;
+    z-index: 1;
+}
+
+#letter .flip {
+    width: 100%;
+    height: 100%;
+}
+
+#letter .flip {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 0.5s 0s;
+    -moz-transition: -moz-transform 0.5s 0s;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+}
+
+#letter .flip>.front, #letter .flip>.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+#letter .flip>.back {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+}
+
+#content:target #letter .flip {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+}
+
+#content:target #letter .container {
+    z-index: -1;
+    -webkit-transition: z-index 0s 1.5s;
+    -moz-transition: z-index 0s 1.5s;
+}
+
+#letter .flip .front {
+    background-image: url(http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.no-csstransforms3d #content:target #letter .flip .front {
+    display: none;
+}
+
+#letter .flip .back {
+    background-image: url(http://www.zingerbugimages.com/backgrounds/off_white_parchment_paper_wallpaper_texture_seamless.jpg);
+    background: -moz-linear-gradient(top, #fafafa 80%, #f7f7f7 100%);
+    padding: 60px 10px 0 10px;
+    font-size: 18px;
+    line-height: 1.2;
+    /*box-shadow: 5px -5px 8px -4px rgba(0, 0, 0, 0.15);*/
+}
+
+.no-csstransforms3d #content:target #letter .flip .back {
+    top: -140px;
+}
+
+
+/*-------ie8-----------*/
+
+.container.target>form.flip>.back, #content.target #letter .flip .front {
+    display: none;
+}
+
+#content.target .container#lid {
+    z-index: -1;
+}
+
+#content.target .container#lid .back {
+    display: block;
+    top: -150px;
+}
+
+#content.target #letter {
+    top: -40%;
+}
+
+#content.target #letter .flip .back {
+    top: -140px;
+}
+
+
+.ss-social-regular {
+    font-family: "SSSocial";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    white-space: nowrap;
+    -webkit-font-feature-settings: "liga", "dlig";
+    -moz-font-feature-settings: "liga=1, dlig=1";
+    -moz-font-feature-settings: "liga", "dlig";
+    -ms-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig";
+}
+
+.seal {
+    display: block;
+    width: 4.4rem;
+    height: 4.4rem;
+    position: absolute;
+    left: 50%;
+    top: 49%;
+    margin: -2.2rem 0 0 -2.2rem;
+    border-radius: 2.2rem 1.9rem 2.3rem 2.0rem;
+    background: #d9534f;
+    color: #d9534f;
+    border-color: #d9534f;
+    box-shadow: 0 -2px 4px rgba( 0, 0, 0, 0.2) inset, 0 3px 3px rgba(255, 255, 255, 0.6) inset, 0 1px 5px rgba( 0, 0, 0, 0.8);
+    text-align: center;
+    line-height: 4.2rem;
+    font-size: 2.2rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.seal:focus {
+    outline: 0;
+}
+
+.seal .embossed {
+    display: block;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    box-shadow: 0 -2px 2px rgba(205, 205, 205, 0.1) inset, 0 3px 3px rgba( 30, 30, 30, 0.1) inset, 0 1px 2px rgba( 30, 30, 30, 0.6) inset;
+    border-radius: 999rem;
+    background-image: -webkit-linear-gradient(top, rgba( 51, 51, 51, 0.3) 0%, rgba( 51, 51, 51, 0.2) 100%);
+}
+
+.seal:before, .seal:after {
+    display: block;
+    content: ' ';
+    position: absolute;
+    line-height: 0;
+    font-size: 0;
+    background: inherit;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.8), 0 3px 3px rgba(205, 205, 205, 0.4) inset;
+}
+
+.seal:after {
+    width: 0.7rem;
+    height: 0.7rem;
+    top: 84%;
+    left: 94%;
+    border-radius: 1rem 0.9rem 0.95rem 0.8rem;
+}
+
+.seal:before {
+    width: 0.3rem;
+    height: 0.3rem;
+    top: 103%;
+    left: 85%;
+    border-radius: 1rem 0.9rem 0.95rem 0.8rem;
+}
+
+
+
+
+/*FORM*/
+@font-face {
+	font-family: 'nlicons';
+	src:url('../fonts/nlicons/nlicons.eot');
+	src:url('../fonts/nlicons/nlicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/nlicons/nlicons.woff') format('woff'),
+		url('../fonts/nlicons/nlicons.ttf') format('truetype'),
+		url('../fonts/nlicons/nlicons.svg#nlicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* general style for the form */
+.nl-form {
+	width: 100%;
+}
+
+.nl-form ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* normalize the input elements, make them look like everything else */
+.nl-form input,
+.nl-form select,
+.nl-form button {
+	border: none;
+	background: transparent;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.nl-form input:focus {
+	outline: none;
+}
+
+/* custom field (drop-down, text element) styling  */
+.nl-field {
+	display: inline-block;
+	position: relative;
+}
+
+.nl-field.nl-field-open {
+	z-index: 10000;
+}
+
+/* the toggle is the visible part in the form */
+.nl-field-toggle,
+.nl-form input,
+.nl-form select  {
+	line-height: inherit;
+	display: inline-block;
+	color: #b14943;
+	cursor: pointer;
+	border-bottom: 1px dashed #b14943;
+}
+
+/* drop-down list / text element */
+.nl-field ul {
+	position: absolute;
+	visibility: hidden;
+	background: #E96D65;
+	left: -0.5em;
+	top: 50%;
+	font-size: 100%;
+	opacity: 0;
+	-webkit-transform: translateY(-40%) scale(0.9);
+	-moz-transform: translateY(-40%) scale(0.9);
+	transform: translateY(-40%) scale(0.9);
+	-webkit-transition: visibility 0s 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: visibility 0s 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: visibility 0s 0.3s, opacity 0.3s, transform 0.3s;
+}
+
+.nl-field.nl-field-open ul {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: translateY(-50%) scale(1);
+	-moz-transform: translateY(-50%) scale(1);
+	transform: translateY(-50%) scale(1);
+	-webkit-transition: visibility 0s 0s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: visibility 0s 0s, opacity 0.3s, -moz-transform 0.3s;
+	transition: visibility 0s 0s, opacity 0.3s, transform 0.3s;
+}
+
+.nl-field ul li {
+	color: #fff;
+	position: relative;
+}
+
+.nl-dd ul li {
+	padding: 0 1.5em 0 0.5em;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.nl-dd ul li.nl-dd-checked {
+	color: #fff;
+}
+
+.no-touch .nl-dd ul li:hover {
+	background: rgba(0,0,0,0.05);
+}
+
+.no-touch .nl-dd ul li:hover:active {
+	color: #fff;
+}
+
+/* icons for some elements */
+.nl-dd ul li.nl-dd-checked:before,
+.nl-submit:before,
+.nl-field-go:before {
+	font-family: 'nlicons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.nl-dd ul li.nl-dd-checked:before {
+	content: "\e000";
+	position: absolute;
+	right: 1em;
+	font-size: 50%;
+	line-height: 3;
+}
+
+.nl-ti-text ul {
+	min-width: 8em;
+}
+
+.nl-ti-text ul li.nl-ti-input input {
+	width: 100%;
+    padding: 0.2em 21em 0.2em 0.5em;
+    border-bottom: none;
+    color: #fff;
+}
+
+.nl-form .nl-field-go {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	cursor: pointer;
+	background: rgba(0,0,0,0.1);
+	width: 1.8em;
+	text-align: center;
+	color: transparent;
+}
+
+.nl-field-go:before {
+	content: "\e001";
+	font-size: 75%;
+	color: #fff;
+	width: 100%;
+	line-height: 2.5;
+	display: block;
+}
+
+/* custom placeholder color */
+input::-webkit-input-placeholder {
+	color: rgba(255,255,255,0.8);
+}
+
+input:active::-webkit-input-placeholder ,
+input:focus::-webkit-input-placeholder {
+	color: rgba(255,255,255,0.2);
+}
+
+input::-moz-placeholder {
+	color: rgba(255,255,255,0.8);
+}
+
+input:active::-moz-placeholder,
+input:focus::-moz-placeholder {
+	color: rgba(255,255,255,0.2);
+}
+
+input:-ms-input-placeholder {
+	color: rgba(255,255,255,0.8);
+}
+
+input:active::-ms-input-placeholder ,
+input:focus::-ms-input-placeholder {
+	color: rgba(255,255,255,0.2);
+}
+
+/* example field below text input */
+.nl-ti-text ul li.nl-ti-example {
+	font-size: 80%;
+	font-style: italic;
+	font-weight: 400;
+	padding: 0.4em 1em;
+	color: rgba(0,0,0,1.2);
+	border-top: 1px dashed rgba(255,255,255,0.7);
+}
+
+.nl-ti-text ul li.nl-ti-example em {
+	color: #fff
+}
+
+/* submit button */
+.nl-submit-wrap {
+	margin-top: 0.4em;
+}
+
+.nl-form .nl-submit {
+	line-height: 3;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: relative;
+	background: #E96D65;
+	color: #fff;
+	padding: 0 1em 0 0;
+	font-size: 50%;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.nl-submit:before {
+	content: "\e001";
+	color: #fff;
+	float: left;
+	padding: 0 0.7em;
+	margin: 0 0.8em 0 0;
+	background: #E96D65;
+}
+
+.no-touch .nl-form .nl-submit:hover,
+.no-touch .nl-form .nl-submit:active {
+	background: #E96D65;
+}
+
+.no-touch .nl-form .nl-submit:hover:before {
+	background: #E96D65;
+}
+
+/* overlay becomes visible when a field is opened */
+.nl-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	opacity: 0;
+	z-index: 9999;
+	visibility: hidden;
+	-webkit-transition: visibility 0s 0.3s, opacity 0.3s;
+	-moz-transition: visibility 0s 0.3s, opacity 0.3s;
+	transition: visibility 0s 0.3s, opacity 0.3s;
+}
+
+.nl-field.nl-field-open ~ .nl-overlay {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+@media screen and (max-width: 45em) {
+	.nl-form {
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 25em) {
+	.nl-form {
+		font-size: 2em;
+	}
 }
