@@ -158,6 +158,7 @@ font-family: willond;
 	flex-direction: column;
 	width: 100%;
 	transition: ease 1s;
+  z-index: 2000000;
 }
 
 .button-wrapper.unpacked {
@@ -216,8 +217,8 @@ font-family: willond;
 }
 
 .present-wrapper {
-	width: 280px;
-	height: 200px;
+	width: 300px;
+	height: 400px;
 	padding: 16px;
 	background-color: moccasin;
 	box-sizing: border-box;
