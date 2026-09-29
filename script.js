@@ -141,6 +141,15 @@ function nextsite() {
 
         }
 
+         else if (aktuellerPfad.includes("bagstuffactualmode.html")) {
+            let basisPfad = window.location.href.replace("screen_for_the_actual-mode_seven/bagstuffactualmode.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the_actual_mode_winning_finished_congrats_gift_claiming/gift.html" );
+            window.location.href = basisPfad + "screen_for_the_actual_mode_winning_finished_congrats_gift_claiming/gift.html"; 
+            
+
+        }
+
+
         else {
           console.log("nextsite didn't work");
         }
