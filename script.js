@@ -17,8 +17,6 @@ if (createBtn) {
          localStorage.setItem('lastVisitedPage',base + "/screenone_arrivetime/create1.html" );
         window.location.href = base + "/screenone_arrivetime/create1.html";
     });
-
-
 }
 
 //home button für alle seiten
@@ -26,6 +24,7 @@ const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
        localStorage.removeItem('lastVisitedPage'); 
+       localStorage.clear(); 
         const audiohome = document.querySelector("#homemusic");
         if (audiohome) {
             audiohome.play();
