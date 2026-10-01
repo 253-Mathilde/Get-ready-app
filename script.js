@@ -38,6 +38,14 @@ if (textBtn) {
     });
 }
 
+function finishing() {
+  localStorage.removeItem('lastVisitedPage'); 
+  window.location.href = "../index.html";
+  localStorage.clear(); 
+  console.log(localStorage.length); 
+}
+
+
 
 //wechsel zur nächsten seite
 
