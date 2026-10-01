@@ -154,3 +154,29 @@ an mpf4 and looks super cool.
 </details>
 
 
+
+<details>
+<summary> <em>Tutorial for the README </em> </summary>
+<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/ea3ac442-3f2f-4cc7-801c-76e3f266e5ce" />
+<br>
+<br>
+<br>
+This part is especially made for @Maaadzia ! If you want to do your README the same as me you can do so without mentioning me 
+ (this is only for this part but not for the other parts that contain 100% of my work).
+ 
+```ruby
+> [!TIP]
+> Here you can write stuff but you need to exclude it from the ruby part (it doesn't work because of the linked coding part).
+/* ↑This is for  the tip part at the top 
+
+/* ↓This is the code for the unfolding part
+ <details>
+<summary>Here you write your titel of the section </summary>
+
+###This is for a heading
+Here you write all you need to write.
+
+</details>
+```
+</details>
+
