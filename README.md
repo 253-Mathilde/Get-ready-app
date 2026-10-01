@@ -77,7 +77,7 @@ That is baiscally the file structure. I hope you understood a little bit. If tha
 
 <details>
 <summary> <em>Code for the changing structure (with explanation)</em> </summary>
-<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/ea3ac442-3f2f-4cc7-801c-76e3f266e5ce" />
+<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/663c5f7d-ed8a-4452-a845-891ed6e48ede"/>
 <br>
 <br>
 <br>
@@ -157,7 +157,7 @@ an mpf4 and looks super cool.
 
 <details>
 <summary> <em>Tutorial for the README </em> </summary>
-<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/ea3ac442-3f2f-4cc7-801c-76e3f266e5ce" />
+<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/94c148c4-a2ab-4e97-a6fa-42d3bee71511"/>
 <br>
 <br>
 <br>
