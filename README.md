@@ -153,7 +153,29 @@ And boom now you have a super cool animation in your project that doesn't load a
 an mpf4 and looks super cool. 
 </details>
 
+<details>
+<summary> <em> Sources</em> </summary>
+<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/94c148c4-a2ab-4e97-a6fa-42d3bee71511"/>
+<br>
+<br>
+<br>
+<a href="https://bryntum.com/blog/radio-button-and-checkbox-styling-vanilla-css-vs-tailwind/"> I used thsi site for the checkbox styling </a> <br>
+<a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items">for the styling,research</a>  <br>
+<a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"> for readme styling</a> <br>
+<a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Grid_layout/Basic_concepts"> for the basic grid layouts </a> <br>
+<a href="https://css-tricks.com/multiple-class-id-selectors/"> thsi site helped me with css, super well explained </a> <br>
+<a href="https://audio-extractor.net/de/">to part the audio from the mpf4 </a> <br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"> for the audio playing and stuff</a> <br>
+<a href="https://www.w3schools.com/tags/att_audio_loop.asp">ofc w3school because without it I would be dead :)</a> <br>
+<a href="https://www.youtube.com/watch?v=kAEt6JxrkjI">only the last part for the phone thing yk</a> <br>
+<a href="https://hackclub.com/brand">for the logos in the vd</a> <br>
+<a href="https://www.avatarsinpixels.com/chibi/Backup">for mira(the pixl figure)</a> <br>
+<a href="https://pastebin.com/GjNyLG4m">for code</a> <br>
+<a href="https://jasminnie.weebly.com/backgrounds.html">this site for teh star background in the app and also for some fonts!</a> <br>
 
+
+
+</details>
 
 <details>
 <summary> <em>Tutorial for the README </em> </summary>
