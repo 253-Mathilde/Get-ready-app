@@ -155,7 +155,8 @@ an mpf4 and looks super cool.
 
 <details>
 <summary> <em> Sources</em> </summary>
-<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/94c148c4-a2ab-4e97-a6fa-42d3bee71511"/>
+<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/df65ca55-03ae-4c53-b96c-f63cb6c63158"
+/>
 <br>
 <br>
 <br>
