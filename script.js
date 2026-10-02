@@ -18,6 +18,15 @@ if (createBtn) {
         window.location.href = base + "/screenone_arrivetime/create1.html";
     });
 }
+//beginn button für den fast mode
+const hurryBtn = document.getElementById("hurry");
+if (hurryBtn) {
+    hurryBtn.addEventListener("click", function() { 
+        let base = window.location.href.split('/').slice(0, -1).join('/');
+         localStorage.setItem('lastVisitedPage',base + "/screen_for_the_fast_mode_one/clothes_fast.html" );
+        window.location.href = base + "/screen_for_the_fast_mode_one/clothes_fast.html";
+    });
+}
 
 //home button für alle seiten
 const textBtn = document.getElementById("text");
