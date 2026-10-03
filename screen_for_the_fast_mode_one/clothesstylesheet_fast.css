@@ -21,7 +21,7 @@ html{
 }
 
  #text1{
- background-image: url('https://raw.githubusercontent.com/253-Mathilde/Get-ready-app/7c5a21271f3e267104e6d6f9c997d0beab707655/screen_for_the_fast_mode_one/home%20button%20fast.svg');
+ background-image: url('../graphics_homescreen/text (1).svg');
     background-size: 175%;
     background-position: 45% 100%;
     height:20%;
