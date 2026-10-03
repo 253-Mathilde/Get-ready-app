@@ -172,7 +172,8 @@ an mpf4 and looks super cool.
 <a href="https://hackclub.com/brand">for the logos in the vd</a> <br>
 <a href="https://www.avatarsinpixels.com/chibi/Backup">for mira(the pixl figure)</a> <br>
 <a href="https://pastebin.com/GjNyLG4m">for code</a> <br>
-<a href="https://jasminnie.weebly.com/backgrounds.html">this site for teh star background in the app and also for some fonts!</a> <br>
+<a href="https://jasminnie.weebly.com/backgrounds.html">for fonts and such stuff</a> <br>
+<a href="https://www.glitter-graphics.com/">for the backgrounds (the blue one with the stars for example)</a> <br>
 
 
 
