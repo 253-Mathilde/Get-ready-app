@@ -165,6 +165,14 @@ function nextsite() {
 
         }
 
+        else if (aktuellerPfad.includes("clothes_fast.html")) {
+            let basisPfad = window.location.href.replace("screen_for_the_fast_mode_one/clothes_fast.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the_fast_mode_two/hairfast.html" );
+            window.location.href = basisPfad + "screen_for_the_fast_mode_two/hairfast.html"; 
+            
+
+        }
+
 
         else {
           console.log("nextsite didn't work");
