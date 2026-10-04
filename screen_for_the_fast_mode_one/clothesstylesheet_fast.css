@@ -132,6 +132,7 @@ font-family: winkle;
     top: 60%;
     left: -27%;
     pointer-events: visiblePainted;
+    z-index:200000000000000000000000000;
     }
 
     @font-face {
