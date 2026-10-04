@@ -1838,7 +1838,7 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_seven/bagstuffactualmode.
 
 
 
-   let time = startTiming * 60
+    let time = startTiming * 60
     const timerInterval =  setInterval(updateTimer,1000)
     function updateTimer (){
      if (time <= 0) {
@@ -1862,6 +1862,7 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_seven/bagstuffactualmode.
 
 if (aktuellerPfad.includes("screen_for_the_fast_mode_one/clothes_fast.html")) {
   var startTiming = 3
+   let time = startTiming * 60
   const count = document.getElementById("countdownTimer")
   const timerInterval =  setInterval(updateTimer,1000)
     function updateTimer (){
