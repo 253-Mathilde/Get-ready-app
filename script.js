@@ -1909,4 +1909,57 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_two/hairfast.html")) {
       count.innerHTML = `${minutes}:${seconds}`
       time--
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const uvAnzeige = document.getElementById("uv-wert");
+
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(position => {
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+
+        var myHeaders = new Headers();
+        myHeaders.append("x-access-token", "openuv-33pywrmutxb7ik-io");
+        myHeaders.append("Content-Type", "application/json");
+
+        var requestOptions = {
+          method: 'GET',
+          headers: myHeaders,
+          redirect: 'follow'
+        };
+
+        fetch(`https://openuv.io{lat}&lng=${lng}`, requestOptions)
+          .then(response => response.json())
+          .then(result => {
+              const uvIndex = result.result.uv;
+              uvAnzeige.innerText = uvIndex.toFixed(1);
+          })
+          .catch(error => {
+              console.log('error', error);
+              uvAnzeige.innerText = "Error fetching UV index";
+          });
+    }, error => {
+        console.log('Locationerror', error);
+        uvAnzeige.innerText = "Your Location is not available";
+    });
+}
 }
