@@ -153,11 +153,11 @@ font-family: SakeMoru;}
 #countdownTimer{
 font-family: SakeMoru;
     font-size: 1.3em;
-    color: antiquewhite;
+    color: brown;
     font-weight: bold;
     position: absolute;
-    left: 32%;
-    top: 82%;
+    left: 36%;
+    top: 60%;
     z-index: 20;
 }
  
