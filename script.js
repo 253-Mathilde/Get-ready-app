@@ -17,8 +17,15 @@ if (createBtn) {
          localStorage.setItem('lastVisitedPage',base + "/screenone_arrivetime/create1.html" );
         window.location.href = base + "/screenone_arrivetime/create1.html";
     });
-
-
+}
+//beginn button für den fast mode
+const hurryBtn = document.getElementById("hurry");
+if (hurryBtn) {
+    hurryBtn.addEventListener("click", function() { 
+        let base = window.location.href.split('/').slice(0, -1).join('/');
+         localStorage.setItem('lastVisitedPage',base + "/screen_for_the_fast_mode_one/clothes_fast.html" );
+        window.location.href = base + "/screen_for_the_fast_mode_one/clothes_fast.html";
+    });
 }
 
 //home button für alle seiten
@@ -26,6 +33,7 @@ const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
        localStorage.removeItem('lastVisitedPage'); 
+       localStorage.clear(); 
         const audiohome = document.querySelector("#homemusic");
         if (audiohome) {
             audiohome.play();
@@ -1830,7 +1838,7 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_seven/bagstuffactualmode.
 
 
 
-let time = startTiming * 60
+    let time = startTiming * 60
     const timerInterval =  setInterval(updateTimer,1000)
     function updateTimer (){
      if (time <= 0) {
@@ -1852,8 +1860,25 @@ let time = startTiming * 60
 
 
 
-if (aktuellerPfad.includes("screen_for_the_actual_mode_winning_finished_congrats_gift_claiming/gift.html")) {
+if (aktuellerPfad.includes("screen_for_the_fast_mode_one/clothes_fast.html")) {
+  var startTiming = 3
+   let time = startTiming * 60
+  const count = document.getElementById("countdownTimer")
+  const timerInterval =  setInterval(updateTimer,1000)
+    function updateTimer (){
+     if (time <= 0) {
+      clearInterval(timerInterval);
+      count.innerHTML = "(★‿★)"; 
+       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+        return;
+     }
+      const minutes = Math.floor(time/60)
+      let seconds = time % 60
 
+      seconds = seconds <10 ? '0' + seconds : seconds
+      count.innerHTML = `${minutes}:${seconds}`
+      time--
+    }
 }
 
 
