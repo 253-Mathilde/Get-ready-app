@@ -1918,9 +1918,26 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_two/hairfast.html")) {
       count.innerHTML = `${minutes}:${seconds}`
       time--
     }
+}
 
 
+if (aktuellerPfad.includes("screen_for_the_fast_mode_three/teethfast.html")) {
+  var startTiming = 2
+   let time = startTiming * 60
+  const count = document.getElementById("countdownTimer")
+  const timerInterval =  setInterval(updateTimer,1000)
+    function updateTimer (){
+     if (time <= 0) {
+      clearInterval(timerInterval);
+      count.innerHTML = "(★‿★)"; 
+       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+        return;
+     }
+      const minutes = Math.floor(time/60)
+      let seconds = time % 60
 
-
-
+      seconds = seconds <10 ? '0' + seconds : seconds
+      count.innerHTML = `${minutes}:${seconds}`
+      time--
+    }
 }
