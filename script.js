@@ -1954,7 +1954,7 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_three/teethfast.html")) {
 
 
 if (aktuellerPfad.includes("screen_for_the_fast_mode_four/bagfast.html")) {
-  var startTiming = 375
+  var startTiming = 4.25
    let time = startTiming * 60
   const count = document.getElementById("countdownTimer")
   const timerInterval =  setInterval(updateTimer,1000)
