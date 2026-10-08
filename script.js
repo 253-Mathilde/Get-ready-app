@@ -1993,7 +1993,7 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_four/bagfast.html")) {
 
 if (aktuellerPfad.includes("screen_for_the_fast_mode_winning_finishing/fastmodewinning.html")) {
 var speed=150; // lower number for faster
-var warp=7; // from 1 to 10
+var warp=2; // from 1 to 10
 var stars=300; // number of stars
 var colours=new Array("rgb(255, 208, 0)", "rgb(255, 187, 0)", "rgb(218, 216, 139)"); // colours of stars
 var position=-1; // set to '0' for foreground and '-1' for stars to appear in the background, behind text on the page
