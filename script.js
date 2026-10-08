@@ -1917,7 +1917,7 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_one/clothes_fast.html")) {
 
 
 if (aktuellerPfad.includes("screen_for_the_fast_mode_two/hairfast.html")) {
-  var startTiming = 7
+  var startTiming = 6
    let time = startTiming * 60
   const count = document.getElementById("countdownTimer")
   const timerInterval =  setInterval(updateTimer,1000)
