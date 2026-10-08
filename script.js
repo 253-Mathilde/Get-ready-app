@@ -190,6 +190,16 @@ function nextsite() {
         }
 
 
+        else if (aktuellerPfad.includes("bagfast.html")) {
+            let basisPfad = window.location.href.replace("screen_for_the_fast_mode_four/bagfast.html", ""); 
+            localStorage.setItem('lastVisitedPage',basisPfad + "screen_for_the_fast_mode_winning_finishing" );
+            window.location.href = basisPfad + "screen_for_the_fast_mode_winning_finishing"; 
+            
+
+        }
+
+
+
         else {
           console.log("nextsite didn't work");
         }
