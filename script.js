@@ -262,6 +262,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       
       bag1.classList.add('selected');                 
       gesamtMinuten -= 5;   //subtrahieren
+      if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatbagusestheuser = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -273,6 +276,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       bag1.classList.remove('selected');
       let whatbagusestheuser = 0;
       gesamtMinuten += 5;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -291,6 +297,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       bag2.classList.add('selected'); 
       let whatbagusestheuser = 2;                
       gesamtMinuten -= 5;                              //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
       localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
@@ -301,6 +310,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       bag2.classList.remove('selected');
       let whatbagusestheuser = 0;
       gesamtMinuten += 5;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -320,6 +332,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       bag3.classList.add('selected');  
       let whatbagusestheuser = 3;                    
       gesamtMinuten -= 5;                              //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
       localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
@@ -330,6 +345,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       bag3.classList.remove('selected');
       let whatbagusestheuser = 0;
       gesamtMinuten += 5;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -349,6 +367,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       bag4.classList.add('selected');
       let whatbagusestheuser = 4;                      
       gesamtMinuten -= 5;                              //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
       localStorage.setItem("endStunden", neueStunden);//speichern in alter variable
@@ -359,6 +380,9 @@ if (aktuellerPfad.includes("screenthree_bag/bag1.html")) {
       bag4.classList.remove('selected');
       let whatbagusestheuser = 0;
       gesamtMinuten += 5;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -379,6 +403,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff1.classList.contains('selected')) {
       stuff1.classList.add('selected');                 
       gesamtMinuten -= 6;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser1 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -391,6 +418,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff1.classList.remove('selected');
       let whatstuffusestheuser1 = 0;
       gesamtMinuten += 6;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -410,6 +440,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff2.classList.contains('selected')) {
       stuff2.classList.add('selected');                 
       gesamtMinuten -= 5;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser2 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -422,6 +455,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff2.classList.remove('selected');
       let whatstuffusestheuser2 = 0;
       gesamtMinuten += 5;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -440,6 +476,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff3.classList.contains('selected')) {
       stuff3.classList.add('selected');                 
       gesamtMinuten -= 1;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser3 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -452,6 +491,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff3.classList.remove('selected');
       let whatstuffusestheuser3 = 0;
       gesamtMinuten += 1;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -470,6 +512,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff4.classList.contains('selected')) {
       stuff4.classList.add('selected');                 
       gesamtMinuten -= 3;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser4 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -482,6 +527,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff4.classList.remove('selected');
       let whatstuffusestheuser4 = 0;
       gesamtMinuten += 3;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -500,6 +548,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff5.classList.contains('selected')) {
       stuff5.classList.add('selected');                 
       gesamtMinuten -= 5;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser5 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -512,6 +563,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff5.classList.remove('selected');
       let whatstuffusestheuser5 = 0;
       gesamtMinuten += 5;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -530,6 +584,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff6.classList.contains('selected')) {
       stuff6.classList.add('selected');                 
       gesamtMinuten -= 7;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser6 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -542,6 +599,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff6.classList.remove('selected');
       let whatstuffusestheuser6 = 0;
       gesamtMinuten += 7;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -560,6 +620,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff7.classList.contains('selected')) {
       stuff7.classList.add('selected');                 
       gesamtMinuten -= 1;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser7 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -572,6 +635,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff7.classList.remove('selected');
       let whatstuffusestheuser7 = 0;
       gesamtMinuten += 1;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -590,6 +656,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff8.classList.contains('selected')) {
       stuff8.classList.add('selected');                 
       gesamtMinuten -= 6;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser8 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -602,6 +671,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff8.classList.remove('selected');
       let whatstuffusestheuser8 = 0;
       gesamtMinuten += 6;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -620,6 +692,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff9.classList.contains('selected')) {
       stuff9.classList.add('selected');                 
       gesamtMinuten -= 2;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser9 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -632,6 +707,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff9.classList.remove('selected');
       let whatstuffusestheuser9 = 0;
       gesamtMinuten += 2;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -650,6 +728,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff10.classList.contains('selected')) {
       stuff10.classList.add('selected');                 
       gesamtMinuten -= 10;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser10 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -662,6 +743,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff10.classList.remove('selected');
       let whatstuffusestheuser10 = 0;
       gesamtMinuten += 10;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -680,6 +764,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff11.classList.contains('selected')) {
       stuff11.classList.add('selected');                 
       gesamtMinuten -= 2;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser11 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -692,6 +779,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff11.classList.remove('selected');
       let whatstuffusestheuser11 = 0;
       gesamtMinuten += 2;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -710,6 +800,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff12.classList.contains('selected')) {
       stuff12.classList.add('selected');                 
       gesamtMinuten -= 8;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser12 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -722,6 +815,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff12.classList.remove('selected');
       let whatstuffusestheuser12 = 0;
       gesamtMinuten += 8;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -740,6 +836,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
     if (!stuff13.classList.contains('selected')) {
       stuff13.classList.add('selected');                 
       gesamtMinuten -= 7;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatstuffusestheuser13 = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -752,6 +851,9 @@ if (aktuellerPfad.includes("screenfour_bagstuff/bagstuff1.html")) {
       stuff13.classList.remove('selected');
       let whatstuffusestheuser13 = 0;
       gesamtMinuten += 7;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -775,6 +877,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
     if (!clothing1.classList.contains('selected')) {
       clothing1.classList.add('selected');                 
       gesamtMinuten -= 3;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshoeswearstheuser = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -787,6 +892,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
       clothing1.classList.remove('selected');
       let whatshoeswearstheuser = 0;
       gesamtMinuten += 3;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -805,6 +913,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
     if (!clothing2.classList.contains('selected')) {
       clothing2.classList.add('selected');                 
       gesamtMinuten -= 3;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshoeswearstheuser = 2;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -817,6 +928,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
       clothing2.classList.remove('selected');
       let whatshoeswearstheuser = 0;
       gesamtMinuten += 3;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -838,6 +952,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
     if (!clothing3.classList.contains('selected')) {
       clothing3.classList.add('selected');                 
       gesamtMinuten -= 3;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshoeswearstheuser = 3;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -850,6 +967,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
       clothing3.classList.remove('selected');
       let whatshoeswearstheuser = 0;
       gesamtMinuten += 3;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -869,6 +989,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
     if (!clothing4.classList.contains('selected')) {
       clothing4.classList.add('selected');                 
       gesamtMinuten -= 3;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshoeswearstheuser = 4;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -881,6 +1004,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
       clothing4.classList.remove('selected');
       let whatshoeswearstheuser = 0;
       gesamtMinuten += 3;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -900,6 +1026,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
     if (!clothing5.classList.contains('selected')) {
       clothing5.classList.add('selected');                 
       gesamtMinuten -= 3;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshoeswearstheuser = 5;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -912,6 +1041,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
       clothing5.classList.remove('selected');
       let whatshoeswearstheuser = 0;
       gesamtMinuten += 3;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -931,6 +1063,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
     if (!clothing6.classList.contains('selected')) {
       clothing6.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshirtwearstheuser = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -943,6 +1078,9 @@ if (aktuellerPfad.includes("screenfive_clothes/clothing1.html")) {
       clothing6.classList.remove('selected');
       let whatshirtwearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -960,6 +1098,9 @@ const clothing7 = document.querySelector('#clothingitem7');
     if (!clothing7.classList.contains('selected')) {
       clothing7.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshirtwearstheuser = 2;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -972,6 +1113,9 @@ const clothing7 = document.querySelector('#clothingitem7');
       clothing7.classList.remove('selected');
       let whatshirtwearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -990,6 +1134,9 @@ const clothing7 = document.querySelector('#clothingitem7');
     if (!clothing8.classList.contains('selected')) {
       clothing8.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshirtwearstheuser = 3;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1002,6 +1149,9 @@ const clothing7 = document.querySelector('#clothingitem7');
       clothing8.classList.remove('selected');
       let whatshirtwearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1020,6 +1170,9 @@ const clothing7 = document.querySelector('#clothingitem7');
     if (!clothing9.classList.contains('selected')) {
       clothing9.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshirtwearstheuser = 4;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1032,6 +1185,9 @@ const clothing7 = document.querySelector('#clothingitem7');
       clothing9.classList.remove('selected');
       let whatshirtwearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1051,6 +1207,9 @@ const clothing7 = document.querySelector('#clothingitem7');
     if (!clothing10.classList.contains('selected')) {
       clothing10.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatshirtwearstheuser = 5;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1063,6 +1222,9 @@ const clothing7 = document.querySelector('#clothingitem7');
       clothing10.classList.remove('selected');
       let whatshirtwearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1081,6 +1243,9 @@ const clothing11 = document.querySelector('#clothingitem5');
     if (!clothing11.classList.contains('selected')) {
       clothing11.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatbottomswearstheuser = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1093,6 +1258,9 @@ const clothing11 = document.querySelector('#clothingitem5');
       clothing11.classList.remove('selected');
       let whatbottomswearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1110,6 +1278,9 @@ const clothing11 = document.querySelector('#clothingitem5');
     if (!clothing12.classList.contains('selected')) {
       clothing12.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatbottomswearstheuser = 2;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1122,6 +1293,9 @@ const clothing11 = document.querySelector('#clothingitem5');
       clothing12.classList.remove('selected');
       let whatbottomswearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1141,6 +1315,9 @@ const clothing11 = document.querySelector('#clothingitem5');
     if (!clothing13.classList.contains('selected')) {
       clothing13.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatbottomswearstheuser = 3;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1153,6 +1330,9 @@ const clothing11 = document.querySelector('#clothingitem5');
       clothing13.classList.remove('selected');
       let whatbottomswearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1172,6 +1352,9 @@ const clothing11 = document.querySelector('#clothingitem5');
     if (!clothing14.classList.contains('selected')) {
       clothing14.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatbottomswearstheuser = 4;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1184,6 +1367,9 @@ const clothing11 = document.querySelector('#clothingitem5');
       clothing14.classList.remove('selected');
       let whatbottomswearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1202,6 +1388,9 @@ const clothing11 = document.querySelector('#clothingitem5');
     if (!clothing15.classList.contains('selected')) {
       clothing15.classList.add('selected');                 
       gesamtMinuten -= 4;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let whatbottomswearstheuser = 5;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1214,6 +1403,9 @@ const clothing11 = document.querySelector('#clothingitem5');
       clothing15.classList.remove('selected');
       let whatbottomswearstheuser = 0;
       gesamtMinuten += 4;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1246,6 +1438,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       
       extra1.classList.add('selected');                 
       gesamtMinuten -= 10;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let buffer = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1257,6 +1452,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       extra1.classList.remove('selected');
       let buffer = 0;
       gesamtMinuten += 10;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1275,6 +1473,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       
       extra2.classList.add('selected');                 
       gesamtMinuten -= 15;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let scrolling = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1286,6 +1487,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       extra2.classList.remove('selected');
       let scrolling = 0;
       gesamtMinuten += 15;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1303,6 +1507,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       
       extra3.classList.add('selected');                 
       gesamtMinuten -= 15;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let eating = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1314,6 +1521,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       extra3.classList.remove('selected');
       let eating = 0;
       gesamtMinuten += 15;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1333,6 +1543,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       
       extra4.classList.add('selected');                 
       gesamtMinuten -= 20;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let hair = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1344,6 +1557,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       extra4.classList.remove('selected');
       let hair = 0;
       gesamtMinuten += 20;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1363,6 +1579,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       
       extra5.classList.add('selected');                 
       gesamtMinuten -= 20;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let make_up = 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1374,6 +1593,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       extra5.classList.remove('selected');
       let make_up = 0;
       gesamtMinuten += 20;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1393,6 +1615,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       
       extra6.classList.add('selected');                 
       gesamtMinuten -= 15;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let shower= 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1404,6 +1629,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       extra6.classList.remove('selected');
       let shower = 0;
       gesamtMinuten += 15;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1422,6 +1650,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       
       extra7.classList.add('selected');                 
       gesamtMinuten -= 2;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let teeth= 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1433,6 +1664,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       extra7.classList.remove('selected');
       let teeth = 0;
       gesamtMinuten += 2;         //addieren
+       if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
@@ -1452,6 +1686,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       
       extra8.classList.add('selected');                 
       gesamtMinuten -= 15;   //subtrahieren
+            if (gesamtMinuten < 0) {
+    gesamtMinuten += 1440; 
+}
       let cleaning= 1;                           
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandeln
       let neueMinuten = gesamtMinuten % 60;            //umwandeln
@@ -1463,6 +1700,9 @@ if (aktuellerPfad.includes("screensix_extratime/extratime.html")) {
       extra8.classList.remove('selected');
       let cleaning= 0;
       gesamtMinuten += 15;         //addieren
+        if (gesamtMinuten >= 1440) {
+        gesamtMinuten -= 1440;
+    }
       let neueStunden = Math.floor(gesamtMinuten / 60); //umwandlen
       let neueMinuten = gesamtMinuten % 60;             //umwandeln
       localStorage.setItem("endStunden", neueStunden); //speichern in alte variabeln
