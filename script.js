@@ -1992,7 +1992,7 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_four/bagfast.html")) {
 
 
 if (aktuellerPfad.includes("screen_for_the_fast_mode_winning_finishing/fastmodewinning.html")) {
-var speed=200; // lower number for faster
+var speed=150; // lower number for faster
 var warp=7; // from 1 to 10
 var stars=300; // number of stars
 var colours=new Array("rgb(255, 208, 0)", "rgb(255, 187, 0)", "rgb(218, 216, 139)"); // colours of stars
