@@ -221,8 +221,12 @@ function datenVerarbeiten() {
         const wayStunden = Number(document.getElementById("hourfieldfortheway")?.value || 0);
         const wayMinuten = Number(document.getElementById("minutesfieldfortheway")?.value || 0);
         const loadedSumme2 = (wayStunden * 60) + wayMinuten;
+       
+        let endZeit = loadedSumme1 - loadedSumme2;
 
-        const endZeit = loadedSumme1 - loadedSumme2;
+         if (endZeit < 0) {
+            endZeit += 1440; 
+        }
         const endStunden = Math.floor(endZeit / 60);
         const endMinuten = endZeit % 60;
         console.log(`Ergebnis: ${endStunden} Stunden und ${endMinuten} Minuten`);
