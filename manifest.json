@@ -4,11 +4,19 @@
   "description": "Get ready with Mira and reduce your stress while getting ready!",
   "theme_color": "#5ACAFA",
   "background_color": "#5ACAFA",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/Get-ready-app/",
   "start_url": "/Get-ready-app/index.html",
+  "id": "/Get-ready-app/",
+  "prefer_related_applications": false,
   "icons": [
+    {
+      "src": "app%20icon%20(2).png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "app%20icon%20(2).png",
       "sizes": "512x512",
