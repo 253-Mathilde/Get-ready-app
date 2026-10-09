@@ -1,0 +1,19 @@
+name: Build Android APK
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code auschecken
+        uses: actions/checkout@v4
+
+      - name: HTML to APK Action
+        uses: kimhuilim/web-to-app-action@Alpha3
+        with:
+          entryPoint: 'index.html'
+          app_name: 'prête'
+          app_id: 'com.mathilde.prete'
+  
