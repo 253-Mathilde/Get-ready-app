@@ -13,12 +13,6 @@ jobs:
       - name: Web to APK Builder ausführen
         uses: cemcoe/web-to-apk-action@v1
         with:
-          web-dir: '.'
-          app-name: 'prête'
-          app-id: 'com.mathilde.prete'
-
-      - name: APK zum Download bereitstellen
-        uses: actions/upload-artifact@v4
-        with:
-          name: prete-android-app
-          path: '*.apk'
+          entryPoint: 'index.html'
+          app_name: 'prête'
+          app_id: 'com.mathilde.prete'
