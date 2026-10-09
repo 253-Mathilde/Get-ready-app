@@ -204,7 +204,9 @@ Here you write all you need to write.
 ```
 </details>
 
-
+<details>
+<summary> <em>Coding progress (visually)</em> </summary>
+ 
 ```mermaid
 flowchart TB
     B(["Got the idea"]) --x n1(["Started working on the graphics"])
@@ -262,3 +264,5 @@ flowchart TB
     style n26 fill:#FFD600,stroke:#FFF9C4
     style n27 fill:#FFD600,stroke:#FFF9C4
 ```
+
+</details>
