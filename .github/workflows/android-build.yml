@@ -1,36 +1,44 @@
-   
-name: Convert build files to APK and upload to Github Artifacts
-on: push
+name: Build Android APK
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-     
-    - run: npm install
-    - run: npm run build
- 
-    - uses: kimhuilim/web-to-app-action@Alpha3
-      with:
-          build-folder-path: "github" # Defaults to build, It is the folder where build files or html are stored
-          app-name: "prête" # Defaults to MyApp
-          output-folder-path: "my-apks" # Defaults to apk/, Where final APK files are created
-    
-    - name: 'Upload Artifact'
-      uses: actions/upload-artifact@v2
-      with:
-        name: Final-apks
-        path: my-apks/ # Should be same as "output-folder-path"
+      - name: Code auschecken
+        uses: actions/checkout@v4
 
+      - name: Node.js einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
 
+      - name: Java einrichten (für Android Build)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Abhängigkeiten installieren
+        run: |
+          npm install
+          npm install @capacitor/core @capacitor/cli @capacitor/android
+
+      - name: Capacitor initialisieren und Android hinzufügen
+        run: |
+          npx cap init prête com.mathilde.prete --web-dir=.
+          npx cap add android
+          npx cap sync android
+
+      - name: Android APK bauen (Gradle)
+        run: |
+          cd android && ./gradlew assembleDebug
+
+      - name: APK zum Download bereitstellen
+        uses: actions/upload-artifact@v4
+        with:
+          name: prete-android-app
+          path: android/app/build/outputs/apk/debug/app-debug.apk
 
