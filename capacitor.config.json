@@ -1,0 +1,17 @@
+{
+  "appId": "com.mathilde.prete",
+  "appName": "prête",
+  "webDir": ".",
+  "plugins": {
+    "CapacitorCookies": {
+      "enabled": true
+    }
+  },
+  "android": {
+    "backgroundColor": "#5ACAFA",
+    "allowMixedContent": true,
+    "captureInput": true,
+    "hideLogs": true,
+    "immersive": true
+  }
+}
