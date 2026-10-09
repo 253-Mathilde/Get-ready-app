@@ -203,4 +203,61 @@ Here you write all you need to write.
 </details>
 ```
 </details>
+```
+flowchart TB
+    B(["Got the idea"]) --x n1(["Started working on the graphics"])
+    n1 --x n5(["Made the concept for Mira,brainstorming"])
+    n5 --x n4(["Codet the first site (1 of 20)"])
+    n4 --x n3(["Made the first ever input field in my life (2 of 20)"])
+    n3 --x n6(["Made the app icon and started working on the JS (2 of 20)"])
+    n6 --x n7(["JS worked (3 of 20)"])
+    n7 --x n8(["Math and local storage works (4 of 20)"])
+    n8 --x n9(["File structure and first sound (5 of 20)"])
+    n9 --x n10(["Made the README"])
+    n10 --x n11(["Selecting works ( 6 of 20)"])
+    n11 --x n12(["Weather for dressing (7 of 20)"])
+    n12 --x n13(["Notes feature for the dressing (8 of 20)"])
+    n13 --x n14(["Extra item site (9 of 20)"])
+    n14 --x n15(["Changing screen plus local storage (10 of 20)"])
+    n15 --x n16(["Actual mode started (11 of 20)"])
+    n16 --x n17(["Wardrobe (12 of 20)"])
+    n17 --x n18(["First ever timer with local storage"])
+    n18 --x n19(["Changing screen (13 of 20)"])
+    n19 --x n20(["First ever styling of checkboxes (14 of 20)"])
+    n20 --x n21(["Bag screen,local storage (15 of 20)"])
+    n21 --x n22(["Actual mode finsihed (16 of 20)"])
+    n22 --x n23(["Fast mdoe site (17 of 20)"])
+    n23 --x n24(["Fast mode site (18 of 20)"])
+    n24 --x n25(["Fast mode site (19 of 20)"])
+    n25 --x n26(["Fast mode site (20 of 20)"])
+    n26 --x n27(["Winning site of fast (20 of 20)"])
+
+    style B fill:#FFD600,stroke:#FFF9C4
+    style n1 fill:#FFD600,stroke:#FFF9C4
+    style n5 fill:#FFD600,stroke:#FFF9C4
+    style n4 stroke:#FFF9C4,fill:#FFD600
+    style n3 stroke:#FFF9C4,fill:#FFD600
+    style n6 fill:#FFD600,stroke:#FFF9C4
+    style n7 fill:#FFD600,stroke:#FFF9C4
+    style n8 fill:#FFD600,stroke:#FFF9C4
+    style n9 fill:#FFD600,stroke:#FFF9C4
+    style n10 fill:#FFD600,stroke:#FFF9C4
+    style n11 fill:#FFD600,stroke:#FFF9C4
+    style n12 fill:#FFD600,stroke:#FFF9C4
+    style n13 fill:#FFD600,stroke:#FFF9C4
+    style n14 fill:#FFD600,stroke:#FFF9C4
+    style n15 fill:#AA00FF,stroke:#E1BEE7
+    style n16 fill:#FFD600,stroke:#FFF9C4
+    style n17 fill:#FFD600,stroke:#FFF9C4
+    style n18 fill:#FFD600,stroke:#FFF9C4
+    style n19 fill:#FFD600,stroke:#FFF9C4
+    style n20 fill:#FFD600,stroke:#FFF9C4
+    style n21 fill:#FFD600,stroke:#FFF9C4
+    style n22 fill:#FF6D00,stroke:#FFF9C4
+    style n23 fill:#FFD600,stroke:#FFF9C4
+    style n24 fill:#FFD600,stroke:#FFF9C4
+    style n25 fill:#FFD600,stroke:#FFF9C4
+    style n26 fill:#FFD600,stroke:#FFF9C4
+    style n27 fill:#FFD600,stroke:#FFF9C4
+```
 
