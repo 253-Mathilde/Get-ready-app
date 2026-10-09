@@ -21,6 +21,12 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
+      - name: Web-Ordner für Capacitor vorbereiten
+        run: |
+          mkdir www
+          # Kopiert alle Dateien und Unterordner (außer .git und .github) in den neuen www-Ordner
+          rsync -av --exclude='.git' --exclude='.github' --exclude='www' ./ ./www/
+
       - name: Abhängigkeiten installieren
         run: |
           npm install
@@ -28,7 +34,7 @@ jobs:
 
       - name: Capacitor initialisieren und Android hinzufügen
         run: |
-          npx cap init prête com.mathilde.prete --web-dir=.
+          npx cap init prête com.mathilde.prete --web-dir=www
           npx cap add android
           npx cap sync android
 
