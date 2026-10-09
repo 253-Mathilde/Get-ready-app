@@ -203,7 +203,9 @@ Here you write all you need to write.
 </details>
 ```
 </details>
-```
+
+
+```mermaid
 flowchart TB
     B(["Got the idea"]) --x n1(["Started working on the graphics"])
     n1 --x n5(["Made the concept for Mira,brainstorming"])
@@ -260,4 +262,3 @@ flowchart TB
     style n26 fill:#FFD600,stroke:#FFF9C4
     style n27 fill:#FFD600,stroke:#FFF9C4
 ```
-
