@@ -20,7 +20,7 @@ jobs:
     - run: npm install
     - run: npm run build
  
-    - uses: darkshredder/web-to-app-action@main
+    - uses: kimhuilim/web-to-app-action@Alpha3
       with:
           build-folder-path: "github" # Defaults to build, It is the folder where build files or html are stored
           app-name: "prête" # Defaults to MyApp
@@ -31,3 +31,6 @@ jobs:
       with:
         name: Final-apks
         path: my-apks/ # Should be same as "output-folder-path"
+
+
+
