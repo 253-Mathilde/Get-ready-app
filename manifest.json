@@ -23,5 +23,9 @@
       "type": "image/png",
       "purpose": "any"
     }
-  ]
+  ],
+  "edge_to_edge": true,
+  "gcm_sender_id": "103953800507"
 }
+
+
