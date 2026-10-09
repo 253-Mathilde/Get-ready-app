@@ -13,7 +13,7 @@
       "src": "app%20icon%20(2).png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
     }
   ]
 }
