@@ -31,40 +31,13 @@ jobs:
           npm install
           npm install @capacitor/core @capacitor/cli @capacitor/android
 
-      - name: Capacitor initialisieren und Android hinzufügen
+      - name: Capacitor initialisieren und Android-Projekt erzeugen
         run: |
           npx cap init prête com.mathilde.prete --web-dir=www
           npx cap add android
 
-      - name: App-Icon im Android-System registrieren
-        run: |
-          # Erstellt die Standard-Ordner für App-Icons in Android, falls sie fehlen
-          mkdir -p android/app/src/main/res/mipmap-mdpi
-          mkdir -p android/app/src/main/res/mipmap-hdpi
-          mkdir -p android/app/src/main/res/mipmap-xhdpi
-          mkdir -p android/app/src/main/res/mipmap-xxhdpi
-          mkdir -p android/app/src/main/res/mipmap-xxxhdpi
-          
-          # Kopiert dein Icon als offizielles System-Launcher-Icon in alle Auflösungen
-          cp "app icon (2).png" android/app/src/main/res/mipmap-mdpi/ic_launcher.png
-          cp "app icon (2).png" android/app/src/main/res/mipmap-hdpi/ic_launcher.png
-          cp "app icon (2).png" android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
-          cp "app icon (2).png" android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
-          cp "app icon (2).png" android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
-          
-          cp "app icon (2).png" android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png
-          cp "app icon (2).png" android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
-          cp "app icon (2).png" android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
-          cp "app icon (2).png" android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
-          cp "app icon (2).png" android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
-
-      - name: Vollbildmodus erzwingen (Balken entfernen)
-        run: |
-          # Erlaubt der App, die Ränder der Kamera-Notch (Edge-to-Edge) nativ komplett zu überlagern
-          sed -i '/<application/a \        android:windowLayoutInDisplayCutoutMode="shortEdges"' android/app/src/main/AndroidManifest.xml
-          
-          # Native Anweisung im Android-Theme einbrennen, damit System-Balken ausgeblendet werden
-          sed -i '/<style name="AppTheme"/a \        <item name="android:windowFullscreen">true</item>\n        <item name="android:windowContentOverlay">@null</item>' android/app/src/main/res/values/styles.xml
+      - name: Eigenes Android-Setup ausführen (Icons & Vollbild)
+        run: node setup-android.js
 
       - name: Capacitor Synchronisation abschließen
         run: |
@@ -79,4 +52,3 @@ jobs:
         with:
           name: prete-android-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
-
