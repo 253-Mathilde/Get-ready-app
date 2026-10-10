@@ -32,16 +32,18 @@ if (hurryBtn) {
 const textBtn = document.getElementById("text");
 if (textBtn) {
     textBtn.addEventListener("click", function() { 
-       localStorage.removeItem('lastVisitedPage'); 
-       localStorage.clear(); 
+        const sichereUrl = localStorage.getItem('appBaseUrl') || "../";
+        const zielPfad = sichereUrl + "/index.html";
+
+        localStorage.clear(); 
+        localStorage.setItem('appBaseUrl', sichereUrl);
+
         const audiohome = document.querySelector("#homemusic");
         if (audiohome) {
             audiohome.play();
-            audiohome.onended = function() {
-                window.location.href = "../index.html";
-            };
+            audiohome.onended = function() { window.location.href = zielPfad; };
         } else {
-            window.location.href = "../index.html";
+            window.location.href = zielPfad;
         }
     });
 }
