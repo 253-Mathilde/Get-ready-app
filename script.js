@@ -61,8 +61,9 @@ if (textBtn) {
 
 function finishing() {
   localStorage.removeItem('lastVisitedPage'); 
+ localStorage.clear(); 
   window.location.href = "../index.html";
-  localStorage.clear(); 
+  
   console.log(localStorage.length); 
 }
 
