@@ -1,3 +1,7 @@
+if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.requestPermissions();
+}
+
 const aktuellerPfad = window.location.pathname;
 window.addEventListener('DOMContentLoaded', () => {
     if (aktuellerPfad.endsWith("index.html") || aktuellerPfad === "/" || aktuellerPfad.endsWith("/")) {
