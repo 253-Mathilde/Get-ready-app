@@ -42,7 +42,7 @@ if (fs.existsSync(javaPath)) {
     }
 }
 
-// 2. APP-ICONS REPARIEREN (Bleibt bestehen, da es super funktioniert)
+// 2. APP-ICONS REPARIEREN (Für den Homescreen)
 const iconSource = path.join(__dirname, 'app icon (2).png');
 const resFolder = path.join(__dirname, 'android/app/src/main/res');
 const mipmapFolders = ['mipmap-mdpi', 'mipmap-hdpi', 'mipmap-xhdpi', 'mipmap-xxhdpi', 'mipmap-xxxhdpi'];
@@ -57,5 +57,45 @@ if (fs.existsSync(iconSource) && fs.existsSync(resFolder)) {
     });
     console.log('✅ App-Icons erfolgreich kopiert!');
 } else {
-    console.log('❌ Fehler bei den Icons.');
+    console.log('❌ Fehler bei den Homescreen-Icons.');
+}
+
+// 3. --- NEU: BENACHRICHTIGUNGS-ICONS KOPIEREN (Für die Statusleiste oben) ---
+console.log('Kopiere weiße Benachrichtigungs-Icons...');
+const sourceResDir = __dirname; 
+const drawableFolders = [
+    'drawable-hdpi',
+    'drawable-mdpi',
+    'drawable-xhdpi',
+    'drawable-xxhdpi',
+    'drawable-xxxhdpi'
+];
+
+if (fs.existsSync(resFolder)) {
+    drawableFolders.forEach(folder => {
+        const fromPath = path.join(sourceResDir, folder);
+        const toPath = path.join(resFolder, folder);
+
+        if (fs.existsSync(fromPath)) {
+            if (!fs.existsSync(toPath)) {
+                fs.mkdirSync(toPath, { recursive: true });
+            }
+
+            const iconName = 'ic_stat_notification.png';
+            const fileFrom = path.join(fromPath, iconName);
+            const fileTo = path.join(toPath, iconName);
+
+            if (fs.existsSync(fileFrom)) {
+                fs.copyFileSync(fileFrom, fileTo);
+                console.log(`✓ ${folder}/${iconName} erfolgreich kopiert.`);
+            } else {
+                console.log(`⚠ Datei ${iconName} in ${folder} nicht gefunden!`);
+            }
+        } else {
+            console.log(`⚠ Quellordner ${folder} fehlt im Hauptverzeichnis.`);
+        }
+    });
+    console.log('✅ Benachrichtigungs-Icons erfolgreich eingerichtet!');
+} else {
+    console.log('❌ Ziel-Res-Ordner für Benachrichtigungs-Icons existiert nicht.');
 }
