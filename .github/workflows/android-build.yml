@@ -53,7 +53,7 @@ jobs:
           ./gradlew assembleRelease
 
       - name: APK automatisch zipalignen und signieren
-        uses: rrascacachon/sign-android-release@v1
+        uses: iliaminkov/sign-android-release@v1
         id: sign_app
         with:
           releaseDirectory: android/app/build/outputs/apk/release
