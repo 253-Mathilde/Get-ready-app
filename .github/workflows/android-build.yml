@@ -52,18 +52,22 @@ jobs:
           chmod +x gradlew
           ./gradlew assembleRelease
 
-      - name: APK automatisch zipalignen und signieren
-        uses: iliaminkov/sign-android-release@v1
-        id: sign_app
-        with:
-          releaseDirectory: android/app/build/outputs/apk/release
-          signingKeyBase64: ${{ secrets.SIGNING_KEY }}
-          alias: ${{ secrets.ALIAS }}
-          keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
-          keyPassword: ${{ secrets.KEY_PASSWORD }}
+      - name: APK manuell zipalignen und signieren
+        run: |
+          # 1. Base64-Schlüssel wieder in eine echte Keystore-Datei zurückverwandeln
+          echo "${{ secrets.SIGNING_KEY }}" | base64 -d > my-release-key.keystore
+          
+          # 2. Den Pfad zum Android Build-Tools Ordner finden, wo zipalign und apksigner liegen
+          BUILD_TOOLS_DIR=$(dirname $(find $ANDROID_HOME/build-tools -name apksigner | head -n 1))
+          
+          # 3. Das unverarbeitete APK optimieren (zipalign)
+          $BUILD_TOOLS_DIR/zipalign -v 4 android/app/build/outputs/apk/release/app-release-unsigned.apk prete-aligned.apk
+          
+          # 4. Das optimierte APK offiziell signieren
+          $BUILD_TOOLS_DIR/apksigner sign --ks my-release-key.keystore --ks-pass pass:"${{ secrets.KEY_STORE_PASSWORD }}" --ks-key-pass pass:"${{ secrets.KEY_PASSWORD }}" --out prete-signed.apk prete-aligned.apk
 
       - name: Fertig signierte APK zum Download bereitstellen
         uses: actions/upload-artifact@v4
         with:
           name: prete-signed-app
-          path: ${{ steps.sign_app.outputs.signedReleaseFile }}
+          path: prete-signed.apk
