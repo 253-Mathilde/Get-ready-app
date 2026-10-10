@@ -1731,14 +1731,19 @@ if (aktuellerPfad.includes("screen_for_the_actual_mode_one/changingscreen.html")
     if (text) {
         text.textContent = `${stunden}:${formatierteMinuten}`;
     }
-
-
+const nachrichtText = `You should start getting ready at ${stunden}:${formatierteMinuten}. Don't miss that time, maybe set yourself an alarm! So proud of you for doing this -Mira <3`;
+if (window.Capacitor?.Plugins?.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.schedule({
+        notifications: [{ title: "prête", body: nachrichtText, id: 1,  smallIcon: "ic_launcher",iconColor: "#5ACAFA", largeBody: nachrichtText }]
+    });
+} else {
     Notification.requestPermission().then(permission => {
-    if (permission === 'granted') {
-        new Notification(`You should start getting ready at ${stunden}:${formatierteMinuten}. Don't miss that time, maybe set yourself an alarm! So proud of you for doing this -Mira <3`);
-    }
-});
+        if (permission === 'granted') {
+            new Notification(nachrichtText);
+        }
+    });
 }
+
 
 
 if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearstheuser.html")) {
@@ -1886,8 +1891,20 @@ let time = startTiming * 60
     function updateTimer (){
      if (time <= 0) {
       clearInterval(timerInterval);
-      count.innerHTML = "(★‿★)"; 
-       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+      count.innerHTML = "(★‿★)";
+const nachrichtText = `Hey it is time to wrap things up and to continue with the next step!`;
+if (window.Capacitor?.Plugins?.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.schedule({
+        notifications: [{ title: "prête", body: nachrichtText, id: 2,  smallIcon: "ic_launcher",iconColor: "#5ACAFA", largeBody: nachrichtText }]
+    });
+} else {
+    Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+            new Notification(nachrichtText);
+        }
+    });
+}
+
         return;
      }
       const minutes = Math.floor(time/60)
@@ -2010,7 +2027,18 @@ let time = startTiming * 60
      if (time <= 0) {
       clearInterval(timerInterval);
       count.innerHTML = "(★‿★)"; 
-       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+      const nachrichtText = `Hey it is time to wrap things up and to continue with the next step!`;
+if (window.Capacitor?.Plugins?.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.schedule({
+        notifications: [{ title: "prête", body: nachrichtText, id: 3,  smallIcon: "ic_launcher",iconColor: "#5ACAFA", largeBody: nachrichtText }]
+    });
+} else {
+    Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+            new Notification(nachrichtText);
+        }
+    });
+}
         return;
      }
       const minutes = Math.floor(time/60)
@@ -2125,7 +2153,18 @@ if (aktuellerPfad.includes("screen_for_the_actual-mode_seven/bagstuffactualmode.
      if (time <= 0) {
       clearInterval(timerInterval);
       count.innerHTML = "(★‿★)"; 
-       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+      const nachrichtText = `Hey it is time to wrap things up and to continue with the next step!`;
+if (window.Capacitor?.Plugins?.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.schedule({
+        notifications: [{ title: "prête", body: nachrichtText, id: 4,  smallIcon: "ic_launcher",iconColor: "#5ACAFA", largeBody: nachrichtText }]
+    });
+} else {
+    Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+            new Notification(nachrichtText);
+        }
+    });
+}
         return;
      }
       const minutes = Math.floor(time/60)
@@ -2150,7 +2189,18 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_one/clothes_fast.html")) {
      if (time <= 0) {
       clearInterval(timerInterval);
       count.innerHTML = "(★‿★)"; 
-       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+      const nachrichtText = `Hey it is time to wrap things up and to continue with the next step!`;
+if (window.Capacitor?.Plugins?.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.schedule({
+        notifications: [{ title: "prête", body: nachrichtText, id: 5,  smallIcon: "ic_launcher",iconColor: "#5ACAFA", largeBody: nachrichtText }]
+    });
+} else {
+    Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+            new Notification(nachrichtText);
+        }
+    });
+}
         return;
      }
       const minutes = Math.floor(time/60)
@@ -2172,7 +2222,18 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_two/hairfast.html")) {
      if (time <= 0) {
       clearInterval(timerInterval);
       count.innerHTML = "(★‿★)"; 
-       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+       const nachrichtText = `Hey it is time to wrap things up and to continue with the next step!`;
+if (window.Capacitor?.Plugins?.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.schedule({
+        notifications: [{ title: "prête", body: nachrichtText, id: 6,  smallIcon: "ic_launcher",iconColor: "#5ACAFA", largeBody: nachrichtText }]
+    });
+} else {
+    Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+            new Notification(nachrichtText);
+        }
+    });
+}
         return;
      }
       const minutes = Math.floor(time/60)
@@ -2194,7 +2255,18 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_three/teethfast.html")) {
      if (time <= 0) {
       clearInterval(timerInterval);
       count.innerHTML = "(★‿★)"; 
-       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+      const nachrichtText = `Hey it is time to wrap things up and to continue with the next step!`;
+if (window.Capacitor?.Plugins?.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.schedule({
+        notifications: [{ title: "prête", body: nachrichtText, id: 7,  smallIcon: "ic_launcher",iconColor: "#5ACAFA", largeBody: nachrichtText }]
+    });
+} else {
+    Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+            new Notification(nachrichtText);
+        }
+    });
+}
         return;
      }
       const minutes = Math.floor(time/60)
@@ -2219,7 +2291,18 @@ if (aktuellerPfad.includes("screen_for_the_fast_mode_four/bagfast.html")) {
      if (time <= 0) {
       clearInterval(timerInterval);
       count.innerHTML = "(★‿★)"; 
-       new Notification(`Hey it is time to wrap things up and to continue with the next step!`);
+      const nachrichtText = `Hey it is time to wrap things up and to continue with the next step!`;
+if (window.Capacitor?.Plugins?.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.schedule({
+        notifications: [{ title: "prête", body: nachrichtText, id: 8,  smallIcon: "ic_launcher",iconColor: "#5ACAFA", largeBody: nachrichtText }]
+    });
+} else {
+    Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+            new Notification(nachrichtText);
+        }
+    });
+}
         return;
      }
       const minutes = Math.floor(time/60)
