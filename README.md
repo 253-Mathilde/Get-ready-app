@@ -30,17 +30,26 @@ AND feel confident!
 <details>
 <summary><em>The app in action (galerie)</em> </summary>
 <div style="display: flex; gap: 100px;">
-  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-08-25 190849" src="https://github.com/user-attachments/assets/86fa1371-3e0b-4d1b-8098-c0e2cc031d5c" />
-  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-05 180929" src="https://github.com/user-attachments/assets/e6b575c2-992e-42fb-bbc4-b095d7520e7f" />
-  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-12 143356" src="https://github.com/user-attachments/assets/dcb6c642-3ef1-425c-9464-80d3d7d35976" />
-  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-12 143152" src="https://github.com/user-attachments/assets/938d16c2-9c66-4912-87ee-5311588b9ff0" />
-  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-25 145638" src="https://github.com/user-attachments/assets/e0a2e59c-79ca-4c4e-bdb6-63c8e6bcb579" />
-  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/d68ca889-6ec3-42bd-97a3-4383eeab63f1" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-08-25 190849" src="https://github.com/user-attachments/assets/ab54beb0-6539-4cc4-a3f3-bc22441bcdf4" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-05 180929" src="https://github.com/user-attachments/assets/945cd051-30ad-4714-847e-47118ade468a" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-12 143356" src="https://github.com/user-attachments/assets/7d4d57dc-3ab9-4646-8019-4315d5875527" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-12 143152" src="https://github.com/user-attachments/assets/3899e418-5b1e-4b67-8c94-94e772377de4" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-25 145638" src="https://github.com/user-attachments/assets/73cd0819-b939-44b8-bed6-514f87132f56" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/00bd63f5-a102-4ca9-9216-f94b4b3ca9cb" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/33aff64b-b904-43bd-b8d3-a09392b31c78" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/4edfb5f7-e85d-4b64-bea6-5030091ede63" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/2adb61e8-06fd-46ab-995e-912c39556221" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/3d64c5aa-d9e4-4870-bea9-c858b8537ebd" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/43cd992d-3c30-4bc0-ae2f-b5d62ea141f2" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/045e9f06-acbd-4b0f-83ff-27374db583e6" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/58979da4-269c-46de-8468-dfd84020ca21" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/a27a96df-557c-4302-af30-05311ed319a6" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/244db8ac-a13b-441e-a328-cb55a61a61a8" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/02d13da2-8ba9-47bf-992f-41710ee7841d" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/773676e5-8c1e-45a6-8d51-7e148b0ffdd9" />
+ 
 </div>
 </details>
-
-
-
 
 
 
