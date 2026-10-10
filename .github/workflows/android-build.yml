@@ -63,8 +63,8 @@ jobs:
           # 3. Das unverarbeitete APK optimieren (zipalign)
           $BUILD_TOOLS_DIR/zipalign -v 4 android/app/build/outputs/apk/release/app-release-unsigned.apk prete-aligned.apk
           
-          # 4. Das optimierte APK offiziell signieren
-          $BUILD_TOOLS_DIR/apksigner sign --ks my-release-key.keystore --ks-pass pass:"${{ secrets.KEY_STORE_PASSWORD }}" --ks-key-pass pass:"${{ secrets.KEY_PASSWORD }}" --out prete-signed.apk prete-aligned.apk
+          # 4. Das optimierte APK offiziell signieren (Hier korrigiert!)
+          $BUILD_TOOLS_DIR/apksigner sign --ks my-release-key.keystore --ks-pass pass:"${{ secrets.KEY_STORE_PASSWORD }}" --key-pass pass:"${{ secrets.KEY_PASSWORD }}" --out prete-signed.apk prete-aligned.apk
 
       - name: Fertig signierte APK zum Download bereitstellen
         uses: actions/upload-artifact@v4
