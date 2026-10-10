@@ -31,20 +31,29 @@ jobs:
           npm install
           npm install @capacitor/core @capacitor/cli @capacitor/android
 
-      - name: Capacitor Synchronisation ausführen
+      - name: Alten Android-Ordner entfernen falls vorhanden
+        run: rm -rf android
+
+      - name: Capacitor Android-Projekt frisch erzeugen
         run: |
-          npx cap sync android
+          npx cap init prête com.mathilde.prete --web-dir=www
+          npx cap add android
 
       - name: Eigenes Android-Setup ausführen (Icons & Vollbild)
         run: node setup-android.js
 
+      - name: Capacitor Synchronisation abschließen
+        run: |
+          npx cap sync android
+
       - name: Android APK bauen (Gradle)
         run: |
-          cd android && chmod +x gradlew && ./gradlew assembleDebug
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug
 
       - name: APK zum Download bereitstellen
         uses: actions/upload-artifact@v4
         with:
           name: prete-android-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
-
