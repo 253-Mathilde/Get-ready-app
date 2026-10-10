@@ -46,14 +46,24 @@ jobs:
         run: |
           npx cap sync android
 
-      - name: Android APK bauen (Gradle)
+      - name: Android APK bauen (Gradle Release)
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleDebug
+          ./gradlew assembleRelease
 
-      - name: APK zum Download bereitstellen
+      - name: APK automatisch zipalignen und signieren
+        uses: rrascacachon/sign-android-release@v1
+        id: sign_app
+        with:
+          releaseDirectory: android/app/build/outputs/apk/release
+          signingKeyBase64: ${{ secrets.SIGNING_KEY }}
+          alias: ${{ secrets.ALIAS }}
+          keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
+          keyPassword: ${{ secrets.KEY_PASSWORD }}
+
+      - name: Fertig signierte APK zum Download bereitstellen
         uses: actions/upload-artifact@v4
         with:
-          name: prete-android-app
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          name: prete-signed-app
+          path: ${{ steps.sign_app.outputs.signedReleaseFile }}
