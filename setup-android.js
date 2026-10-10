@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 1. BALKEN REIN ÜBER JAVA-CODE KILLEN (SICHERER WEG)
+// Hier muss der Pfad zur MainActivity.java stehen bleiben!
 const javaPath = path.join(__dirname, 'android/app/src/main/java/com/mathilde/prete/MainActivity.java');
 if (fs.existsSync(javaPath)) {
     let javaCode = fs.readFileSync(javaPath, 'utf8');
@@ -60,9 +61,10 @@ if (fs.existsSync(iconSource) && fs.existsSync(resFolder)) {
     console.log('❌ Fehler bei den Homescreen-Icons.');
 }
 
-// 3. --- NEU: BENACHRICHTIGUNGS-ICONS KOPIEREN (Für die Statusleiste oben) ---
+// 3. --- BENACHRICHTIGUNGS-ICONS KOPIEREN (Aus dem neuen res-Ordner) ---
 console.log('Kopiere weiße Benachrichtigungs-Icons...');
-const sourceResDir = __dirname; 
+// Hier liest das Skript jetzt ordnungsgemäß aus deinem neuen 'res'-Ordner!
+const sourceResDir = path.join(__dirname, 'res'); 
 const drawableFolders = [
     'drawable-hdpi',
     'drawable-mdpi',
@@ -92,7 +94,7 @@ if (fs.existsSync(resFolder)) {
                 console.log(`⚠ Datei ${iconName} in ${folder} nicht gefunden!`);
             }
         } else {
-            console.log(`⚠ Quellordner ${folder} fehlt im Hauptverzeichnis.`);
+            console.log(`⚠ Quellordner ${folder} fehlt im res-Verzeichnis.`);
         }
     });
     console.log('✅ Benachrichtigungs-Icons erfolgreich eingerichtet!');
