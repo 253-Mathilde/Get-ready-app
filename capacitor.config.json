@@ -1,7 +1,7 @@
 {
   "appId": "com.mathilde.prete",
   "appName": "prête",
-  "webDir": ".",
+  "webDir": "www",
   "plugins": {
     "CapacitorCookies": {
       "enabled": true
