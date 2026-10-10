@@ -17,35 +17,63 @@ https://github.com/user-attachments/assets/dde383f5-a452-4906-a0a9-482123e477a8
 <br>
 <br>
 <br>
-Prête app is an app that helps you to get ready and to reduce your stress. With the prête app you'll never forget
-something. If you leave your home in stress the rest of your day or your event is gone because you are in such 
-a bad mood and don't feel confident. With the help of your personal partner Mira you can get ready without any stress or even leave in 15 mintes
-and feel confident!
-
+Prête app is an app that helps you to get ready and to reduce your stress. <br>
+With the prête app you'll never forget something. <br>
+If you leave your home in stress the rest of your day or your event is gone because you are in such 
+a bad mood and don't feel confident. <br>
+With the help of your personal partner Mira you can get ready without any stress or even leave in 15 mintes 
+AND feel confident!
+<br>
+<br> 
 </details>
+
+<details>
+<summary><em>The app in action (galerie)</em> </summary>
+<div style="display: flex; gap: 100px;">
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-08-25 190849" src="https://github.com/user-attachments/assets/86fa1371-3e0b-4d1b-8098-c0e2cc031d5c" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-05 180929" src="https://github.com/user-attachments/assets/e6b575c2-992e-42fb-bbc4-b095d7520e7f" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-12 143356" src="https://github.com/user-attachments/assets/dcb6c642-3ef1-425c-9464-80d3d7d35976" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-12 143152" src="https://github.com/user-attachments/assets/938d16c2-9c66-4912-87ee-5311588b9ff0" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-25 145638" src="https://github.com/user-attachments/assets/e0a2e59c-79ca-4c4e-bdb6-63c8e6bcb579" />
+  <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-10-02 183452" src="https://github.com/user-attachments/assets/d68ca889-6ec3-42bd-97a3-4383eeab63f1" />
+</div>
+</details>
+
+
+
+
+
+
  <details>
 <summary><em> How to turn an idea into an actual app</em> </summary><img width="1920" height="480" alt="prête app idea" src="https://github.com/user-attachments/assets/35b44761-26d4-469c-b829-71456088797c" />
 <br>
 <br>
 <br>
-Okay so here I’ll explain how I brought my vision to life and how you could maybeee do it too! 
-Ofc it all started with an idea. And a problem. I alway plan way to less time,leave in a rush and sleep terrible because I am so worried about next day (the day with the event).
-When you have an idea it should solve a problem and it should solve that problem for everybody.
-That means that the problem must exist for everybody and not just you. 
+Okay so here I’ll explain how I brought my vision to life and how you could do it too! <br>
+Of course it all started with an idea. And a problem. I alway planned way to less time,left in a rush and slept terrible because I was so worried about next day (the day with the event).
+  <br><br>
+When you have an idea it should solve a problem and it should solve that problem for 	<ins>everybody </ins>.
+That means that the problem must exist for everybody and not just you.  <br>
 When you finally have  a good and realistic idea you can start with brainstorming. 
-No no there is no I have an idea and start coding without a plan. 
+No,no there is no I have an idea and start coding without a plan. 
 These projects never work, are super stressful and often end unfinished. 
-I literally drew a whole book full of ideas and all that stuff.
-SO brainstorm  ALOT. When you scroll to the last of my devlogs you’ll even find another like yk character because it was in the beginning a star. 
-I also made a lot of mistakes and it is okay! Also notice: when you brainstorm also make yourself a little bit of an idea for the code so licke if you brainstorm a site with all these 
-clothes have the code in your head and make yourself a little note (for example “if…”). 
-Thats enough and will help you in the future. After taht start coding and while coding keep learning.
-If you don’t know something: research, write yourself notes and don’t ask an AI. Asking is so okay but copy and paste is not.
-I say that because AI makes everything look the same and it is greta for learning but not for making. Don’t throw away your brainstorming work with using AI. 
-When you codet enough for a little test version: use an online converter to turn your code into an apk (or the apple file thing) and test it in real life. 
+I literally drew a whole book full of ideas and all that stuff so brainstorm  ALOT. <br>
+
+I also made a lot of mistakes and it is okay! <br> Also notice: when you brainstorm also make yourself a little bit of an idea for the code (if you brainstorm a site with all these 
+clothes have the code in your head and make yourself a little note (for example “if…”)). <br>
+
+Thats enough and will help you in the future. After that start coding and while coding keep learning.
+If you don’t know something: research, write yourself notes and don’t ask an AI.  Asking is so okay but copy and paste is not. Just keep in mind that AI is for the WORST case :)
+I say that because AI makes everything look the same and it is great for learning but not for making. Don’t throw away your brainstorming work with using AI. If you use AI the chanche of loosing the indivality of your project is pretty high. <br>
+
+When you coded enough for a little test version: use an online converter to turn your code into an apk (or the apple file thing,if you have a license) and test it in real life. 
 I also often used the console to try how it would look like on a phone (iphone 12 format covers most of the phones). 
 <a href=”https://app.html2app.dev/“>Here</a> is the site I used for converting ( just copy the whole folder from github turn the copy in a zip upload and then delete to save storage,I
-sent teh file per slack to my mobile).
+sent the file per slack to my mobile).
+
+<br> When you are finished with everything you can turn the whole repo in an .apk (again also apple format but only with a license).<br>
+To do that you'll need a workflow and some other files to declare the app icon,the mode (portrait etc.) and some files to declare that it will be full screen etc. <br>
+I myself used AI to help me with that because I simply do not know these programm languages. 
 </details>
 
 
@@ -54,25 +82,31 @@ sent teh file per slack to my mobile).
 <br>
 <br>
 <br>
-So to build an app you need to do way more then just coding. You need to build the graphics and the whole files and ofc the final app files (yk for examples apk...).
-But I don't want to demotivate you so we are going to start right at the beginning. I myself did that for the first time and it took me a lot of yt videos to 
-build this whole thing, so they are probably better ways to do stuff but it was the easier way for me :).
+So to build an app you need to do way more then just coding. <br> 
+You need to build the graphics and the whole files and of course the final app files (yk for examples apk...).
+But I don't want to demotivate you so we are going to start right at the beginning. <br>
+I myself did that for the first time and it took me a lot of yt videos to 
+build this whole thing, so they are probably better ways to do stuff but it was the easier way for me :). <br>
 I started by making a new VS project and structured that a little (it is important to add more and more files and structe WHILE building not when you don't even have the files for that because then 
-it get's messy). I sorted it in multiple folders (one for each site) and called them site1,site2 .........
-In every folder there is the html and css for that site (all sites run on the same JS so this is just linked and not in each folder).
+it get's messy).<br>
+I sorted it in multiple folders (one for each site) and called them site1,site2 ......... <br>
+In every folder there is the html and css for that site (all sites run on the same JS so this is just linked and not in each folder). <br>
 After that I made a new github reposity and just threw in an index,a style,a manifest,a readme and the JS. 
 These are not in a folder. Then I made some folders (this is way easier in the programm then the web version so I would recommend using that, img a) and just uploaded the content
-of my folders from my local folders. For better understanding screenone_arrivetime gets the content of the site1 folder.
-Thsi helps you while working a lot because so you can upload everything super easy without searching for years.
-You can see that also on the img (c shows how it should look in your code editor and d shows how it should look in your file manager).
-But as you may have noticed in my folders are more files then just the html and css (img b).The other stuff are the images on each of these sites. 
-For the imgs: I jsut uploaded these to the folder on the github repo and not in the fodler in my file manager because that was easier 
-and so you can upload the new html and css files easier.
+of my folders from my local folders.<br>
+For better understanding: screenone_arrivetime gets the content of the site1 folder.
+This helps you while working a lot because  you can upload everything super easy without searching for years.
+You can see that also on the img (c shows how it should look in your code editor and d shows how it should look in your file manager). <br>
+But as you may have noticed in my folders are more files then just the html and css (img b).The other stuff are the images on each of these sites. <br>
+For the imgs: I just uploaded these to the folder on the github repo and not in the fodler in my file manager because that was easier 
+and so you can upload the new html and css files easier. <br>
 For the img is it important that you just add the name like phone.png (ofc you use the name of YOUR img) and not screenthree_arrivetime/phone.png.
-Because that will cause a bug. In general teh only thing that should not be in the fodler to your actual site is the JS because if you put some files outside 
-you always need to add ../ before the file name. ../ that tells the device to jump one folder higher. So when I am on the thir site I am IN the third folder 
-but the JS is outside of it so we need to tell the device to go out of the folder.
-That is baiscally the file structure. I hope you understood a little bit. If thats not the case: feel free to ask me!
+Because that will cause a bug. <br>
+In general the only thing that should not be in the fodler to your actual site is the JS because if you put some files outside 
+you always need to add ../ before the file name. ../ that tells the device to jump one folder higher. So when I am on the their site I am IN the third folder 
+but the JS is outside of it so we need to tell the device to go out of the folder. <br>
+That is baiscally the file structure. <br>
+ I hope you understood a little bit. If thats not the case: feel free to ask me!
 </details>
 
 <details>
@@ -83,8 +117,11 @@ That is baiscally the file structure. I hope you understood a little bit. If tha
 <br>
 I myself decided that I wanted a whole main site with under-site parts. I know that there are other ways out there to do this 
  (working with multiple div's and display none/ visibilaty or even with differnt branches) but this was the easiest method for me
- and I actually did everything myself. The code has a lot of explanations and if you did the file structure as explained (one paragraph above from here) 
+ and I actually did everything myself. <br>
+ The code has a lot of explanations and if you did the file structure as explained (one paragraph above from here) 
  this is eaven easier for you!
+ <br> 
+ <br>
  
 ```ruby
 function nextsite() { //this is the function call it with a button or an element to happen
@@ -131,17 +168,22 @@ const aktuellerPfad = window.location.pathname;//declare that at the top
 <br>
 <br>
 <br>
-As you can see I did made my own animations for my app and you can build your own ones too! To build an animation is actual super duper easy and you can do it yourself. 
-In general: yes there are AI tools out there to do that but you don't need one because it is super easy and looks way better if you do it yourself. 
-For the tools: I did use the canva vd tool but you can use any vd editor that let's you duplicate whole sites and let's you save everything in the .gif.
-Let's start. Okay so first of all you need a base image. A base image is the image that is liek the background and stuff. For better understanding: You want to make an 
-animation where an item walks or moves. That item is in a room or like a setting yk. That room or setting is our base image. In that base iamge we also have like the item that will move.
-Make sure to not add to much details but please,please don't make it boring. An item that moves ona plain background is just boring and looks TERRIBLE. 
-When we have the base image you need we are going to right click on it and then we will duplicate it.
-Now we are going to move our item just a LITTLE bit. And that we will do as long as we need to get our item to it's position.
-If you want to do an effect like lightening (a lamp goes on and off) then you will need more then just one  screen where the lamp is colored because every site of the vd is only about 1.5 or 2 sec long.
-To make it look smoth and like an actual animation we will use a chaning effect: Match and Moves. This effect kinda melts these sites together.
-Ones we are finished with our animation we are going to download it (make sure to save it as a .gif and look if you need a transparent background). 
+As you can see I  made my own animations for my app and you can build your own ones too! <br>
+To build an animation is actual super duper easy and you can do it yourself. 
+In general: yes there are AI tools out there to do that but you don't need one because it is super easy and looks way better if you do it yourself. <br>
+For the tools: I did use the canva vd tool but you can use any vd editor that let's you duplicate whole sites and let's you save everything in the .gif. <br>
+Let's start.
+ Okay so first of all you need a base image. A base image is the image that is  the background and stuff.
+ <br>For better understanding: You want to make an 
+animation where an item walks or moves. That item is in a room etc.. <br>
+ That room or setting is our base image.<br>
+In that base iamge we also have the item that will move. <br>
+Make sure to not add to much details but please,please don't make it boring. An item that moves ona plain background is just boring and looks TERRIBLE. <br>
+When we have the base image  we are going to right click on it and then we will duplicate it. <br>
+Now we are going to move our item just a LITTLE bit. And that we will do as long as we need to get our item to it's position.<br><br>
+If you want to do an effect like lightening (a lamp goes on and off) then you will need more then just one  screen where the lamp is colored because every site of the vd is only about 1.5 or 2 sec long.<br>
+To make it look smoth and like an actual animation we will use a chaning effect: Match and Moves. This effect kinda melts these sites together. <br>
+Ones we are finished with our animation we are going to download it (make sure to save it as a .gif and look if you need a transparent background).  <br>
 If you want to get your aniamtion faster or slower you can use this site to make the gif faster or alower ( https://ezgif.com/ ).
 To include our animation in our code we will link it with an image tag.
 
@@ -150,34 +192,24 @@ To include our animation in our code we will link it with an image tag.
 ```
 
 And boom now you have a super cool animation in your project that doesn't load as long as 
-an mpf4 and looks super cool. 
+an mp4 and looks super cool. <br>
+If you want to add sound to your animation:<br>
+Add sound and save it as an mp4. <br>
+Go to this site and extract your audio: https://audio-extractor.net/de/ . <br>
+Save the vd without sound as a gif. <br>
+
+```ruby
+   <img src="linktoyourgifanimation">
+  <audio src="linktoyouraudio" loop autoplay></audio>
+```
+<br>
+Make the sound and the gif play together with the previews code ,make sure that with 
+that code it will play forever if you only want it to play it ones: remove the autoplay and set 
+the gif to only one loop with the gif editor site. <br>
+
 </details>
 
-<details>
-<summary> <em> Sources</em> </summary>
-<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/df65ca55-03ae-4c53-b96c-f63cb6c63158"
-/>
-<br>
-<br>
-<br>
-<a href="https://bryntum.com/blog/radio-button-and-checkbox-styling-vanilla-css-vs-tailwind/"> I used thsi site for the checkbox styling </a> <br>
-<a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items">for the styling,research</a>  <br>
-<a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"> for readme styling</a> <br>
-<a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Grid_layout/Basic_concepts"> for the basic grid layouts </a> <br>
-<a href="https://css-tricks.com/multiple-class-id-selectors/"> thsi site helped me with css, super well explained </a> <br>
-<a href="https://audio-extractor.net/de/">to part the audio from the mpf4 </a> <br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"> for the audio playing and stuff</a> <br>
-<a href="https://www.w3schools.com/tags/att_audio_loop.asp">ofc w3school because without it I would be dead :)</a> <br>
-<a href="https://www.youtube.com/watch?v=kAEt6JxrkjI">only the last part for the phone thing yk</a> <br>
-<a href="https://hackclub.com/brand">for the logos in the vd</a> <br>
-<a href="https://www.avatarsinpixels.com/chibi/Backup">for mira(the pixl figure)</a> <br>
-<a href="https://pastebin.com/GjNyLG4m">for code</a> <br>
-<a href="https://jasminnie.weebly.com/backgrounds.html">for fonts and such stuff</a> <br>
-<a href="https://www.glitter-graphics.com/">for the backgrounds (the blue one with the stars for example)</a> <br>
 
-
-
-</details>
 
 <details>
 <summary> <em>Tutorial for the README </em> </summary>
@@ -185,7 +217,7 @@ an mpf4 and looks super cool.
 <br>
 <br>
 <br>
-This part is especially made for @Maaadzia ! If you want to do your README the same as me you can do so without mentioning me 
+This part is especially made for @Maaadzia ! If you want to do your README the same as me you can do so 	<ins>without </ins>mentioning me 
  (this is only for this part but not for the other parts that contain 100% of my work).
  
 ```ruby
@@ -264,5 +296,35 @@ flowchart TB
     style n26 fill:#FFD600,stroke:#FFF9C4
     style n27 fill:#FFD600,stroke:#FFF9C4
 ```
+
+</details>
+<details>
+<summary> <em> Sources</em> </summary>
+<img width="1920" height="480" alt="prête app animation" src="https://github.com/user-attachments/assets/df65ca55-03ae-4c53-b96c-f63cb6c63158"
+/>
+<br>
+<br>
+<br>
+<a href="https://bryntum.com/blog/radio-button-and-checkbox-styling-vanilla-css-vs-tailwind/"> I used this site for the checkbox styling </a> <br>
+<a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items">for the styling,research</a>  <br>
+<a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"> for readme styling</a> <br>
+<a href="https://developer.mozilla.org/de/docs/Web/CSS/Guides/Grid_layout/Basic_concepts"> for the basic grid layouts </a> <br>
+<a href="https://css-tricks.com/multiple-class-id-selectors/"> this site helped me with css, super well explained </a> <br>
+<a href="https://audio-extractor.net/de/">to part the audio from the mpf4 </a> <br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay"> for the audio playing and stuff</a> <br>
+<a href="https://www.w3schools.com/tags/att_audio_loop.asp">of course w3school because without it I would be screwed :)</a> <br>
+<a href="https://www.youtube.com/watch?v=kAEt6JxrkjI">only the last part for the phone thing yk the manifest</a> <br>
+<a href="https://hackclub.com/brand">for the logos in the vd (from hackclub) </a> <br>
+<a href="https://www.avatarsinpixels.com/chibi/Backup">for mira(the pixl figure)</a> <br>
+<a href="https://pastebin.com/GjNyLG4m">for code</a> <br>
+<a href="https://jasminnie.weebly.com/backgrounds.html">for fonts and such stuff</a> <br>
+<a href="https://www.glitter-graphics.com/">for the backgrounds (the blue one with the stars for example)</a> <br>
+<a href="https://www.mf2fm.com/rv/dhtmlspacewarp.php">For the star effect on the winning screen (fast mode) </a> <br>
+<a href="https://fouita.com/"> For the weather applications <a/> <br>
+<a href="https://freefrontend.com/css-clouds/#google_vignette"> For the cloud effect in the background of the notes feature (normal mode) <a/> <br>
+<a href="https://www.perun.net/2021/04/08/akkordeon-effekt-nur-mit-html/"> For the notes and weather feature on the clothes screen <a/> <br>
+<a href="https://pixabay.com/de/sound-effects/"> for sound effects,where used together with canva sounds<a/> <br>
+
+
 
 </details>
