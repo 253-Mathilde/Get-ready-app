@@ -1745,7 +1745,7 @@ if (window.Capacitor?.Plugins?.LocalNotifications) {
         }
     });
 }
-
+}
 
 
 if (aktuellerPfad.includes("screen_for_the_actual-mode_three/whatclotheswearstheuser.html")) {
