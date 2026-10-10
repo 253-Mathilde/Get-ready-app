@@ -23,7 +23,7 @@ jobs:
 
       - name: Web-Ordner für Capacitor vorbereiten
         run: |
-          mkdir www
+          mkdir -p www
           rsync -av --exclude='.git' --exclude='.github' --exclude='www' ./ ./www/
 
       - name: Abhängigkeiten installieren
@@ -31,24 +31,20 @@ jobs:
           npm install
           npm install @capacitor/core @capacitor/cli @capacitor/android
 
-      - name: Capacitor initialisieren und Android-Projekt erzeugen
+      - name: Capacitor Synchronisation ausführen
         run: |
-          npx cap init prête com.mathilde.prete --web-dir=www
-          npx cap add android
+          npx cap sync android
 
       - name: Eigenes Android-Setup ausführen (Icons & Vollbild)
         run: node setup-android.js
 
-      - name: Capacitor Synchronisation abschließen
-        run: |
-          npx cap sync android
-
       - name: Android APK bauen (Gradle)
         run: |
-          cd android && ./gradlew assembleDebug
+          cd android && chmod +x gradlew && ./gradlew assembleDebug
 
       - name: APK zum Download bereitstellen
         uses: actions/upload-artifact@v4
         with:
           name: prete-android-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
+
