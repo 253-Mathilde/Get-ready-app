@@ -1,9 +1,11 @@
-if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.LocalNotifications) {
-    window.Capacitor.Plugins.LocalNotifications.requestPermissions();
-}
+
 
 const aktuellerPfad = window.location.pathname;
 window.addEventListener('DOMContentLoaded', () => {
+
+	if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.LocalNotifications) {
+    window.Capacitor.Plugins.LocalNotifications.requestPermissions();
+}
     if (aktuellerPfad.endsWith("index.html") || aktuellerPfad === "/" || aktuellerPfad.endsWith("/")) {
         let base = window.location.href.split('/').slice(0, -1).join('/');
         localStorage.setItem('appBaseUrl', base);
