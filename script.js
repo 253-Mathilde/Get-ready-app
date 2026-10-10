@@ -1,13 +1,10 @@
 const aktuellerPfad = window.location.pathname;
 window.addEventListener('DOMContentLoaded', () => {
-  if (aktuellerPfad.endsWith("index.html") || aktuellerPfad === "/" || aktuellerPfad.endsWith("/")) {
-        const lastPage = localStorage.getItem('lastVisitedPage');
-        if (lastPage && lastPage !== window.location.href) {
-            window.location.href = lastPage;
-        }
+    if (aktuellerPfad.endsWith("index.html") || aktuellerPfad === "/" || aktuellerPfad.endsWith("/")) {
+        let base = window.location.href.split('/').slice(0, -1).join('/');
+        localStorage.setItem('appBaseUrl', base);
     }
 });
-
 
 //beginn button für den normalen modus
 const createBtn = document.getElementById("create");
