@@ -5,7 +5,7 @@
 
 > [!TIP]
 > In this README you'll find everything you need. If you have any questions or don't understand something: please contact me. If you need to see the 
-img bigger: just click on it and you should be able to see every detail. To show each text please click on the symbols to expand everything.<br/>
+img bigger: just click on it and you should be able to see every detail. To show each text please click on the symbols to expand everything. <img src="https://i.imgur.com/UIHeSlA.png"><br/>
  <details>
 
 <summary><em>Okay so what is prête?</em> </summary>
@@ -432,7 +432,11 @@ flowchart TB
 <a href="https://freefrontend.com/css-clouds/#google_vignette"> For the cloud effect in the background of the notes feature (normal mode) <a/> <br>
 <a href="https://www.perun.net/2021/04/08/akkordeon-effekt-nur-mit-html/"> For the notes and weather feature on the clothes screen <a/> <br>
 <a href="https://pixabay.com/de/sound-effects/"> for sound effects,where used together with canva sounds<a/> <br>
-
+<img src="https://i.imgur.com/qv1xdab.gif"> Made for the hackclub summer challenge stardance in 2026
 
 
 </details>
+
+<img src="https://i.imgur.com/iD2zzHR.gif"> Woah hey there! Thanks for reading and I apologize for spelling and grammar mistakes. This just shows that everything was human made. Do not forget to leave a star.
+So,so,so grateful for your interest in this project. Make sure to mention me when using my work. <br>
+<img src="https://i.imgur.com/GFhvPfc.gif">@253-Mathilde <img src="https://i.imgur.com/j8KifXe.gif">
