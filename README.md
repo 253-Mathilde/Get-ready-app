@@ -32,7 +32,7 @@ AND feel confident!
  
  <img width="1920" height="480" alt="prête app galerie readme" src="https://github.com/user-attachments/assets/3dc71dc1-69b3-41f8-a71d-ad7370cbd7e5" />
 
-<div style="display: flex; gap: 100px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2%; max-width: 1200px; margin: 0 auto;">
   <img style="width: 32%; height: 500px; object-fit: cover;" alt="Screenshot 2026-08-25 190849" src="https://github.com/user-attachments/assets/ab54beb0-6539-4cc4-a3f3-bc22441bcdf4" />
   <img style="width: 32%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-05 180929" src="https://github.com/user-attachments/assets/945cd051-30ad-4714-847e-47118ade468a" />
   <img style="width: 32%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-12 143356" src="https://github.com/user-attachments/assets/7d4d57dc-3ab9-4646-8019-4315d5875527" />
