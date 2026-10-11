@@ -29,6 +29,9 @@ AND feel confident!
 
 <details>
 <summary><em>The app in action (galerie)</em> </summary>
+ 
+ <img width="1920" height="480" alt="prête app galerie readme" src="https://github.com/user-attachments/assets/3dc71dc1-69b3-41f8-a71d-ad7370cbd7e5" />
+
 <div style="display: flex; gap: 100px;">
   <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-08-25 190849" src="https://github.com/user-attachments/assets/ab54beb0-6539-4cc4-a3f3-bc22441bcdf4" />
   <img style="width: 30%; height: 500px; object-fit: cover;" alt="Screenshot 2026-09-05 180929" src="https://github.com/user-attachments/assets/945cd051-30ad-4714-847e-47118ade468a" />
@@ -53,6 +56,9 @@ AND feel confident!
 
 <details>
 <summary><em>Features that the app has</em> </summary>
+ 
+ <img width="1920" height="480" alt="prête app features readme" src="https://github.com/user-attachments/assets/c450b323-c765-41ec-ab89-eeca57f21d86" />
+
 This app has expect the main feature (the calculating thingy and the whole choosing feature) much more to offer including:<br>
   - Custom weather applications (with automatic location response) <br>
   - notifications <br>
@@ -61,6 +67,9 @@ This app has expect the main feature (the calculating thingy and the whole choos
 
 <details>
 <summary><em>Instructions (guide for installation and use)</em> </summary>
+ 
+ <img width="1920" height="480" alt="prête app instructions readme" src="https://github.com/user-attachments/assets/5750bed5-c477-4795-abb2-04340bcf1fde" />
+
  <br>
  <br>
 1.The installation: It is pretty simple: Go to the Releases in the repo. <br>
@@ -94,6 +103,9 @@ When you restarted the app just follow Mira. As you can see it is super simple.<
 </details>
 <details>
  <summary><em>How much time was calculated for each activity</em></summary>
+ 
+ <img width="1920" height="480" alt="prête app time readme" src="https://github.com/user-attachments/assets/cd5e3067-3f5b-4d31-8c3d-25f27f32d3f4" />
+
  
 | Activity/item | time |
 | ------------- | ------------- |              
