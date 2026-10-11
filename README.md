@@ -438,5 +438,5 @@ flowchart TB
 </details>
 
 <img src="https://i.imgur.com/iD2zzHR.gif"> Woah hey there! Thanks for reading and I apologize for spelling and grammar mistakes. This just shows that everything was human made. Do not forget to leave a star.
-So,so,so grateful for your interest in this project. Make sure to mention me when using my work. <br>
+So,so,so grateful for your interest in this project. Make sure to mention me, when using my work. <br>
 <img src="https://i.imgur.com/GFhvPfc.gif">@253-Mathilde <img src="https://i.imgur.com/j8KifXe.gif">
