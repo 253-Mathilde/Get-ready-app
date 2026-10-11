@@ -51,8 +51,95 @@ AND feel confident!
 </div>
 </details>
 
+<details>
+<summary><em>Features that the app has</em> </summary>
+This app has expect the main feature (the calculating thingy and the whole choosing feature) much more to offer including:<br>
+  - Custom weather applications (with automatic location response) <br>
+  - notifications <br>
+  - notes feature <br>
+</details>
+
+<details>
+<summary><em>Instructions (guide for installation and use)</em> </summary>
+ <br>
+ <br>
+1.The installation: It is pretty simple: Go to the Releases in the repo. <br>
+2.Download the version which is marked with the green icon “Latest”. <br>
+3.Download it and go to your files (there is a chance that your phone asks you before that if you want to install it ,if that happens just click yes). <br>
+4.When you are in the file manager just click on it and then install. <br>
+5.There may be a malware scan but then you are in. <br>
+6. Open the app and click on the allow button when the app asks you to send notifications.<br>
+
+<br>
+<br>
+<br>
+  
+Everything is pretty self-explanatory and Mira will tell you what to do but you never know:<br>
+Choose the mode you want to use and do as Mira tells you.<br> 
+Please notice that the fast mode has no configuration and just gives you a task and a time.<br> 
+When you are using the actual mode follow the instructions and type in your times.<br> 
+After that choose a bag and then your bag stuff. You can scroll down on the bag stuff site to see more options.<br> 
+Now you should be on the clothing site: Select your outfit (scroll to the left in each row to show more clothing options).<br> 
+Click on the little cloud at the top to show the weather for today and next week.<br> 
+Click on it again to close it.<br> 
+Click on the little book to open the notes feature.<br> 
+Click in the oink area and start typing.<br> 
+To close the keyboard press ENTER and hit the save button.<br> 
+Click on the little book to close the notes feature.<br> 
+Continue your configuration and again: scroll down to show more options.<br>
+You now reached the changing screen.<br> 
+Follow the instructions (close the app etc.).<br> 
+When you restarted the app just follow Mira. As you can see it is super simple.<br>
+
+</details>
+<details>
+ <summary><em>How much time was calculated for each activity</em></summary>
+ 
+| Activity/item | time |
+| ------------- | ------------- |              
+| arrivetime  | custom  |
+| waytime  | custom  |
+| bag (all 4 of them)  | 5min  |
+| keys  | 6min  |
+| money | 5min  |
+| phone  | 1min  |
+| charger| 3min  |
+| writing stuff | 5min  |
+| passport| 7min  |
+| lip balm | 1min  |
+| earphones | 6min  |
+| bubble gum | 2min  |
+| food | 10min  |
+| random bag stuff | 2min  |
+| books | 8min  |
+| tech stuff | 7min  |
+| any shirt | 4min  |
+| any bottoms | 4min  |
+| any shoes | 3min  |
+| buffer | 10min  |
+| doom scrolling | 15min  |
+| eating | 15min  |
+| hair styling  | 20min  |
+| make-up | 20min  |
+| showering | 15min  |
+| brushing your teeth | 2min  |
+| cleaning | 15min  |
 
 
+<br>
+<br>
+
+and for the fast mode:
+
+| Activity/item | time |
+| ------------- | ------------- |              
+| dressing | 3min |
+| hair | 6min  |
+| brushing your teeth | 2min  |
+| packing your bag | 4.15 min  |
+<br>
+<br>
+</details>
  <details>
 <summary><em> How to turn an idea into an actual app</em> </summary><img width="1920" height="480" alt="prête app idea" src="https://github.com/user-attachments/assets/35b44761-26d4-469c-b829-71456088797c" />
 <br>
