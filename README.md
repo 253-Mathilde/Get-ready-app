@@ -433,7 +433,7 @@ flowchart TB
 <a href="https://www.perun.net/2021/04/08/akkordeon-effekt-nur-mit-html/"> For the notes and weather feature on the clothes screen <a/> <br>
 <a href="https://pixabay.com/de/sound-effects/"> for sound effects,where used together with canva sounds<a/> <br>
  <a href="https://sadthemes.tumblr.com/smolpxl"> For the pixls </a> <br>
-<img src="https://i.imgur.com/qv1xdab.gif"> Made for the hackclub summer challenge stardance in 2026
+<img src="https://i.imgur.com/qv1xdab.gif"> Made for the Hack Club summer challenge stardance in 2026
 
 
 </details>
